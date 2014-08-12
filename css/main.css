@@ -366,6 +366,22 @@ textarea {
 /*!////////////////////////////////////////////////
 // THEME
 /////////////////////////////////////////////////*/
+.section__title {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 600px;
+  margin: -44px auto -44px;
+  background-color: #c9de16;
+  font-family: "alternate-gothic-no-2-d", sans-serif;
+  font-size: 3.625em;
+  font-weight: normal;
+  line-height: 1em;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0 10px; }
+
 /*!////////////////////////////////////////////////
 // MODULES
 /////////////////////////////////////////////////*/
@@ -373,8 +389,124 @@ html,
 body {
   height: 100%; }
 
+#bgvid {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background: url(polina.jpg) no-repeat;
+  background-size: cover; }
+
+header[role=banner] {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  padding: 30px 5%;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.25); }
+
+.branding {
+  display: inline-block; }
+
+nav[role=navigation] {
+  float: right;
+  margin-top: 8px; }
+  nav[role=navigation] a {
+    font-family: "alternate-gothic-no-2-d", sans-serif;
+    font-size: 1.625em;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+    color: #252525;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 25px; }
+
 .hero {
+  position: relative;
   height: 100%;
+  background-color: rgba(42, 91, 179, 0.8); }
+
+.tagline {
+  position: absolute;
+  bottom: 10%;
+  left: 5%; }
+  .tagline i,
+  .tagline b {
+    background-color: #252525;
+    display: inline-block;
+    font-family: "alternate-gothic-no-2-d", sans-serif;
+    font-weight: normal;
+    line-height: 1.0em;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 20px 5px; }
+  .tagline i {
+    font-size: 5em;
+    font-style: normal;
+    margin-bottom: 20px; }
+  .tagline b {
+    font-size: 7.25em;
+    padding: 15px 20px 0px;
+    margin-bottom: 20px; }
+
+.button__cta,
+.phone {
+  display: inline-block;
+  background-color: #c9de16;
+  font-family: "alternate-gothic-no-2-d", sans-serif;
+  font-size: 3em;
+  font-weight: normal;
+  line-height: 1.0em;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px 20px 5px; }
+
+.phone {
+  position: fixed;
+  top: 100px;
+  right: 5%;
+  font-size: 1.875em; }
+
+*[class^="content"] {
+  background-color: #fff;
+  padding: 160px 5%; }
+
+.content__intro {
+  padding: 100px 10% 0;
+  text-align: center; }
+  .content__intro img {
+    width: 100%;
+    max-width: 1023px; }
+
+.content__services {
+  background-color: #2a5bb3; }
+
+.content__portfolio,
+.content__services {
+  padding: 160px 10%; }
+
+.intro__sentence {
+  width: 100%;
+  max-width: 1180px;
+  font-family: "adelle", serif;
+  font-size: 2.5em;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 auto 60px; }
+  .intro__sentence a {
+    color: #2a5bb3;
+    text-decoration: none; }
+
+footer[role=contentinfo] {
   background-color: #2a5bb3; }
 
 /*!////////////////////////////////////////////////

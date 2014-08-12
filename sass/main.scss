@@ -10,8 +10,130 @@ html,
 body{
 	height: 100%;
 }
+#bgvid {
+	position: fixed; 
+	right: 0; bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -100;
+	background: url(polina.jpg) no-repeat;
+	background-size: cover;
+}
+header[role=banner]{
+	width: 100%;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	z-index: 3;
+	padding: 30px 5%;
+	@include prefix(box-shadow, 0 0 8px rgba(0,0,0,0.25));
+}
+.branding{
+	display: inline-block;
+}
+nav[role=navigation]{
+	float: right;
+	margin-top: 8px;
+	a{
+		font-family: $headlineFont;
+		font-size: em(26px,$font-size);
+		font-weight: normal;
+		letter-spacing: 0.05em;
+		color: $textColor;
+		text-decoration: none;
+		text-transform: uppercase;
+		margin-left: 25px;
+	}
+}
+
 .hero{
+	position: relative;
 	height: 100%;
+	background-color: transparentize($primaryColor, 0.2);
+}
+.tagline{
+	position: absolute;
+	bottom: 10%;
+	left: 5%;
+	i,
+	b{
+		background-color: $textColor;
+		display: inline-block;
+		font-family: $headlineFont;
+		font-weight: normal;
+		line-height: 1.0em;
+		color: #fff;
+		text-transform: uppercase;
+		padding: 15px 20px 5px;
+	}
+	i{
+		font-size: em(80px,$font-size);
+		font-style: normal;
+		margin-bottom: 20px;
+	}
+	b{
+		font-size: em(116px,$font-size);
+		padding: 15px 20px 0px;
+		margin-bottom: 20px;
+	}
+}
+.button__cta,
+.phone{
+	display: inline-block;
+	background-color: $secondaryColor;
+	font-family: $headlineFont;
+	font-size: em(48px,$font-size);
+	font-weight: normal;
+	line-height: 1.0em;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px 20px 5px;
+}
+.phone{
+	position: fixed;
+	top: 100px;
+	right: 5%;
+	font-size: em(30px,$font-size);
+}
+
+*[class^="content"]{
+	background-color: #fff;
+	padding: 160px 5%;
+}
+.content__intro{
+	padding: 100px 10% 0;
+	text-align: center;
+	img{
+		width: 100%;
+		max-width: 1023px;
+	}
+}
+.content__services{
+	background-color: $primaryColor;
+}
+.content__portfolio,
+.content__services{
+	padding: 160px 10%;
+}
+
+.intro__sentence{
+	width: 100%;
+	max-width: 1180px;
+	font-family: $altFont;
+	font-size: em(40px,$font-size);
+	font-weight: normal;
+	text-align: center;
+	margin: 0 auto 60px;
+	a{
+		color: $primaryColor;
+		text-decoration: none;
+	}
+}
+
+footer[role=contentinfo]{
 	background-color: $primaryColor;
 }
 
