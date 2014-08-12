@@ -1,0 +1,403 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"type",
+				"typeColor"
+			],
+			[
+				"heade",
+				"headerFont"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"he",
+				"height"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"syntax",
+				"Set Syntax: Sass"
+			],
+			[
+				"",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Dan/Desktop/Projects/garman/specific-neighborhood.html",
+		"/Users/Dan/Desktop/Projects/garman/sass/shame.scss",
+		"/Users/Dan/Desktop/Projects/garman/css/flexslider.css",
+		"/Users/Dan/Desktop/Projects/garman/sass/mixins.scss",
+		"/Users/Dan/Desktop/Projects/garman/sass/layout.scss",
+		"/Users/Dan/Desktop/Projects/garman/sass/theme.scss",
+		"/Users/Dan/Desktop/Projects/garman/js/main.js",
+		"/Users/Dan/Desktop/Projects/garman/sass/main.scss",
+		"/Users/Dan/Desktop/Projects/garman/css/main.css",
+		"/Users/Dan/Desktop/Projects/garman/js/vendor/jquery.flexslider.js",
+		"/Users/Dan/Desktop/Projects/garman/index.html",
+		"/Users/Dan/Desktop/Me/Frequents/fancyapps-fancyBox-18d1712/demo/index.html",
+		"/Users/Dan/Desktop/Projects/deck-craft/wp-content/themes/deckcraft/single-decks.php",
+		"/Users/Dan/Desktop/Projects/deck-craft/wp-content/themes/deckcraft/functions.php",
+		"/Users/Dan/Desktop/Projects/deck-craft/contact.html",
+		"/Users/Dan/Desktop/Projects/deck-craft/testimonials.html",
+		"/Users/Dan/Desktop/Projects/deck-craft/wp-content/themes/deckcraft/gallery-pro-single-template.php",
+		"/Users/Dan/Desktop/Projects/deck-craft/wp-content/themes/deckcraft/footer.php",
+		"/Users/Dan/Desktop/Projects/deck-craft/wp-content/themes/deckcraft/page-testimonials.php",
+		"/Users/Dan/Desktop/deck-feature2.jpg",
+		"/Users/Dan/Desktop/deck-feature3.jpg",
+		"/Users/Dan/Desktop/deck-feature.jpg",
+		"/Users/Dan/Desktop/Projects/deck-craft/gallery.html",
+		"/Users/Dan/Desktop/Projects/deck-craft/wp-content/themes/deckcraft/index.php",
+		"/Users/Dan/Desktop/Projects/deck-craft/wp-content/themes/deckcraft/home.php",
+		"/Users/Dan/Desktop/Projects/deck-craft/wp-content/themes/deckcraft/gallery-pro-template.php",
+		"/Users/Dan/Desktop/Projects/deck-craft/wp-includes/widgets.php",
+		"/Users/Dan/Desktop/Projects/deck-craft/wp-content/themes/deckcraft/sidebar-side.php",
+		"/Users/Dan/Desktop/Projects/deck-craft/wp-content/themes/deckcraft/gallery-single-template.php.bak",
+		"/Users/Dan/Desktop/Projects/deck-craft/wp-content/themes/deckcraft/gallery-template.php",
+		"/Users/Dan/Desktop/Projects/deck-craft/deck-accessories.html",
+		"/Users/Dan/Desktop/Projects/deck-craft/indexHOME.html",
+		"/Users/Dan/Desktop/Projects/deck-craft/sass/resets.sass",
+		"/Users/Dan/Desktop/Projects/deck-craft/sass/layout.sass",
+		"/Users/Dan/Desktop/Projects/deck-craft/js/main.js",
+		"/Users/Dan/Desktop/Projects/deck-craft/sass/main.sass",
+		"/Users/Dan/Desktop/Projects/deck-craft/location-gallery.html",
+		"/Users/Dan/Desktop/Projects/deck-craft/process.html",
+		"/Users/Dan/Desktop/Projects/deck-craft/porches-pergolas.html",
+		"/Users/Dan/Desktop/Projects/deck-craft/gazebos.html",
+		"/Users/Dan/Desktop/Projects/deck-craft/do-it-yourself.html",
+		"/Users/Dan/Desktop/Projects/deck-craft/re-decking.html",
+		"/Users/Dan/Desktop/Projects/deck-craft/decks-overview.html",
+		"/Users/Dan/Desktop/Projects/deck-craft/deck-rail-styles.html",
+		"/Users/Dan/Desktop/Projects/deck-craft/decks-styles.html",
+		"/Users/Dan/Desktop/Projects/deck-craft/index.html",
+		"/Users/Dan/Desktop/Projects/deck-craft/css/flexslider.css",
+		"/Users/Dan/Desktop/Projects/deck-craft/deckCraft.sublime-workspace",
+		"/Users/Dan/Desktop/Projects/deck-craft/deckCraft.sublime-project",
+		"/Users/Dan/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/Dan/Desktop/Projects/deck-craft/sass/mixins.sass",
+		"/Users/Dan/Desktop/Projects/deck-craft/sass/helpers.sass",
+		"/Users/Dan/Desktop/Projects/deck-craft/sass/theme.sass",
+		"/Users/Dan/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Dan/Desktop/Projects/deck-craft/sftp-config.json",
+		"/Users/Dan/Desktop/Projects/deck-craft/js/vendor/jquery.backstretch.min.js",
+		"/Users/Dan/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/Users/Dan/Desktop/Projects/bedrock/sass/mixins.sass",
+		"/Users/Dan/Desktop/Projects/bedrock/js/main.js",
+		"/Users/Dan/Desktop/Projects/bedrock/sass/theme.sass",
+		"/Users/Dan/Desktop/Projects/bedrock/sass/main.sass",
+		"/Users/Dan/Desktop/Projects/bedrock/index.html",
+		"/Users/Dan/Desktop/Projects/bedrock/sass/layout.sass",
+		"/Users/Dan/Desktop/Projects/bedrock/css/main.css",
+		"/Users/Dan/Desktop/Projects/bedrock/sass/helpers.sass",
+		"/Users/Dan/Desktop/Projects/bedrock/sass/resets.sass",
+		"/Users/Dan/Desktop/Projects/test/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<li>",
+			"<li><a href=\"\">Available Homes</a></li>",
+			" (home and land)",
+			"home",
+			"255",
+			"listing",
+			"listings",
+			"listing",
+			"gallery__category",
+			"25",
+			"page",
+			"div",
+			" href=\"\"",
+			"10",
+			"article",
+			"div",
+			"grid-25",
+			"home",
+			"focus__call--gallery",
+			"50",
+			"100%",
+			"flex-active-slide",
+			"255",
+			"0",
+			"640",
+			"offer",
+			"Offer",
+			"offer",
+			"--",
+			"h3",
+			"i",
+			"--",
+			"div",
+			"span",
+			"$url + ",
+			"sidebar",
+			"aside",
+			";",
+			"}",
+			"{",
+			"1",
+			"rail-style-thumb",
+			"h3",
+			"gazebo",
+			";",
+			"section",
+			";",
+			"<div class=\"grid-25 gallery-small\">\n\n                    </div>",
+			"grid-25",
+			"section",
+			"'",
+			"8em",
+			"cf",
+			"background-color: transparentize(#fff,0.1)",
+			"$color2",
+			"($color1",
+			"padding: 10px 20px 10px 50px",
+			"<br>",
+			"$color1",
+			"$color3",
+			"$color2",
+			"$primaryColor",
+			"$color5",
+			"padding: 10px 50px 10px 20px",
+			"transition",
+			"0.2",
+			"2",
+			"div"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"index.html"
+			],
+			[
+				"dec",
+				"deckCraft.sublime-workspace"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/Dan/Desktop/Projects/progressive/prO.sublime-project"
+			],
+			[
+				"bed",
+				"/Users/Dan/Desktop/Projects/bedrock/bedrock.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 222.0,
+	"status_bar_visible": true
+}
