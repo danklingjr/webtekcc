@@ -1,8 +1,17 @@
 /*!////////////////////////////////////////////////
 // THEME
 /////////////////////////////////////////////////*/
-$base-font-size: 16px;
+$font-size: 16px;
 @function em($px, $base: $base-font-size){
 	@return ($px / $base) * 1em;
 }
 
+$primaryColor: #2a5bb3; //blue
+$secondaryColor: #c9de16; //green
+$tertiaryColor: #b988df; //purple
+$altColor1: #ff7e00; //orange
+$altColor2: #24cce9; //aqua
+$textColor: #252525; //dark charcoal
+
+$headlineFont: "alternate-gothic-no-2-d",sans-serif;
+$altFont: "adelle",serif;

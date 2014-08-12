@@ -369,9 +369,13 @@ textarea {
 /*!////////////////////////////////////////////////
 // MODULES
 /////////////////////////////////////////////////*/
-.test {
-  min-height: 100px;
-  background-color: gray; }
+html,
+body {
+  height: 100%; }
+
+.hero {
+  height: 100%;
+  background-color: #2a5bb3; }
 
 /*!////////////////////////////////////////////////
 // STATES
