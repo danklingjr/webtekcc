@@ -32,3 +32,16 @@ $altFont: "adelle",serif;
 	text-transform: uppercase;
 	padding: 20px 0 10px;
 }
+.button__case-study{
+	display: inline-block;
+	background-color: $altColor1;
+	font-family: $altFont;
+	font-size: em(18px,$font-size);
+	font-weight: normal;
+	line-height: 1.0em;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px 20px 13px;
+	margin-top: 30px;
+}

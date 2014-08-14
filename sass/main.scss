@@ -125,7 +125,11 @@ nav[role=navigation]{
 .content__services{
 	padding: 160px 10%;
 }
-
+.content__portfolio{
+	position: relative;
+	box-shadow: 0 2.5px 5px rgba(0,0,0,0.35);
+	z-index: 1;
+}
 .intro__sentence{
 	width: 100%;
 	max-width: 1180px;
@@ -217,11 +221,183 @@ nav[role=navigation]{
 }
 
 
+/*! Case Studies
+/////////////////////////////////////////////////*/
+.case-study{
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	border-bottom: 3px solid #e9e9e9;
+	padding: 40px 0;
+}
+.case-study__info,
+.case-study__graphic{
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+.case-study__info{
+	width: 45%;
+	padding: 0 20px;
+	h3{
+		font-family: $headlineFont;
+		font-size: em(46px, $font-size);
+		font-weight: normal;
+		text-transform: uppercase;
+		line-height: 1.0em;
+	}
+	.case-study__type{
+		display: block;
+		font-family: $altFont;
+		font-size: em(22px, $font-size);
+		font-weight: normal;
+		text-transform: uppercase;
+		margin-bottom: 30px;
+	}
+	p{
+		font-family: $altFont;
+		font-size: em(18px, $font-size);
+		color: $textColor;
+		line-height: 1.6em;
+	}
+}
+.case-study__graphic{
+	width: 55%;
+	padding: 0 20px;
+	img{
+		width: 100%;
+	}
+}
+
+
+/*! Stats
+/////////////////////////////////////////////////*/
+.content__stats{
+	padding: 60px 5%;
+	background-image: url(../img/stats-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.tagline__bottom{
+	p{
+		font-family: $altFont;
+		font-size: em(30px, $font-size);
+		font-weight: normal;
+		color: #fff;
+		line-height: 1.8em;
+		@include prefix(text-shadow, 2px 2px 2px rgba(0,0,0,0.45));
+	}
+}
+.stat__ui{
+	position: relative;
+}
+.stat__ui--inner{
+	position: relative;
+	text-align: center;
+	padding: 40px 20px 20px;
+	z-index: 2;
+	h4{
+		font-family: $headlineFont;
+		font-size: em(150px, $font-size);
+		font-weight: normal;
+		color: $secondaryColor;
+		line-height: 1.0em;
+		text-shadow: 2px 2px 2px rgba(0,0,0,0.45);
+	}
+}
+.stat__ui--inner,
+.stat__ui:before,
+.stat__ui:after,
+.stat__ui--outer:before,
+.stat__ui--outer:after{
+	background: #373737; /* Old browsers */
+	background: -moz-linear-gradient(top,  #373737 0%, #242424 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#373737), color-stop(100%,#242424)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #373737 0%,#242424 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #373737 0%,#242424 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #373737 0%,#242424 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #373737 0%,#242424 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='#242424',GradientType=0 ); /* IE6-9 */
+	@include prefix(border-radius, 4px);
+	box-shadow: inset 0 1px 2px rgba(255,255,255,0.25), 0 0 5px rgba(0,0,0,0.45);
+	border: 1px solid #000000;
+}
+.stat__ui:before{
+	content: "";
+	display: block;
+	width: 95%;
+	height: 100px;
+	position: absolute;
+	top: -5px;
+	left: 2.5%;
+	z-index: 1;
+}
+.stat__ui:after{
+	content: "";
+	display: block;
+	width: 90%;
+	height: 100px;
+	position: absolute;
+	top: -10px;
+	left: 5%;
+	z-index: 0;
+}
+.stat__ui--outer:before{
+	content: "";
+	display: block;
+	width: 95%;
+	height: 100px;
+	position: absolute;
+	bottom: -5px;
+	left: 2.5%;
+	z-index: 1;
+}
+.stat__ui--outer:after{
+	content: "";
+	display: block;
+	width: 90%;
+	height: 100px;
+	position: absolute;
+	bottom: -10px;
+	left: 5%;
+	z-index: 0;
+}
+.stat__ui--inner{
+	position: relative;
+	z-index: 3;
+}
+.stat__ui--inner:after{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 5px;
+	background-color: #252525;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid rgba(255,255,255,0.25)
+}
+.stats{
+	p{
+		font-family: $altFont;
+		font-size: em(18px, $font-size);
+		font-weight: normal;
+		color: #fff;
+		line-height: 1.8em;
+		@include prefix(text-shadow, 2px 2px 2px rgba(0,0,0,0.45));
+		margin-top: 30px;
+		padding: 0 30px;
+	}
+}
+
 
 /*! Footer
 /////////////////////////////////////////////////*/
 footer[role=contentinfo]{
 	background-color: $primaryColor;
+	position: relative;
+	box-shadow: 0 -2.5px 5px rgba(0,0,0,0.35);
+	z-index: 4;
 }
 
 
