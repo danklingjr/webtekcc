@@ -476,7 +476,6 @@ nav[role=navigation] {
 .button__cta,
 .phone {
   display: inline-block;
-  background-color: #c9de16;
   font-family: "alternate-gothic-no-2-d", sans-serif;
   font-size: 3em;
   font-weight: normal;
@@ -490,8 +489,12 @@ nav[role=navigation] {
   position: fixed;
   top: 100px;
   right: 5%;
+  background-color: #c9de16;
   font-size: 1.875em;
   z-index: 3; }
+
+.button__cta {
+  background-color: #c9de16; }
 
 /*! Content module
 /////////////////////////////////////////////////*/
@@ -543,16 +546,18 @@ nav[role=navigation] {
     color: #252525;
     text-transform: uppercase; }
 
-.service__sub a {
-  display: inline-block;
-  background-color: #ff7e00;
-  padding: 10px 15px 8px;
-  font-family: "adelle", serif;
-  font-size: 1em;
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: none;
-  margin: 0 5px 10px 0; }
+.service__sub {
+  margin-bottom: 20px; }
+  .service__sub a {
+    display: inline-block;
+    background-color: #ff7e00;
+    padding: 10px 15px 8px;
+    font-family: "adelle", serif;
+    font-size: 1em;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 5px 10px 0; }
 
 .service__graphic {
   display: none;
@@ -574,7 +579,7 @@ nav[role=navigation] {
         margin-right: 0; }
       .service__graphic:last-child {
         margin-right: 0; } }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1480px) {
     .service__graphic {
       height: auto; }
       .service__graphic img {
@@ -665,7 +670,7 @@ nav[role=navigation] {
 /*! Stats
 /////////////////////////////////////////////////*/
 .content__stats {
-  padding: 60px 5%;
+  padding: 80px 8%;
   background-image: url(../img/stats-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
@@ -799,7 +804,50 @@ footer[role=contentinfo] {
   background-color: #2a5bb3;
   position: relative;
   box-shadow: 0 -2.5px 5px rgba(0, 0, 0, 0.35);
-  z-index: 4; }
+  z-index: 4;
+  padding: 60px 5% 0; }
+
+.testimonial__footer {
+  text-align: center;
+  margin-bottom: 60px; }
+  .testimonial__footer p,
+  .testimonial__footer i {
+    font-family: "adelle", serif;
+    font-weight: normal;
+    color: #fff;
+    line-height: 1.8em;
+    -webkit-text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.45);
+    -moz-text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.45);
+    -o-text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.45);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.45); }
+  .testimonial__footer p {
+    font-size: 1.875em; }
+  .testimonial__footer i {
+    font-size: 1.5em; }
+
+.footer__info {
+  background-color: #fff;
+  border-top: 5px solid #252525;
+  padding: 20px 5%; }
+  .footer__info p {
+    font-family: "adelle", serif;
+    font-weight: normal;
+    color: #252525;
+    line-height: 1.8em; }
+  .footer__info b {
+    background-color: #c9de16; }
+
+.social-media {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+  text-align: left;
+  padding-right: 20px; }
+
+.copyright {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80%; }
 
 /*!////////////////////////////////////////////////
 // STATES
