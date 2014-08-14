@@ -401,12 +401,14 @@ body {
   background: url(polina.jpg) no-repeat;
   background-size: cover; }
 
+/*! Header
+/////////////////////////////////////////////////*/
 header[role=banner] {
   width: 100%;
   background-color: #fff;
   position: fixed;
   top: 0;
-  z-index: 3;
+  z-index: 4;
   padding: 30px 5%;
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
@@ -421,14 +423,15 @@ nav[role=navigation] {
   margin-top: 8px; }
   nav[role=navigation] a {
     font-family: "alternate-gothic-no-2-d", sans-serif;
-    font-size: 1.625em;
-    font-weight: normal;
-    letter-spacing: 0.05em;
+    font-size: 1.5em;
+    font-weight: 100;
     color: #252525;
     text-decoration: none;
     text-transform: uppercase;
     margin-left: 25px; }
 
+/*! Hero unit
+/////////////////////////////////////////////////*/
 .hero {
   position: relative;
   height: 100%;
@@ -474,8 +477,11 @@ nav[role=navigation] {
   position: fixed;
   top: 100px;
   right: 5%;
-  font-size: 1.875em; }
+  font-size: 1.875em;
+  z-index: 3; }
 
+/*! Content module
+/////////////////////////////////////////////////*/
 *[class^="content"] {
   background-color: #fff;
   padding: 160px 5%; }
@@ -506,6 +512,97 @@ nav[role=navigation] {
     color: #2a5bb3;
     text-decoration: none; }
 
+/*! Home page services
+/////////////////////////////////////////////////*/
+*[class^="service--"] {
+  position: relative;
+  background-color: #fff;
+  margin: 0 0 30px; }
+  *[class^="service--"] h3 {
+    font-family: "adelle", serif;
+    font-size: 2.375em;
+    font-weight: normal;
+    color: #252525;
+    text-transform: uppercase; }
+
+.service__sub a {
+  display: inline-block;
+  background-color: #ff7e00;
+  padding: 10px 15px 8px;
+  font-family: "adelle", serif;
+  font-size: 1em;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 5px 10px 0; }
+
+.service__graphic {
+  display: none;
+  vertical-align: middle;
+  overflow: hidden;
+  height: 440px; }
+  .service__graphic img {
+    display: block;
+    width: auto;
+    height: 100%; }
+  @media screen and (min-width: 1075px) {
+    .service__graphic {
+      width: 33.33333%;
+      display: inline-block; }
+      .service__graphic:nth-child(n) {
+        margin-bottom: 0;
+        margin-right: 0; }
+      .service__graphic:nth-child(3n) {
+        margin-right: 0; }
+      .service__graphic:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 1440px) {
+    .service__graphic {
+      height: auto; }
+      .service__graphic img {
+        width: 100%;
+        height: auto; } }
+
+.service__details {
+  display: block;
+  vertical-align: middle;
+  width: 100%;
+  padding: 30px; }
+  .service__details:nth-child(n) {
+    margin-bottom: 0;
+    margin-right: 0; }
+  .service__details:nth-child(1n) {
+    margin-right: 0; }
+  .service__details:last-child {
+    margin-right: 0; }
+  .service__details p {
+    font-family: "adelle", serif;
+    font-size: 1.125em;
+    color: #252525;
+    line-height: 1.6em; }
+  @media screen and (min-width: 1075px) {
+    .service__details {
+      width: 66.66667%;
+      display: inline-block; }
+      .service__details:nth-child(n) {
+        margin-bottom: 0;
+        margin-right: 0; }
+      .service__details:nth-child(1.5n) {
+        margin-right: 0; }
+      .service__details:last-child {
+        margin-right: 0; } }
+
+.service--design .service__sub a {
+  background-color: #ff7e00; }
+
+.service--development .service__sub a {
+  background-color: #b988df; }
+
+.service--marketing .service__sub a {
+  background-color: #24cce9; }
+
+/*! Footer
+/////////////////////////////////////////////////*/
 footer[role=contentinfo] {
   background-color: #2a5bb3; }
 
