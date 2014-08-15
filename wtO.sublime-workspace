@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"backgroun",
+				"background-repeat"
+			],
+			[
 				"tex",
 				"text-transform"
 			],
@@ -75,7 +79,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 9816,
+				"buffer_size": 10880,
 				"line_ending": "Unix"
 			}
 		},
@@ -83,7 +87,7 @@
 			"file": "sass/main.scss",
 			"settings":
 			{
-				"buffer_size": 2597,
+				"buffer_size": 8997,
 				"line_ending": "Unix"
 			}
 		},
@@ -91,7 +95,15 @@
 			"file": "sass/theme.scss",
 			"settings":
 			{
-				"buffer_size": 819,
+				"buffer_size": 1108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/layout.scss",
+			"settings":
+			{
+				"buffer_size": 2321,
 				"line_ending": "Unix"
 			}
 		}
@@ -248,6 +260,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"services__sub",
+			"outer",
+			"stat__ui--outer",
+			"top",
+			"button",
+			" grid-2",
+			" grid-4",
 			"seaction__title",
 			"<li>",
 			"<li><a href=\"\">Available Homes</a></li>",
@@ -342,15 +361,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 9816,
+						"buffer_size": 10880,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2170,
-								2170
+								5337,
+								5337
 							]
 						],
 						"settings":
@@ -363,7 +382,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 70.0,
+						"translation.y": 1309.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -379,15 +398,15 @@
 					"file": "sass/main.scss",
 					"settings":
 					{
-						"buffer_size": 2597,
+						"buffer_size": 8997,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2378,
-								2382
+								727,
+								727
 							]
 						],
 						"settings":
@@ -395,10 +414,11 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1248.0,
+						"translation.y": 321.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -408,15 +428,15 @@
 					"file": "sass/theme.scss",
 					"settings":
 					{
-						"buffer_size": 819,
+						"buffer_size": 1108,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								657,
-								630
+								1102,
+								1102
 							]
 						],
 						"settings":
@@ -424,10 +444,42 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sass/layout.scss",
+					"settings":
+					{
+						"buffer_size": 2321,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1016,
+								979
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 407.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

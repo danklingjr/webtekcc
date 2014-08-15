@@ -35,6 +35,8 @@ header[role=banner]{
 }
 .branding{
 	display: inline-block;
+	width: 100%;
+	max-width: 253px;
 }
 nav[role=navigation]{
 	float: right;
