@@ -32,6 +32,8 @@ header[role=banner]{
 	z-index: 4;
 	padding: 30px 5%;
 	@include prefix(box-shadow, 0 0 8px rgba(0,0,0,0.25));
+	@include prefix(backface-visibility, hidden);
+  -webkit-transform: translateZ(0);
 }
 .branding{
 	display: inline-block;
@@ -99,11 +101,13 @@ nav[role=navigation]{
 }
 .phone{
 	position: fixed;
-	top: 100px;
+	top: 105px;
 	right: 5%;
 	background-color: $secondaryColor;
 	font-size: em(30px,$font-size);
-	z-index: 3
+	z-index: -1;
+	padding: 10px 20px 5px;
+	box-shadow: inset 0 3px 5px rgba(0,0,0,0.05);
 }
 .button__cta{
 	background-color: $secondaryColor;
