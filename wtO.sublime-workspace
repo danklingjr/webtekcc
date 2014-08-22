@@ -79,7 +79,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 10880,
+				"buffer_size": 10891,
 				"line_ending": "Unix"
 			}
 		},
@@ -87,7 +87,7 @@
 			"file": "sass/main.scss",
 			"settings":
 			{
-				"buffer_size": 8997,
+				"buffer_size": 9154,
 				"line_ending": "Unix"
 			}
 		},
@@ -111,15 +111,23 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 374.0,
 		"selected_items":
 		[
 			[
-				"install",
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Inst",
 				"Package Control: Install Package"
 			],
 			[
 				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -159,7 +167,7 @@
 				"SassBeautify"
 			]
 		],
-		"width": 435.0
+		"width": 444.0
 	},
 	"console":
 	{
@@ -361,15 +369,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 10880,
+						"buffer_size": 10891,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5337,
-								5337
+								4322,
+								4322
 							]
 						],
 						"settings":
@@ -398,15 +406,15 @@
 					"file": "sass/main.scss",
 					"settings":
 					{
-						"buffer_size": 8997,
+						"buffer_size": 9154,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								727,
-								727
+								0,
+								0
 							]
 						],
 						"settings":
@@ -557,7 +565,7 @@
 		[
 			[
 				"",
-				"/Users/Dan/Desktop/Projects/progressive/prO.sublime-project"
+				"/Users/Dan/Desktop/Projects/deck-craft/deckCraft.sublime-project"
 			],
 			[
 				"bed",
