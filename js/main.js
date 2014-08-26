@@ -22,17 +22,20 @@ mywindow.scroll(function(){
           marginTop: "0",
         },400);
         up = !up;
-        jQuery( ".header-bg" ).stop().animate({
-          opacity: "1",
-        },100);
-
-      }
+      };
       mypos = newscroll;
       return false
-  }else if (newscroll < 151) {
-      jQuery( ".header-bg" ).stop().animate({
-        opacity: "0.3",
-      },100);
   };
-  
 });
+if(jQuery(window).scrollTop() > 1000){
+  jQuery('.stat__ui--inner h4').each(function () {
+    var stat = $(this);
+    jQuery({ Counter: 0 }).animate({ Counter: stat.text() }, {
+      duration: 3000,
+      easing: 'easeOutQuint',
+      step: function () {
+        stat.text(Math.ceil(this.Counter));
+      }
+    });
+  });
+};
