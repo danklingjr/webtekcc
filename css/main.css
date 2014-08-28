@@ -395,6 +395,36 @@ textarea {
   padding: 15px 20px 13px;
   margin-top: 30px; }
 
+.hero__page {
+  background-image: url(../img/hero-page.jpg);
+  background-position: center top;
+  background-size: cover;
+  height: 477px;
+  text-align: center; }
+  .hero__page h1 {
+    margin-top: 180px;
+    background-color: #252525;
+    display: inline-block;
+    font-family: "alternate-gothic-no-2-d", sans-serif;
+    font-size: 5.75em;
+    font-weight: normal;
+    line-height: 1.0em;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 20px 0px;
+    margin-bottom: 20px; }
+
+.page__description {
+  width: 100%;
+  max-width: 1035px;
+  font-family: "adelle", serif;
+  font-size: 1.625em;
+  font-weight: normal;
+  color: #fff;
+  line-height: 1.8em;
+  text-align: center;
+  margin: 0 auto; }
+
 /*!////////////////////////////////////////////////
 // MODULES
 /////////////////////////////////////////////////*/

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"backgr",
+				"background-size"
+			],
+			[
 				"backgroun",
 				"background-repeat"
 			],
@@ -79,7 +83,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 10899,
+				"buffer_size": 10958,
 				"line_ending": "Unix"
 			}
 		},
@@ -87,7 +91,7 @@
 			"file": "work.html",
 			"settings":
 			{
-				"buffer_size": 7053,
+				"buffer_size": 7265,
 				"line_ending": "Unix"
 			}
 		},
@@ -103,7 +107,7 @@
 			"file": "sass/theme.scss",
 			"settings":
 			{
-				"buffer_size": 1108,
+				"buffer_size": 1762,
 				"line_ending": "Unix"
 			}
 		},
@@ -112,6 +116,14 @@
 			"settings":
 			{
 				"buffer_size": 2321,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 1030,
 				"line_ending": "Unix"
 			}
 		}
@@ -192,6 +204,9 @@
 	},
 	"file_history":
 	[
+		"/Users/Dan/Desktop/Projects/webtekcc/wtO.sublime-workspace",
+		"/Users/Dan/Desktop/Projects/webtekcc/sass/mixins.scss",
+		"/Users/Dan/Desktop/Projects/webtekcc/config.codekit",
 		"/Users/Dan/Desktop/Projects/webtekcc/work.html",
 		"/Users/Dan/Library/Application Support/Sublime Text 2/Packages/CSScomb/CSScomb.sublime-settings",
 		"/Users/Dan/Library/Application Support/Sublime Text 2/Packages/Alignment/Default (OSX).sublime-keymap",
@@ -281,6 +296,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hero",
+			"hero__",
+			"$",
 			"services__sub",
 			"outer",
 			"stat__ui--outer",
@@ -382,15 +400,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 10899,
+						"buffer_size": 10958,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2117,
-								2117
+								2187,
+								2180
 							]
 						],
 						"settings":
@@ -403,7 +421,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 649.0,
+						"translation.y": 377.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -413,15 +431,15 @@
 					"file": "work.html",
 					"settings":
 					{
-						"buffer_size": 7053,
+						"buffer_size": 7265,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1528,
-								1528
+								1910,
+								1910
 							]
 						],
 						"settings":
@@ -429,12 +447,12 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Emmet/Emmet.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 3.0,
-						"translation.y": 597.0,
+						"translation.x": 0.0,
+						"translation.y": 430.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -442,7 +460,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -457,38 +475,8 @@
 						"selection":
 						[
 							[
-								235,
-								235
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 1.0,
-						"translation.y": 1.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "sass/theme.scss",
-					"settings":
-					{
-						"buffer_size": 1108,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1102,
-								1102
+								2715,
+								2813
 							]
 						],
 						"settings":
@@ -500,7 +488,37 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1431.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sass/theme.scss",
+					"settings":
+					{
+						"buffer_size": 1762,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1285,
+								1285
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 231.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -517,8 +535,8 @@
 						"selection":
 						[
 							[
-								570,
-								570
+								540,
+								540
 							]
 						],
 						"settings":
@@ -528,6 +546,37 @@
 							"synced": false,
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/main.js",
+					"settings":
+					{
+						"buffer_size": 1030,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								787,
+								787
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
