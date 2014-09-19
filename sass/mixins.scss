@@ -75,6 +75,7 @@
     animation: #{$str}  ;  
 }
 
+<<<<<<< HEAD
 
 @mixin gridRow($numPerRow, $margin) {
   width: ((100% - (($numPerRow - 1) * $margin)) / $numPerRow);
@@ -86,6 +87,20 @@
     margin-right: 0;
     margin-bottom: 0;
   }
+=======
+@mixin gridRow($numPerRow,$margin){
+    width: ((100% - (($numPerRow - 1) * $margin)) / $numPerRow);
+    &:nth-child(n){
+        margin-bottom: $margin;
+        margin-right: $margin;
+    }
+    &:nth-of-type(#{$numPerRow}n){
+        margin-right: 0;
+    }
+    &:last-child{
+        margin-right: 0;
+    }
+>>>>>>> FETCH_HEAD
 }
 
 // Visually hide and alement
