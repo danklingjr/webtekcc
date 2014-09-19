@@ -91,7 +91,7 @@
 			"file": "work.html",
 			"settings":
 			{
-				"buffer_size": 7265,
+				"buffer_size": 7611,
 				"line_ending": "Unix"
 			}
 		},
@@ -99,7 +99,7 @@
 			"file": "sass/main.scss",
 			"settings":
 			{
-				"buffer_size": 9151,
+				"buffer_size": 9215,
 				"line_ending": "Unix"
 			}
 		},
@@ -124,6 +124,14 @@
 			"settings":
 			{
 				"buffer_size": 1030,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/mixins.scss",
+			"settings":
+			{
+				"buffer_size": 3445,
 				"line_ending": "Unix"
 			}
 		}
@@ -296,6 +304,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"gridRow",
 			"hero",
 			"hero__",
 			"$",
@@ -431,15 +440,15 @@
 					"file": "work.html",
 					"settings":
 					{
-						"buffer_size": 7265,
+						"buffer_size": 7611,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1910,
-								1910
+								2244,
+								2244
 							]
 						],
 						"settings":
@@ -452,7 +461,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 430.0,
+						"translation.y": 414.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -460,7 +469,7 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -468,15 +477,15 @@
 					"file": "sass/main.scss",
 					"settings":
 					{
-						"buffer_size": 9151,
+						"buffer_size": 9215,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2715,
-								2813
+								4122,
+								4090
 							]
 						],
 						"settings":
@@ -488,7 +497,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1431.0,
+						"translation.y": 2460.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -505,8 +514,8 @@
 						"selection":
 						[
 							[
-								1285,
-								1285
+								819,
+								819
 							]
 						],
 						"settings":
@@ -518,7 +527,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 231.0,
+						"translation.y": 198.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -535,8 +544,8 @@
 						"selection":
 						[
 							[
-								540,
-								540
+								1226,
+								1216
 							]
 						],
 						"settings":
@@ -581,6 +590,37 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "sass/mixins.scss",
+					"settings":
+					{
+						"buffer_size": 3445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1894,
+								1894
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 845.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -658,7 +698,7 @@
 		[
 			[
 				"",
-				"/Users/Dan/Desktop/Projects/deck-craft/deckCraft.sublime-project"
+				"/Users/Dan/Desktop/Projects/rrta/orrta.sublime-project"
 			],
 			[
 				"bed",

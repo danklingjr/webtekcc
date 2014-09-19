@@ -39,6 +39,7 @@ header[role=banner]{
 	display: inline-block;
 	width: 100%;
 	max-width: 253px;
+	float: left;
 }
 nav[role=navigation]{
 	float: right;
@@ -398,6 +399,95 @@ nav[role=navigation]{
 		padding: 0 30px;
 	}
 }
+
+
+/*! Work
+/////////////////////////////////////////////////*/
+.content__portfolio--page{
+	padding: 55px 5%;
+	.case-study{
+		border-bottom: none;
+	}
+}
+.portfolio__filters{
+	margin-bottom: 10px;
+}
+.filter__wrap{
+	border: 1px solid #ccc;
+	padding: 15px;
+	p{
+		font-family: $altFont;
+		font-size: em(18px, $font-size);
+		font-weight: normal;
+	}
+	ul{
+		display: none;
+	}
+}
+*[class^="work__wrap"]{
+
+}
+.work{
+	background-color: #e7e7e7;
+	border-top: 3px solid #e7e7e7;
+	border-right: 3px solid #e7e7e7;
+	border-left: 3px solid #e7e7e7;
+	border-bottom: 8px solid #e7e7e7;
+	border-radius: 3px;
+}
+.browser--top{
+	margin: 5px 0 5px 5px;
+	span{
+		width: 5px;
+		height: 5px;
+		display: block;
+		background-color: #b3b3b3;
+		border-radius: 2.5px;
+		float: left;
+		margin-right: 2px;
+	}
+}
+.work__screen{
+	img{
+		width: 100%;
+		display: block;
+	}
+}
+.content__testimonials{
+	padding: 50px 5%;
+	background-color: #252525;
+	text-align: center;
+}
+.call-to-action{
+	margin-top: 20px;
+	h2{
+		span{
+			display: inline-block;
+			vertical-align: middle;
+			font-family: $altFont;
+			font-size: em(32px,$font-size);
+			font-weight: normal;
+			line-height: 1em;
+			color: #fff;
+			padding: 15px 10px 0 0;
+		}
+		.button{
+			vertical-align: middle;
+		}
+	}
+}
+.work__wrap--title{
+	text-align: center;
+	font-family: $altFont;
+	font-size: em(28px,$font-size);
+	font-weight: normal;
+	line-height: 1em;
+	color: #252525;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+
 
 
 /*! Footer

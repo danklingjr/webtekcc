@@ -32,7 +32,7 @@ $altFont: "adelle",serif;
 	text-transform: uppercase;
 	padding: 20px 0 10px;
 }
-.button__case-study{
+*[class^="button"]{
 	display: inline-block;
 	background-color: $altColor1;
 	font-family: $altFont;
@@ -45,6 +45,7 @@ $altFont: "adelle",serif;
 	padding: 15px 20px 13px;
 	margin-top: 30px;
 }
+
 .hero__page{
 	background-image: url(../img/hero-page.jpg);
 	background-position: center top;
