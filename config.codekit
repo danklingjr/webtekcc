@@ -164,17 +164,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/swingset.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 123285,
-		"inputAbbreviatedPath": "\/img\/swingset.jpg",
-		"outputAbbreviatedPath": "\/img\/swingset.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/team.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -419,7 +408,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Daniel Kling",
+"lastSavedByUser": "Dan Kling",
 "manualImportLinks": {
 	},
 "projectAttributes": {
@@ -1013,7 +1002,7 @@
 	"sassUseLibsass": 0,
 	"shouldRunAutoprefixer": 0,
 	"shouldRunBless": 0,
-	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
+	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs",
 	"slimAutoOutputPathEnabled": 1,
 	"slimAutoOutputPathFilenamePattern": "*.html",
 	"slimAutoOutputPathRelativePath": "",

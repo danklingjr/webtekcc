@@ -22,22 +22,14 @@ mywindow.scroll(function(){
           marginTop: "0",
         },400);
         up = !up;
-      }
+      };
       mypos = newscroll;
-      return false;
-  }
-  
+      return false
+  };
 });
-mywindow.scroll(function(){
-  if(jQuery(window).scrollTop() > 1000){
-    statCounter();
-  }
-});
-
-/* Stat counter animation */
-function statCounter(){
+if(jQuery(window).scrollTop() > 1000){
   jQuery('.stat__ui--inner h4').each(function () {
-    var stat = jQuery(this);
+    var stat = $(this);
     jQuery({ Counter: 0 }).animate({ Counter: stat.text() }, {
       duration: 3000,
       easing: 'easeOutQuint',
@@ -46,4 +38,4 @@ function statCounter(){
       }
     });
   });
-}
+};
