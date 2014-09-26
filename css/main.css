@@ -394,6 +394,25 @@ textarea {
   text-align: center;
   margin: 0 auto; }
 
+.hero__page--about {
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 60px; }
+  .hero__page--about h1 {
+    margin-top: 60px;
+    background-color: #252525;
+    display: inline-block;
+    font-family: "alternate-gothic-no-2-d", sans-serif;
+    font-size: 5.75em;
+    font-weight: normal;
+    line-height: 1.0em;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 20px 0px;
+    margin-bottom: 20px; }
+  .hero__page--about .page__description {
+    color: #252525; }
+
 /*!////////////////////////////////////////////////
 // MODULES
 /////////////////////////////////////////////////*/
@@ -875,6 +894,147 @@ nav[role=navigation] {
   color: #252525;
   margin-bottom: 40px;
   margin-top: 40px; }
+
+/*! About
+/////////////////////////////////////////////////*/
+.about__team {
+  display: block; }
+  .about__team img {
+    width: 100%; }
+
+.content__about--staff {
+  padding: 0;
+  background-color: #252525; }
+
+*[class^="staff__member"] {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 500px; }
+
+.staff__member--clayton {
+  background-image: url(../img/clayton.jpg); }
+
+.staff__member--kelly {
+  background-image: url(../img/kelly.jpg); }
+
+.staff__member--emily {
+  background-image: url(../img/emily.jpg); }
+
+.staff__member--kornel {
+  background-image: url(../img/kornel.jpg); }
+
+.staff__member--levi {
+  background-image: url(../img/levi.jpg); }
+
+.staff__member--tara {
+  background-image: url(../img/tara.jpg); }
+
+.staff__member--chris {
+  background-image: url(../img/chris.jpg); }
+
+.staff__member--dan {
+  background-image: url(../img/dan.jpg); }
+
+.staff__member--steve {
+  background-image: url(../img/steve.jpg); }
+
+.staff__member--amanda {
+  background-image: url(../img/amanda.jpg); }
+
+.staff__member--fred {
+  background-image: url(../img/fred.jpg); }
+
+/*! Service
+/////////////////////////////////////////////////*/
+.content__service {
+  padding: 100px 5%; }
+
+*[class^="service__links"] {
+  text-align: center;
+  padding: 25px; }
+  *[class^="service__links"] a {
+    position: relative;
+    display: inline-block;
+    font-family: "adelle", serif;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    z-index: 0;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out; }
+  *[class^="service__links"] a:hover,
+  *[class^="service__links"] a:focus {
+    color: #8d4600; }
+  *[class^="service__links"] a:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 5px;
+    height: 40px;
+    width: 0%;
+    background-color: #fff;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    z-index: -1; }
+  *[class^="service__links"] a:hover:before,
+  *[class^="service__links"] a:focus:before {
+    width: 100%; }
+  *[class^="service__links"] a:after {
+    content: "";
+    position: absolute;
+    right: -5px;
+    top: 5px;
+    height: 40px;
+    width: 5px;
+    background-color: #c46100; }
+  *[class^="service__links"] .selected {
+    color: #8d4600; }
+  *[class^="service__links"] .selected:before {
+    width: 100%; }
+
+.service__links--web {
+  background-color: #ff7e00; }
+  .service__links--web a:hover,
+  .service__links--web a:focus {
+    color: #8d4600; }
+
+.service__links--development {
+  background-color: #b988df; }
+  .service__links--development a:hover,
+  .service__links--development a:focus {
+    color: #906aae; }
+  .service__links--development a:after {
+    background-color: #906aae; }
+  .service__links--development .selected {
+    color: #906aae; }
+
+.service__links--marketing {
+  background-color: #24cce9; }
+  .service__links--marketing a:hover,
+  .service__links--marketing a:focus {
+    color: #24cce9; }
+  .service__links--marketing a:after {
+    background-color: #1c9bb1; }
+  .service__links--marketing .selected {
+    color: #24cce9; }
+
+.service__single--graphic {
+  background-color: #ccc;
+  height: 500px;
+  margin-bottom: 50px; }
+
+.service__single--main p {
+  font-family: "adelle", serif;
+  font-size: 1.375em;
+  line-height: 1.6em;
+  margin-bottom: 30px; }
 
 /*! Footer
 /////////////////////////////////////////////////*/
