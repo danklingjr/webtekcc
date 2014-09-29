@@ -45,6 +45,26 @@ $altFont: "adelle",serif;
 	padding: 15px 20px 13px;
 	margin-top: 30px;
 }
+.button--sidebar{
+	background-color: $altColor1;
+	margin-top: 0;
+	width: 100%;
+	font-size: em(28px,$font-size);
+	text-align: center;
+	padding: 30px 20px;
+	i{
+		font-size: 0.7em;
+		color: #fff;
+		text-transform: lowercase;
+		display: block;
+	}
+	b{
+		display: inline-block;
+		font-weight: normal;
+		color: #fff;
+
+	}
+}
 
 .hero__page{
 	background-image: url(../img/hero-page.jpg);
