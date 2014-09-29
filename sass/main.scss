@@ -222,13 +222,28 @@ nav[role=navigation]{
 }
 .service--design .service__sub a{
 	background-color: $altColor1;
+	@include prefix(transition, 0.2s ease-in-out);
+}
+.service--design .service__sub a:hover,
+.service--design .service__sub a:focus{
+	background-color: darken($altColor1, 10);
 }
 .service--development .service__sub a{
 	background-color: $tertiaryColor;
+	@include prefix(transition, 0.2s ease-in-out);
+}
+.service--development .service__sub a:hover,
+.service--development .service__sub a:focus{
+	background-color: darken($tertiaryColor, 10);
 }
 .service--marketing .service__sub a{
 	background-color: $altColor2;
+	@include prefix(transition, 0.2s ease-in-out);
 }
+.service--marketing .service__sub a:hover,
+.service--marketing .service__sub a:focus{
+	background-color: darken($altColor2, 10);
+} 
 
 
 /*! Case Studies

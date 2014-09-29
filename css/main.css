@@ -641,13 +641,37 @@ nav[role=navigation] {
         margin-bottom: 0; } }
 
 .service--design .service__sub a {
-  background-color: #ff7e00; }
+  background-color: #ff7e00;
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out; }
+
+.service--design .service__sub a:hover,
+.service--design .service__sub a:focus {
+  background-color: #cc6500; }
 
 .service--development .service__sub a {
-  background-color: #b988df; }
+  background-color: #b988df;
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out; }
+
+.service--development .service__sub a:hover,
+.service--development .service__sub a:focus {
+  background-color: #a160d4; }
 
 .service--marketing .service__sub a {
-  background-color: #24cce9; }
+  background-color: #24cce9;
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out; }
+
+.service--marketing .service__sub a:hover,
+.service--marketing .service__sub a:focus {
+  background-color: #14acc6; }
 
 /*! Case Studies
 /////////////////////////////////////////////////*/
