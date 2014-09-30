@@ -21,16 +21,21 @@ $altFont: "adelle",serif;
 	z-index: 2;
 	width: 100%;
 	max-width: 600px;
-	margin: -44px auto -44px;
+	margin: 0 auto -44px;
 	background-color: $secondaryColor;
 	font-family: $headlineFont;
-	font-size: em(58px,$font-size);
+	font-size: em(38px,$font-size);
 	font-weight: normal;
 	line-height: 1em;
 	color: #fff;
 	text-align: center;
 	text-transform: uppercase;
-	padding: 20px 0 10px;
+	padding: 20px 0 15px;
+	@media screen and (min-width: 600px){
+		font-size: em(58px,$font-size);
+		margin: -44px auto -44px;
+		padding: 20px 0 10px;
+	}
 }
 *[class^="button"]{
 	display: inline-block;
@@ -44,6 +49,11 @@ $altFont: "adelle",serif;
 	text-transform: uppercase;
 	padding: 15px 20px 13px;
 	margin-top: 30px;
+	@include prefix(transition, 0.2s ease-in-out);
+	&:hover,
+	&:focus{
+		background-color: darken($altColor1, 10);
+	}
 }
 .button--sidebar{
 	background-color: $altColor1;
@@ -70,32 +80,41 @@ $altFont: "adelle",serif;
 	background-image: url(../img/hero-page.jpg);
 	background-position: center top;
 	background-size: cover;
-	height: 477px;
+	min-height: 477px;
 	text-align: center;
 	h1{
 		margin-top: 180px;
 		background-color: $textColor;
 		display: inline-block;
 		font-family: $headlineFont;
-		font-size: em(92px, $font-size);
+		font-size: em(42px, $font-size);
 		font-weight: normal;
 		line-height: 1.0em;
 		color: #fff;
 		text-transform: uppercase;
-		padding: 15px 20px 0px;
+		padding: 15px 20px 8px;
 		margin-bottom: 20px;
+		@media screen and (min-width: 700px){
+			font-size: em(92px, $font-size);
+			padding: 15px 20px 0px;
+		}
 	}
 }
 .page__description{
 	width: 100%;
 	max-width: 1035px;
 	font-family: $altFont;
-	font-size: em(26px,$font-size);
+	font-size: em(18px,$font-size);
 	font-weight: normal;
 	color: #fff;
 	line-height: 1.8em;
 	text-align: center;
 	margin: 0 auto;
+	padding: 0 5%;
+	@media screen and (min-width: 700px){
+		font-size: em(26px,$font-size);
+		padding: 0 5%;
+	}
 }
 .hero__page--about{
 	text-align: center;
@@ -106,13 +125,17 @@ $altFont: "adelle",serif;
 		background-color: $textColor;
 		display: inline-block;
 		font-family: $headlineFont;
-		font-size: em(92px, $font-size);
+		font-size: em(42px, $font-size);
 		font-weight: normal;
 		line-height: 1.0em;
 		color: #fff;
 		text-transform: uppercase;
-		padding: 15px 20px 0px;
+		padding: 15px 20px 8px;
 		margin-bottom: 20px;
+		@media screen and (min-width: 700px){
+			font-size: em(92px, $font-size);
+			padding: 15px 20px 0px;
+		}
 	}
 	.page__description{
 		color: $textColor;

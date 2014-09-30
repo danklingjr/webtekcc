@@ -20,6 +20,10 @@ body{
 	z-index: -100;
 	background: url(polina.jpg) no-repeat;
 	background-size: cover;
+	display: none;
+	@media screen and (min-width: 960px){
+		display: block;
+	}
 }
 
 /*! Header
@@ -44,6 +48,10 @@ header[role=banner]{
 nav[role=navigation]{
 	float: right;
 	margin-top: 8px;
+	display: none;
+	@media screen and (min-width: 942px){
+		display: block;
+	}
 	a{
 		font-family: $headlineFont;
 		font-size: em(24px,$font-size);
@@ -65,6 +73,10 @@ nav[role=navigation]{
 	position: absolute;
 	bottom: 10%;
 	left: 5%;
+	font-size: 45%;
+	@media screen and (min-width: 700px){
+		font-size: 100%;
+	}
 	i,
 	b{
 		background-color: $textColor;
@@ -99,18 +111,34 @@ nav[role=navigation]{
 	text-transform: uppercase;
 	padding: 15px 20px 5px;
 }
+.button__cta{
+	
+	@media screen and (max-width: 700px){
+		font-size: 4.8em;
+		margin-top: 0;
+	}
+}
 .phone{
 	position: fixed;
 	top: 105px;
 	right: 5%;
 	background-color: $secondaryColor;
 	font-size: em(30px,$font-size);
-	z-index: -1;
+	color: #fff;
+	z-index: 5;
 	padding: 10px 20px 5px;
 	box-shadow: inset 0 3px 5px rgba(0,0,0,0.05);
+	a{
+		color: #fff;
+		text-decoration: none;
+	}
 }
 .button__cta{
 	background-color: $secondaryColor;
+	&:hover,
+	&:focus{
+		background-color: darken($secondaryColor, 10);
+	}
 }
 
 /*! Content module
@@ -120,8 +148,11 @@ nav[role=navigation]{
 	padding: 160px 5%;
 }
 .content__intro{
-	padding: 100px 10% 0;
+	padding: 50px 2.5% 0;
 	text-align: center;
+	@media screen and (min-width: 600px){
+		padding: 100px 10% 0;
+	}
 	img{
 		width: 100%;
 		max-width: 1023px;
@@ -132,7 +163,10 @@ nav[role=navigation]{
 }
 .content__portfolio,
 .content__services{
-	padding: 160px 10%;
+	padding: 80px 5% 40px;
+	@media screen and (min-width: 600px){
+		padding: 160px 10%;
+	}
 }
 .content__portfolio{
 	position: relative;
@@ -143,10 +177,16 @@ nav[role=navigation]{
 	width: 100%;
 	max-width: 1180px;
 	font-family: $altFont;
-	font-size: em(40px,$font-size);
+	font-size: em(26px,$font-size);
 	font-weight: normal;
 	text-align: center;
 	margin: 0 auto 60px;
+	@media screen and (min-width: 750px){
+		font-size: em(30px,$font-size);
+	}
+	@media screen and (min-width: 960px){
+		font-size: em(40px,$font-size);
+	}
 	a{
 		color: $primaryColor;
 		text-decoration: none;
@@ -162,10 +202,15 @@ nav[role=navigation]{
 	margin: 0 0 30px;
 	h3{
 		font-family: $altFont;
-		font-size: em(38px, $font-size);
+		font-size: em(28px, $font-size);
 		font-weight: normal;
 		color: $textColor;
 		text-transform: uppercase;
+		margin-bottom: 20px;
+		@media screen and (min-width: 700px){
+			font-size: em(38px, $font-size);
+			margin-bottom: 0px;
+		}
 	}
 }
 .service__sub{
@@ -262,8 +307,13 @@ nav[role=navigation]{
 	vertical-align: middle;
 }
 .case-study__info{
-	width: 45%;
+	width: 100%;
 	padding: 0 20px;
+	margin: 20px 0;
+	@media screen and (min-width: 900px){
+		width: 45%;
+		margin: 0;
+	}
 	h3{
 		font-family: $headlineFont;
 		font-size: em(46px, $font-size);
@@ -287,8 +337,13 @@ nav[role=navigation]{
 	}
 }
 .case-study__graphic{
-	width: 55%;
+	width: 100%;
 	padding: 0 20px;
+	margin: 20px 0;
+	@media screen and (min-width: 900px){
+		width: 55%;
+		margin: 0;
+	}
 	img{
 		width: 100%;
 	}
@@ -304,13 +359,20 @@ nav[role=navigation]{
 	background-repeat: no-repeat;
 }
 .tagline__bottom{
+	@media screen and (max-width: 960px){
+		width: 100%;
+		margin-bottom: 40px !important;
+	}
 	p{
 		font-family: $altFont;
-		font-size: em(30px, $font-size);
+		font-size: em(20px, $font-size);
 		font-weight: normal;
 		color: #fff;
 		line-height: 1.8em;
 		@include prefix(text-shadow, 2px 2px 2px rgba(0,0,0,0.45));
+		@media screen and (min-width: 600px){
+			font-size: em(30px, $font-size);
+		}
 	}
 }
 .stat__ui{
@@ -328,6 +390,9 @@ nav[role=navigation]{
 		color: $secondaryColor;
 		line-height: 1.0em;
 		text-shadow: 2px 2px 2px rgba(0,0,0,0.45);
+		@media screen and (min-width: 960px) and (max-width: 1290px){
+			font-size: em(100px, $font-size);
+		}
 	}
 }
 .stat__ui--inner,
@@ -403,6 +468,10 @@ nav[role=navigation]{
 	border-bottom: 1px solid rgba(255,255,255,0.25)
 }
 .stats{
+	@media screen and (max-width: 960px){
+		width: 100%;
+		float: none;
+	}
 	p{
 		font-family: $altFont;
 		font-size: em(18px, $font-size);
@@ -412,6 +481,16 @@ nav[role=navigation]{
 		@include prefix(text-shadow, 2px 2px 2px rgba(0,0,0,0.45));
 		margin-top: 30px;
 		padding: 0 30px;
+		@media screen and (max-width: 700px){
+			margin-bottom: 20px;
+		}
+	}
+}
+.stat__sites,
+.stat__clients{
+	@media screen and (max-width: 700px){
+		width: 100%;
+		margin-bottom: 40px;
 	}
 }
 
@@ -520,6 +599,9 @@ nav[role=navigation]{
 .content__about--staff{
 	padding: 0;
 	background-color: $textColor;
+}
+.staff__wrap{
+	margin: 0 !important;
 }
 *[class^="staff__member"]{
 	background-repeat: no-repeat;
@@ -771,7 +853,10 @@ footer[role=contentinfo]{
 		@include prefix(text-shadow, 2px 2px 2px rgba(0,0,0,0.45));
 	}
 	p{
-		font-size: em(30px, $font-size);
+		font-size: em(20px, $font-size);
+		@media screen and (min-width: 600px){
+			font-size: em(30px, $font-size);
+		}
 	}
 	i{
 		font-size: em(24px, $font-size);
@@ -794,14 +879,22 @@ footer[role=contentinfo]{
 .social-media{
 	display: inline-block;
 	vertical-align: middle;
-	width: 20%;
-	text-align: left;
-	padding-right: 20px;
+	width: 100%;
+	text-align: center;
+	padding-right: 0px;
+	@media screen and (min-width: 600px){
+		width: 20%;
+		text-align: left;
+		padding-right: 20px;
+	}
 }
 .copyright{
 	display: inline-block;
 	vertical-align: middle;
-	width: 80%;
+	width: 100%;
+	@media screen and (min-width: 600px){
+		width: 80%;
+	}
 }
 
 

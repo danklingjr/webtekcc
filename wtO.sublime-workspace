@@ -4,20 +4,28 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-transform"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
 				"backgr",
 				"background-size"
 			],
 			[
 				"backgroun",
 				"background-repeat"
-			],
-			[
-				"tex",
-				"text-transform"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"back",
@@ -42,10 +50,6 @@
 			[
 				"mar",
 				"margin"
-			],
-			[
-				"marg",
-				"margin-left"
 			],
 			[
 				"tran",
@@ -83,7 +87,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 11007,
+				"buffer_size": 10958,
 				"line_ending": "Unix"
 			}
 		},
@@ -91,7 +95,31 @@
 			"file": "work.html",
 			"settings":
 			{
-				"buffer_size": 21462,
+				"buffer_size": 21413,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "service-web.html",
+			"settings":
+			{
+				"buffer_size": 10430,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "service-dev.html",
+			"settings":
+			{
+				"buffer_size": 7642,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "service-marketing.html",
+			"settings":
+			{
+				"buffer_size": 7827,
 				"line_ending": "Unix"
 			}
 		},
@@ -99,7 +127,7 @@
 			"file": "about-us.html",
 			"settings":
 			{
-				"buffer_size": 7551,
+				"buffer_size": 7502,
 				"line_ending": "Unix"
 			}
 		},
@@ -107,7 +135,7 @@
 			"file": "sass/main.scss",
 			"settings":
 			{
-				"buffer_size": 11661,
+				"buffer_size": 15230,
 				"line_ending": "Unix"
 			}
 		},
@@ -115,7 +143,7 @@
 			"file": "sass/theme.scss",
 			"settings":
 			{
-				"buffer_size": 2182,
+				"buffer_size": 2498,
 				"line_ending": "Unix"
 			}
 		},
@@ -131,7 +159,7 @@
 			"file": "js/main.js",
 			"settings":
 			{
-				"buffer_size": 1030,
+				"buffer_size": 2932,
 				"line_ending": "Unix"
 			}
 		},
@@ -139,7 +167,7 @@
 			"file": "sass/mixins.scss",
 			"settings":
 			{
-				"buffer_size": 3445,
+				"buffer_size": 3463,
 				"line_ending": "Unix"
 			}
 		}
@@ -312,6 +340,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"testimonian",
+			"service__single--sidebar",
+			".service__sub",
+			"main",
 			"hero__",
 			"hero__page",
 			"gridRow",
@@ -419,14 +451,14 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 11007,
+						"buffer_size": 10958,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2040,
+								1991,
 								1769
 							]
 						],
@@ -450,15 +482,15 @@
 					"file": "work.html",
 					"settings":
 					{
-						"buffer_size": 21462,
+						"buffer_size": 21413,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1774,
-								1774
+								1725,
+								1725
 							]
 						],
 						"settings":
@@ -471,25 +503,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 110.0,
+						"translation.y": 3.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "about-us.html",
+					"file": "service-web.html",
 					"settings":
 					{
-						"buffer_size": 7551,
+						"buffer_size": 10430,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4593,
-								4593
+								571,
+								549
 							]
 						],
 						"settings":
@@ -502,7 +534,100 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1067.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "service-dev.html",
+					"settings":
+					{
+						"buffer_size": 7642,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1725,
+								1725
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "service-marketing.html",
+					"settings":
+					{
+						"buffer_size": 7827,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1725,
+								1725
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 111.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "about-us.html",
+					"settings":
+					{
+						"buffer_size": 7502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1486,
+								1486
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -514,19 +639,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 6,
 					"file": "sass/main.scss",
 					"settings":
 					{
-						"buffer_size": 11661,
+						"buffer_size": 15230,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9791,
-								9791
+								9536,
+								9536
 							]
 						],
 						"settings":
@@ -538,25 +663,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 7232.0,
+						"translation.y": 6589.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 7,
 					"file": "sass/theme.scss",
 					"settings":
 					{
-						"buffer_size": 2182,
+						"buffer_size": 2498,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1842,
-								1842
+								1904,
+								1904
 							]
 						],
 						"settings":
@@ -568,13 +693,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 235.0,
+						"translation.y": 843.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 8,
 					"file": "sass/layout.scss",
 					"settings":
 					{
@@ -585,8 +710,8 @@
 						"selection":
 						[
 							[
-								1226,
-								1216
+								1892,
+								1892
 							]
 						],
 						"settings":
@@ -599,25 +724,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 678.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 9,
 					"file": "js/main.js",
 					"settings":
 					{
-						"buffer_size": 1030,
+						"buffer_size": 2932,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								787,
-								787
+								2081,
+								2081
 							]
 						],
 						"settings":
@@ -630,25 +755,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 518.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 10,
 					"file": "sass/mixins.scss",
 					"settings":
 					{
-						"buffer_size": 3445,
+						"buffer_size": 3463,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2594,
-								2597
+								1957,
+								1957
 							]
 						],
 						"settings":
@@ -661,7 +786,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1309.0,
+						"translation.y": 825.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
