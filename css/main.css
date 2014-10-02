@@ -1211,11 +1211,40 @@ nav[role=navigation] {
   height: 500px;
   margin-bottom: 50px; }
 
-.service__single--main p {
+.service__single--main h2 {
+  font-family: "adelle", serif;
+  font-size: 1.75em;
+  line-height: 1.6em;
+  margin-bottom: 10px; }
+.service__single--main p, .service__single--main li {
   font-family: "adelle", serif;
   font-size: 1.375em;
   line-height: 1.6em;
   margin-bottom: 30px; }
+.service__single--main blockquote {
+  background-color: #f0f0f0;
+  font-family: "adelle", serif;
+  font-size: 1.625em;
+  font-style: italic;
+  line-height: 1.6em;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-left: 10px solid #2a5bb3; }
+  @media screen and (min-width: 600px) {
+    .service__single--main blockquote {
+      padding: 20px 20px 20px 50px; } }
+.service__single--main ul {
+  margin-bottom: 30px; }
+.service__single--main li {
+  background-color: #f0f0f0;
+  margin-bottom: 15px;
+  padding: 15px 20px 15px;
+  list-style: none; }
+  @media screen and (min-width: 600px) {
+    .service__single--main li {
+      padding: 15px 20px 15px 50px; } }
+.service__single--main a {
+  color: #2a5bb3; }
 
 .responsive-example {
   min-height: 200px;
