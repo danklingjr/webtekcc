@@ -23,11 +23,13 @@
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
+        <?php if ($pageId == "home"){ ?>
         <video autoplay loop poster="polina.jpg" id="bgvid">
             <source src="video/all-720.webm" type="video/webm">
             <source src="video/all-720.mp4" type="video/mp4">
             <source src="video/all-720.ogv" type="video/ogv">
         </video>
+        <?php } ?>
 
         <header role="banner" class="group" id="header">
             <div class="branding">

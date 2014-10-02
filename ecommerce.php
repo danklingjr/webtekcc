@@ -22,9 +22,9 @@ include('includes/header.php') // Include header file //
         </div>
 
         <div class="content__service group">
-            <!-- <div class="service__single--graphic">
+            <div class="service__single--graphic">
                 
-            </div> -->
+            </div>
             <div class="service__single--wrap grid-full group">
                 <div class="service__single--main grid-4">
                     <p>So you want to sell online? Why not. It seems everyone else is. Online selling is booming and will only continue to climb. An Ecommerce site is simply a website that engages the visitor to buy your products online.</p>
@@ -45,6 +45,7 @@ include('includes/header.php') // Include header file //
                 </div>
                 <aside class="service__single--sidebar grid-2">
                     <a href="" class="button--sidebar"><i>like what you see?</i><b>Request A Quote</b></a>
+                    <?php include('includes/testimonial-sidebar.php'); ?>
                 </aside>
             </div>
         </div>

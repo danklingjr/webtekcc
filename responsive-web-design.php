@@ -85,6 +85,7 @@ include('includes/header.php') // Include header file //
                 </div>
                 <aside class="service__single--sidebar grid-2">
                     <a href="" class="button--sidebar"><i>like what you see?</i><b>Request A Quote</b></a>
+                    <?php include('includes/testimonial-sidebar.php'); ?>
                 </aside>
             </div>
             <div class="service__single--wrap grid-full group">

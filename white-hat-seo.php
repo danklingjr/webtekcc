@@ -1,5 +1,6 @@
 <?php
 // Define variables for SEO
+$pageId = 'white-hat-seo';
 $pageTitle = 'put page title here'; // Title of page //
 $pageDescription = 'put page description here'; // Title of page //
 $pageCanonical = 'http://www.url.com/';
@@ -41,9 +42,7 @@ include('includes/header.php') // Include header file //
                     <h2>Negative SEO</h2>
                     <p>Although links are generally good to get, there are links that will absolutely have no effect on your ranking. You can literally have 1,000 inbound links that don't help your ranking at all. In contrast, you could realistically have 1 link that can boost your rankings. In theory, you could have inbound links that actually have a negative effect on your rankings. If you have links from adult, gaming, drug enhancing sites or other websites that have a bad reputation, those links can help tank your reputation and authority that you are trying to build.</p>
                 </div>
-                <aside class="service__single--sidebar grid-2">
-                    <a href="" class="button--sidebar"><i>like what you see?</i><b>Request A Quote</b></a>
-                </aside>
+                <?php include('includes/sidebar-marketing.php'); ?>
             </div>
         </div>
 

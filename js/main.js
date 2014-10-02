@@ -11,7 +11,7 @@ mywindow.scroll(function(){
     if (newscroll > mypos && !up) {
         jQuery( "#header" ).stop().animate({
           //opacity: "0",
-          marginTop: "-150px",
+          marginTop: "-105px",
         },400);
 
         up = !up;

@@ -27,9 +27,9 @@ include('includes/header.php') // Include header file //
         </div>
 
         <div class="content__service group">
-            <!-- <div class="service__single--graphic">
+            <div class="service__single--graphic">
                 
-            </div> -->
+            </div>
             <div class="service__single--wrap grid-full group">
                 <div class="service__single--main grid-4">
                     <p>For those of who are doing some research into how to get higher rankings for your website, it won't take you long to hear the term link building, building back links, or inbound links. These are all terms for a search engine optimization strategy that has to do with getting other places out there on the Internet to link to your website. Why is getting links that point to your website good? It's a signal to Google and other search engines that your website must be important. If two websites are equal in everything else, and one website has zero inbound links and the other website has 50 people that link to it, Google will treat the one with 50 links as a more authoritative website and therefore rank it higher.</p>
@@ -47,6 +47,7 @@ include('includes/header.php') // Include header file //
                 </div>
                 <aside class="service__single--sidebar grid-2">
                     <a href="" class="button--sidebar"><i>like what you see?</i><b>Request A Quote</b></a>
+                    <?php include('includes/testimonial-sidebar.php'); ?>
                 </aside>
             </div>
         </div>

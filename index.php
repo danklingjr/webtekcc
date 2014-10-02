@@ -1,5 +1,6 @@
 <?php
 // Define variables for SEO
+$pageId = "home";
 $pageTitle = 'put page title here'; // Title of page //
 $pageDescription = 'put page description here'; // Title of page //
 $pageCanonical = 'http://www.url.com/';

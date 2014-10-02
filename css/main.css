@@ -38,7 +38,7 @@ button,
 input,
 select,
 textarea {
-  color: #222; }
+  color: #252525; }
 
 body {
   font-size: 1em;
@@ -415,7 +415,7 @@ textarea {
   padding: 30px 20px; }
   .button--sidebar i {
     font-size: 0.7em;
-    color: #fff;
+    color: #252525;
     text-transform: lowercase;
     display: block; }
   .button--sidebar b {
@@ -1246,6 +1246,34 @@ nav[role=navigation] {
 .service__single--main a {
   color: #2a5bb3; }
 
+.sidebar__nav {
+  margin-bottom: 40px; }
+  .sidebar__nav a {
+    display: block;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-family: "adelle", serif;
+    font-size: 1.125em;
+    color: #2a5bb3;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out; }
+    .sidebar__nav a:hover, .sidebar__nav a:focus {
+      background-color: #2a5bb3;
+      color: #fff;
+      padding: 10px 20px 10px 40px; }
+  .sidebar__nav .selected {
+    background-color: #252525;
+    color: #fff; }
+    .sidebar__nav .selected:hover, .sidebar__nav .selected:focus {
+      background-color: #252525;
+      color: #fff;
+      padding: 10px 20px; }
+
 .responsive-example {
   min-height: 200px;
   padding: 100px 5%;
@@ -1323,6 +1351,22 @@ nav[role=navigation] {
   width: 50%;
   height: 20px;
   margin-top: 20px; }
+
+/*! Sidebar
+/////////////////////////////////////////////////*/
+.testimonial {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-top: 20px; }
+  .testimonial p {
+    font-size: 1.25em;
+    font-family: "adelle", serif;
+    font-weight: normal;
+    color: #252525;
+    line-height: 1.8em; }
+    @media screen and (min-width: 600px) {
+      .testimonial p {
+        font-size: 1.125em; } }
 
 /*! Footer
 /////////////////////////////////////////////////*/

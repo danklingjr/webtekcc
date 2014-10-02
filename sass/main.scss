@@ -787,8 +787,40 @@ nav[role=navigation]{
 	}
 }
 .service__single--sidebar{
-
+	
 }
+.sidebar__nav{
+	margin-bottom: 40px;
+	a{
+		display: block;
+		background-color: #f0f0f0;
+		padding: 10px 20px;
+		margin-bottom: 10px;
+		font-family: $altFont;
+		font-size: em(18px, $font-size);
+		color: $primaryColor;
+		text-decoration: none;
+		text-transform: uppercase;
+		@include prefix(transition, 0.2s ease-in-out);
+		&:hover,
+		&:focus{
+			background-color: $primaryColor;
+			color: #fff;
+			padding: 10px 20px 10px 40px;
+		}
+	}
+	.selected{
+		background-color: #252525;
+		color: #fff;
+		&:hover,
+		&:focus{
+			background-color: #252525;
+			color: #fff;
+			padding: 10px 20px;
+		}
+	}
+}
+
 .responsive-example{
 	min-height: 200px;
 	padding: 100px 5%;
@@ -868,6 +900,26 @@ nav[role=navigation]{
 	width: 50%;
 	height: 20px;
 	margin-top: 20px;
+}
+
+
+/*! Sidebar
+/////////////////////////////////////////////////*/
+.testimonial{
+	background-color: #f0f0f0;
+	padding: 20px;
+	margin-top: 20px;
+	p{
+		font-size: em(20px, $font-size);
+		font-family: $altFont;
+		font-weight: normal;
+		color: $textColor;
+		line-height: 1.8em;
+
+		@media screen and (min-width: 600px){
+			font-size: em(18px, $font-size);
+		}
+	}
 }
 
 

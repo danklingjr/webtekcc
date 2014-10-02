@@ -1,6 +1,7 @@
 <?php
 // Define variables for SEO
-$pageTitle = 'put page title here'; // Title of page //
+$pageId = 'seo-pricing';
+$pageTitle = 'SEO Pricing'; // Title of page //
 $pageDescription = 'put page description here'; // Title of page //
 $pageCanonical = 'http://www.url.com/';
 // If we don't want the search engines to see our website just yet
@@ -31,6 +32,9 @@ include('includes/header.php') // Include header file //
                 
             </div> -->
             <div class="service__single--wrap grid-full group">
+                <div class="breadcrumbs">
+                    <span></span>
+                </div>
                 <div class="service__single--main grid-4">
                     <h2>Search Engine Optimization</h2>
                     <p>How much does it cost? Ah, something everyone wants to know. Before pricing can be given, you really need to understand what search engine optimization (SEO) is and how it is achieved. You must know what White Hat SEO and Black Hat SEO is. You must understand in this industry at least, low pricing is generally not the SEO packages you want to participate in. Low cost SEO usually translates to spammy techniques. Search engine marketing done right, takes time and does involve a small investment and commitment on your end.</p>
@@ -43,9 +47,7 @@ include('includes/header.php') // Include header file //
                     <h2>Guaranteed SEO</h2>
                     <p>If you really understand SEO, you will know that no one can guarantee results, not even Google. Google and other search engines will rank you depending on where they feel you are best suited for the keyword phrases being searched. If someone guarantees something like that, run away fast. The only exception to that might be if they are talking pay-per-click and not organic SEO. In that case yes, whoever is willing to pay the most can show up on the first page of Google in the "Sponsored Ads" section, but that is just pure advertising and not SEO... which should be another reason to run because they are obviously trying to deceive you by calling it SEO. We are here to educate you and help you understand.</p>
                 </div>
-                <aside class="service__single--sidebar grid-2">
-                    <a href="" class="button--sidebar"><i>like what you see?</i><b>Request A Quote</b></a>
-                </aside>
+                <?php include('includes/sidebar-marketing.php'); ?>
             </div>
         </div>
 
