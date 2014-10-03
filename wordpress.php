@@ -24,10 +24,16 @@ include('includes/header.php') // Include header file //
             <a href="">Blog Development</a>
         </div>
 
+        <div class="content__graphic group">
+            
+        </div>
+
         <div class="content__service group">
-            <div class="service__single--graphic">
+            <!-- <div class="service__single--graphic">
                 
-            </div>
+            </div> -->
+            <?php include('includes/breadcrumbs.php'); ?>
+
             <div class="service__single--wrap grid-full group">
                 <div class="service__single--main grid-4">
                     <p>Wordpress is a popular open-source Content Management System (CMS) some websites are developed in. Wordpress, first and foremost, was a blogging platform that has evolved into a complete CMS that carries a huge following of community and user support.</p>

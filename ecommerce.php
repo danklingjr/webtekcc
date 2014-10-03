@@ -24,10 +24,16 @@ include('includes/header.php') // Include header file //
             <a href="">Blog Development</a>
         </div>
 
+        <div class="content__graphic group">
+            
+        </div>
+
         <div class="content__service group">
-            <div class="service__single--graphic">
+            <!-- <div class="service__single--graphic">
                 
-            </div>
+            </div> -->
+            <?php include('includes/breadcrumbs.php'); ?>
+            
             <div class="service__single--wrap grid-full group">
                 <div class="service__single--main grid-4">
                     <p>So you want to sell online? Why not. It seems everyone else is. Online selling is booming and will only continue to climb. An Ecommerce site is simply a website that engages the visitor to buy your products online.</p>

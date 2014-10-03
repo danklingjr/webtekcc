@@ -3,9 +3,9 @@
 $parent = '';
 $parentId = '';
 $pageId = "home";
-$pageTitle = 'put page title here'; // Title of page //
+$pageTitle = 'Web Design Lancaster PA - York Harrisburg Reading Website Design PA'; // Title of page //
 $pageDescription = 'put page description here'; // Title of page //
-$pageCanonical = 'http://www.url.com/';
+$pageCanonical = 'http://www.webtekcc.com/';
 // If we don't want the search engines to see our website just yet
 //$pageRobots = 'noindex,nofollow';
 include('includes/header.php') // Include header file //

@@ -29,10 +29,16 @@ include('includes/header.php') // Include header file //
             <a href="">Local Internet Marketing</a>
         </div>
 
+        <div class="content__graphic group">
+            
+        </div>
+
         <div class="content__service group">
-            <div class="service__single--graphic">
+            <!-- <div class="service__single--graphic">
                 
-            </div>
+            </div> -->
+            <?php include('includes/breadcrumbs.php'); ?>
+
             <div class="service__single--wrap grid-full group">
                 <div class="service__single--main grid-4">
                     <h2>On-Site Optimization</h2>

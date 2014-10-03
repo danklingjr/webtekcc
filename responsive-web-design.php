@@ -1,7 +1,7 @@
 <?php
 // Define variables for SEO
-$parent = 'SEO';
-$parentId = 'seo';
+$parent = '';
+$parentId = '';
 $pageId = 'seo';
 $pageTitle = 'Responsive Web Design'; // Title of page //
 $pageDescription = 'put page description here'; // Title of page //
@@ -24,7 +24,7 @@ include('includes/header.php') // Include header file //
             <a href="">Email Templates</a>
         </div>
 
-        <div class="content__responsive group">
+        <div class="content__graphic--responsive group">
             <div class="responsive-example">
             <b class="whoa">hey</b>
                 <div class="browser-outer">
@@ -81,6 +81,8 @@ include('includes/header.php') // Include header file //
             <!-- <div class="service__single--graphic">
                 
             </div> -->
+            <?php include('includes/breadcrumbs.php'); ?>
+
             <div class="service__single--wrap grid-full group">
                 <div class="service__single--main grid-4">
                     <p>Responsive Web Design is a newer way of building websites where in theory the website is built in a way to respond differently to different size devices. With the increased popularity of mobile devices (laptops, tablets, hybrids, smartphones, etc) showcasing a multitude of screen sizes, the concept seems to fit.</p>

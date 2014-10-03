@@ -552,7 +552,13 @@ nav[role=navigation]{
 	background-color: #252525;
 	text-align: center;
 }
-.content__responsive{
+.content__graphic{
+	padding: 20px 5%;
+	background-color: #252525;
+	text-align: center;
+	min-height: 400px;
+}
+.content__graphic--responsive{
 	padding: 20px 5%;
 	background-color: #252525;
 	text-align: center;
