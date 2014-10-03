@@ -1,7 +1,9 @@
 <?php
 // Define variables for SEO
+$parent = 'SEO';
+$parentId = 'seo';
 $pageId = 'white-hat-seo';
-$pageTitle = 'put page title here'; // Title of page //
+$pageTitle = 'White Hat SEO'; // Title of page //
 $pageDescription = 'put page description here'; // Title of page //
 $pageCanonical = 'http://www.url.com/';
 // If we don't want the search engines to see our website just yet
@@ -31,6 +33,8 @@ include('includes/header.php') // Include header file //
             <!-- <div class="service__single--graphic">
                 
             </div> -->
+            <?php include('includes/breadcrumbs.php'); ?>
+            
             <div class="service__single--wrap grid-full group">
                 <div class="service__single--main grid-4">
                     <h2>White Hat SEO vs Black Hat SEO</h2>

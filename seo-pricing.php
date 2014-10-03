@@ -1,5 +1,7 @@
 <?php
 // Define variables for SEO
+$parent = 'SEO';
+$parentId = 'seo';
 $pageId = 'seo-pricing';
 $pageTitle = 'SEO Pricing'; // Title of page //
 $pageDescription = 'put page description here'; // Title of page //
@@ -31,10 +33,9 @@ include('includes/header.php') // Include header file //
             <!-- <div class="service__single--graphic">
                 
             </div> -->
+            <?php include('includes/breadcrumbs.php'); ?>
+
             <div class="service__single--wrap grid-full group">
-                <div class="breadcrumbs">
-                    <span></span>
-                </div>
                 <div class="service__single--main grid-4">
                     <h2>Search Engine Optimization</h2>
                     <p>How much does it cost? Ah, something everyone wants to know. Before pricing can be given, you really need to understand what search engine optimization (SEO) is and how it is achieved. You must know what White Hat SEO and Black Hat SEO is. You must understand in this industry at least, low pricing is generally not the SEO packages you want to participate in. Low cost SEO usually translates to spammy techniques. Search engine marketing done right, takes time and does involve a small investment and commitment on your end.</p>

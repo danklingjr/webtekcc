@@ -1,3 +1,8 @@
+<?php
+$url = '../webtekcc/';
+// If we don't want the search engines to see our website just yet
+//$pageRobots = 'noindex,nofollow';
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -6,8 +11,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
+        <title><?php echo $pageTitle; ?></title>
+        <meta name="description" content="<?php echo $pageDescription; ?>">
         <meta name="viewport" content="width=device-width">
 
         <script type="text/javascript" src="//use.typekit.net/mpe6fom.js"></script>

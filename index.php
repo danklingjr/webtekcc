@@ -1,5 +1,7 @@
 <?php
 // Define variables for SEO
+$parent = '';
+$parentId = '';
 $pageId = "home";
 $pageTitle = 'put page title here'; // Title of page //
 $pageDescription = 'put page description here'; // Title of page //

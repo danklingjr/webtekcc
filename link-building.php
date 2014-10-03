@@ -1,6 +1,9 @@
 <?php
 // Define variables for SEO
-$pageTitle = 'put page title here'; // Title of page //
+$parent = 'SEO';
+$parentId = 'seo';
+$pageId = 'link-building';
+$pageTitle = 'Link Building'; // Title of page //
 $pageDescription = 'put page description here'; // Title of page //
 $pageCanonical = 'http://www.url.com/';
 // If we don't want the search engines to see our website just yet
@@ -27,9 +30,9 @@ include('includes/header.php') // Include header file //
         </div>
 
         <div class="content__service group">
-            <div class="service__single--graphic">
+            <!-- <div class="service__single--graphic">
                 
-            </div>
+            </div> -->
             <div class="service__single--wrap grid-full group">
                 <div class="service__single--main grid-4">
                     <p>For those of who are doing some research into how to get higher rankings for your website, it won't take you long to hear the term link building, building back links, or inbound links. These are all terms for a search engine optimization strategy that has to do with getting other places out there on the Internet to link to your website. Why is getting links that point to your website good? It's a signal to Google and other search engines that your website must be important. If two websites are equal in everything else, and one website has zero inbound links and the other website has 50 people that link to it, Google will treat the one with 50 links as a more authoritative website and therefore rank it higher.</p>
@@ -45,10 +48,7 @@ include('includes/header.php') // Include header file //
                     <h2>An Ideal Link</h2>
                     <p>So generally speaking, an ideal link is one that uses quality keywords in the anchor text, is found in the main body part of an existing high page rank page from an authoritative website with a related theme that uses a "do-follow" tag with minimal outbound links that you do not link to and resides in a different IP range in a favorable neighborhood. Easy, huh? Now go find them and obtain those links. Give up? Let us do the hard work for you.</p>
                 </div>
-                <aside class="service__single--sidebar grid-2">
-                    <a href="" class="button--sidebar"><i>like what you see?</i><b>Request A Quote</b></a>
-                    <?php include('includes/testimonial-sidebar.php'); ?>
-                </aside>
+                <?php include('includes/sidebar-marketing.php'); ?>
             </div>
         </div>
 
