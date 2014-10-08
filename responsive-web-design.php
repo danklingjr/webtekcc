@@ -17,12 +17,7 @@ include('includes/header.php') // Include header file //
             
         </section>
 
-        <div class="service__links--web">
-            <a href="" class="selected">Responsive Design</a>
-            <a href="">Mobile Websites</a>
-            <a href="">Redesign</a>
-            <a href="">Email Templates</a>
-        </div>
+        <?php include('includes/web-nav.php'); ?>
 
         <div class="content__graphic--responsive group">
             <div class="responsive-example">
