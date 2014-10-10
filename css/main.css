@@ -540,7 +540,7 @@ nav[role=navigation] {
   @media screen and (min-width: 942px) {
     nav[role=navigation] {
       display: block; } }
-  nav[role=navigation] a {
+  nav[role=navigation] div > a, nav[role=navigation] > a {
     font-family: "alternate-gothic-no-2-d", sans-serif;
     font-size: 1.5em;
     font-weight: 100;
@@ -548,6 +548,58 @@ nav[role=navigation] {
     text-decoration: none;
     text-transform: uppercase;
     margin-left: 25px; }
+  nav[role=navigation] div > a:hover, nav[role=navigation] > a:hover,
+  nav[role=navigation] div > a:focus, nav[role=navigation] > a:focus {
+    color: #2a5bb3;
+    border-bottom: 5px solid #2a5bb3; }
+
+.dropdown {
+  position: relative;
+  display: inline-block; }
+
+*[class^="dropdown--nav"] {
+  display: none;
+  position: absolute;
+  top: 31px;
+  left: -50%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  z-index: 6;
+  border-top: 5px solid #2a5bb3; }
+  *[class^="dropdown--nav"] a {
+    font-family: "adelle", serif;
+    font-size: 1.125em;
+    font-weight: 100;
+    line-height: 1.0em;
+    color: #252525;
+    text-decoration: none;
+    text-transform: none; }
+  *[class^="dropdown--nav"] a:hover,
+  *[class^="dropdown--nav"] a:focus {
+    color: #2a5bb3;
+    text-decoration: underline; }
+  *[class^="dropdown--nav"] h3 {
+    font-family: "alternate-gothic-no-2-d", sans-serif;
+    font-size: 1.5em;
+    font-weight: 100;
+    color: #252525;
+    text-decoration: none;
+    text-transform: uppercase; }
+  *[class^="dropdown--nav"] li {
+    margin-bottom: 8px; }
+
+.dropdown--nav--design {
+  min-width: 800px;
+  margin-left: -200px; }
+
+.dropdown--nav--marketing {
+  min-width: 600px;
+  margin-left: -100px; }
+
+.dropdown:hover *[class^="dropdown--nav"],
+.dropdown:focus *[class^="dropdown--nav"] {
+  display: block; }
 
 /*! Hero unit
 /////////////////////////////////////////////////*/
@@ -1281,6 +1333,16 @@ nav[role=navigation] {
     background-color: #1c9bb1; }
   .service__links--marketing .selected {
     color: #24cce9; }
+
+.service__links--support {
+  background-color: #008b8a; }
+  .service__links--support a:hover,
+  .service__links--support a:focus {
+    color: #008b8a; }
+  .service__links--support a:after {
+    background-color: #006b6b; }
+  .service__links--support .selected {
+    color: #008b8a; }
 
 .service__single--graphic {
   background-color: #ccc;

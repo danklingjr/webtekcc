@@ -119,8 +119,8 @@ jQuery(".whoa").on("click", function(){
 });
 $(function() {
   $(".instagram").instagram({
-      // hash: 'jandbmoto'
-      userId: '2942968' 
+      hash: 'webtekcc'
+/*       userId: '2942968'  */
     , clientId: '0c5ba21e8e084a39b7aa8e14aae2647c'
     , show : 30
   });
