@@ -52,7 +52,7 @@ nav[role=navigation]{
 	@media screen and (min-width: 942px){
 		display: block;
 	}
-	a{
+	div > a, > a{
 		font-family: $headlineFont;
 		font-size: em(24px,$font-size);
 		font-weight: 100;
@@ -60,8 +60,83 @@ nav[role=navigation]{
 		text-decoration: none;
 		text-transform: uppercase;
 		margin-left: 25px;
+		// @include prefix(transition, 0.2s ease-in-out);
+	}
+	div > a:hover, > a:hover,
+	div > a:focus, > a:focus{
+		color: $primaryColor;
+		border-bottom: 5px solid $primaryColor;
 	}
 }
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+*[class^="dropdown--nav"]{
+	display: none;
+	position: absolute;
+	top: 31px;
+	left: -50%;
+	width: 100%;
+	background-color: transparentize(#fff,0.05);
+	padding: 20px;
+	
+	z-index: 6;
+	border-top: 5px solid $primaryColor;
+	a{
+		font-family: $altFont;
+		font-size: em(18px,$font-size);
+		font-weight: 100;
+		line-height: 1.0em;
+		color: $textColor;
+		text-decoration: none;
+		text-transform: none;
+	}
+	a:hover,
+	a:focus{
+		color: $primaryColor;
+		text-decoration: underline;
+	}
+	h3{
+		font-family: $headlineFont;
+		font-size: em(24px,$font-size);
+		font-weight: 100;
+		color: $textColor;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+	li{
+		margin-bottom: 8px;
+	}
+}
+.dropdown--nav--design{
+	min-width: 800px;
+	margin-left: -200px;
+}
+.dropdown--nav--marketing{
+	min-width: 600px;
+	margin-left: -100px;
+}
+.dropdown:hover *[class^="dropdown--nav"],
+.dropdown:focus *[class^="dropdown--nav"]{
+	display: block;
+}
+// .design__title,
+// .development__title,
+// .additional__title{
+// 	padding: 0 0 5px;
+// }
+// .design__title{
+// 	border-bottom: 5px solid $altColor1;
+// }
+// .development__title{
+// 	border-bottom: 5px solid $tertiaryColor;
+// }
+// .additional__title{
+
+// }
+
+
 /*! Hero unit
 /////////////////////////////////////////////////*/
 .hero{
@@ -813,6 +888,19 @@ nav[role=navigation]{
 	}
 	.selected{
 		color: #24cce9;
+	}
+}
+.service__links--support{
+	background-color: #008b8a;
+	a:hover,
+	a:focus{
+		color: #008b8a;
+	}
+	a:after{
+		background-color: #006b6b;
+	}
+	.selected{
+		color: #008b8a; 
 	}
 }
 .service__single--graphic{

@@ -17,12 +17,7 @@ include('includes/header.php') // Include header file //
             
         </section>
 
-        <div class="service__links--web">
-            <a href="" class="selected">Responsive Design</a>
-            <a href="">Mobile Websites</a>
-            <a href="">Redesign</a>
-            <a href="">Email Templates</a>
-        </div>
+        <?php include('includes/web-nav.php'); ?>
 
         <div class="content__graphic--responsive group">
             <div class="responsive-example">
@@ -90,7 +85,9 @@ include('includes/header.php') // Include header file //
                 </div>
                 <aside class="service__single--sidebar grid-2">
                     <a href="" class="button--sidebar"><i>like what you see?</i><b>Request A Quote</b></a>
+                    
                     <?php include('includes/testimonial-sidebar.php'); ?>
+                    
                 </aside>
             </div>
             <div class="service__single--wrap grid-full group">

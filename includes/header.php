@@ -1,8 +1,4 @@
-<?php
-$url = '../webtekcc/';
-// If we don't want the search engines to see our website just yet
-//$pageRobots = 'noindex,nofollow';
-?>
+<?php $siteUrl = 'http://75.102.25.26/~webtekcc1/'; ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -17,8 +13,14 @@ $url = '../webtekcc/';
 
         <script type="text/javascript" src="//use.typekit.net/mpe6fom.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
+        <script type="text/javascript" src="<?php echo $siteUrl; ?>js/jquery_1.5.2.js"></script>
+        <script type="text/javascript" src="<?php echo $siteUrl; ?>js/post_watermarkinput.js"></script>
+        <script type="text/javascript" src="<?php echo $siteUrl; ?>js/vpb_script.js"></script>
+         <script src="<?php echo $siteUrl; ?>js/modernizr.custom.js"></script>
+        <link rel="stylesheet" href="<?php echo $siteUrl; ?>css/normalize.min.css">
+        <link rel="stylesheet" href="<?php echo $siteUrl; ?>css/main.css">
+        <link rel="stylesheet" href="<?php echo $siteUrl; ?>css/levi-style.css">
+        <link rel="stylesheet" href="<?php echo $siteUrl; ?>css/fred-style.css">
 
         <!--[if lt IE 9]>
             <script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script>
@@ -38,7 +40,7 @@ $url = '../webtekcc/';
 
         <header role="banner" class="group" id="header">
             <div class="branding">
-                <img src="img/logo.png" alt="WebTek">
+                <a href="<?php echo $siteUrl; ?>"><img src="<?php echo $siteUrl; ?>img/logo.png" alt="WebTek"></a>
             </div>
 
             <?php include('nav.php'); ?>

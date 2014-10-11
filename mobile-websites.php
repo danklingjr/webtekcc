@@ -17,12 +17,7 @@ include('includes/header.php') // Include header file //
             
         </section>
 
-        <div class="service__links--web">
-            <a href="">Responsive Design</a>
-            <a href="" class="selected">Mobile Websites</a>
-            <a href="">Redesign</a>
-            <a href="">Email Templates</a>
-        </div>
+        <?php include('includes/web-nav.php'); ?>
 
         <div class="content__graphic group">
             
@@ -33,7 +28,7 @@ include('includes/header.php') // Include header file //
                 
             </div> -->
             <?php include('includes/breadcrumbs.php'); ?>
-            
+
             <div class="service__single--wrap grid-full group">
                 <div class="service__single--main grid-4">
                     <p>Mobile phones have exploded in popularity and have become the new standard in telecommunications. As technology continues to evolve, most mobile phones being sold today are smartphones with built in website browsing.</p>
