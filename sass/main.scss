@@ -34,7 +34,7 @@ header[role=banner]{
 	position: fixed;
 	top: 0;
 	z-index: 4;
-	padding: 30px 5%;
+	padding: 30px 5% 21px;
 	@include prefix(box-shadow, 0 0 8px rgba(0,0,0,0.25));
 	@include prefix(backface-visibility, hidden);
   -webkit-transform: translateZ(0);
@@ -42,8 +42,12 @@ header[role=banner]{
 .branding{
 	display: inline-block;
 	width: 100%;
-	max-width: 253px;
+	max-width: 340px;
 	float: left;
+	img{
+		float: left;
+		margin-right: 10px;
+	}
 }
 nav[role=navigation]{
 	float: right;
@@ -64,6 +68,10 @@ nav[role=navigation]{
 	}
 	div > a:hover, > a:hover,
 	div > a:focus, > a:focus{
+		color: $primaryColor;
+		border-bottom: 5px solid $primaryColor;
+	}
+	a.selected{
 		color: $primaryColor;
 		border-bottom: 5px solid $primaryColor;
 	}
@@ -194,8 +202,8 @@ nav[role=navigation]{
 	}
 }
 .phone{
-	position: fixed;
-	top: 105px;
+	position: absolute;
+	top: 106px;
 	right: 5%;
 	background-color: $secondaryColor;
 	font-size: em(30px,$font-size);
@@ -265,6 +273,11 @@ nav[role=navigation]{
 	a{
 		color: $primaryColor;
 		text-decoration: none;
+	}
+	a:hover,
+	a:focus{
+		// color: $altColor1;
+		text-decoration: underline;
 	}
 }
 
