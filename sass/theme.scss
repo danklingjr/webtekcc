@@ -76,7 +76,7 @@ $altFont: "adelle",serif;
 	}
 }
 
-.hero__page{
+*[class^="hero__page"]{
 	background-color: $primaryColor;
 	background-image: url(../img/hero-page.jpg);
 	background-position: center top;
@@ -100,6 +100,9 @@ $altFont: "adelle",serif;
 			padding: 15px 20px 0px;
 		}
 	}
+}
+.hero__page--responsive{
+	background-image: url(../img/hero-devices.jpg);
 }
 .page__description{
 	width: 100%;

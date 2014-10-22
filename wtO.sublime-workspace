@@ -111,7 +111,7 @@
 			"file": "includes/footer.php",
 			"settings":
 			{
-				"buffer_size": 1754,
+				"buffer_size": 2020,
 				"line_ending": "Unix"
 			}
 		},
@@ -119,7 +119,7 @@
 			"file": "includes/header.php",
 			"settings":
 			{
-				"buffer_size": 2124,
+				"buffer_size": 2688,
 				"line_ending": "Unix"
 			}
 		},
@@ -167,7 +167,7 @@
 			"file": "responsive-web-design.php",
 			"settings":
 			{
-				"buffer_size": 6064,
+				"buffer_size": 6106,
 				"line_ending": "Unix"
 			}
 		},
@@ -223,7 +223,7 @@
 			"file": "includes/breadcrumbs.php",
 			"settings":
 			{
-				"buffer_size": 263,
+				"buffer_size": 269,
 				"line_ending": "Unix"
 			}
 		},
@@ -231,7 +231,7 @@
 			"file": "includes/sidebar-marketing.php",
 			"settings":
 			{
-				"buffer_size": 1741,
+				"buffer_size": 2045,
 				"line_ending": "Unix"
 			}
 		},
@@ -239,7 +239,7 @@
 			"file": "sass/main.scss",
 			"settings":
 			{
-				"buffer_size": 22070,
+				"buffer_size": 24215,
 				"line_ending": "Unix"
 			}
 		},
@@ -247,7 +247,7 @@
 			"file": "sass/theme.scss",
 			"settings":
 			{
-				"buffer_size": 3067,
+				"buffer_size": 3101,
 				"line_ending": "Unix"
 			}
 		},
@@ -263,7 +263,7 @@
 			"file": "js/main.js",
 			"settings":
 			{
-				"buffer_size": 3102,
+				"buffer_size": 3104,
 				"line_ending": "Unix"
 			}
 		},
@@ -279,7 +279,7 @@
 			"file": "sass/resets.scss",
 			"settings":
 			{
-				"buffer_size": 1054,
+				"buffer_size": 1088,
 				"line_ending": "Unix"
 			}
 		}
@@ -649,7 +649,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 2.0,
-						"translation.y": 793.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -690,15 +690,15 @@
 					"file": "includes/footer.php",
 					"settings":
 					{
-						"buffer_size": 1754,
+						"buffer_size": 2020,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1030,
-								1030
+								0,
+								0
 							]
 						],
 						"settings":
@@ -721,15 +721,15 @@
 					"file": "includes/header.php",
 					"settings":
 					{
-						"buffer_size": 2124,
+						"buffer_size": 2688,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1834,
-								1834
+								0,
+								0
 							]
 						],
 						"settings":
@@ -905,15 +905,15 @@
 					"file": "responsive-web-design.php",
 					"settings":
 					{
-						"buffer_size": 6064,
+						"buffer_size": 6106,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								771,
-								771
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1122,15 +1122,15 @@
 					"file": "includes/breadcrumbs.php",
 					"settings":
 					{
-						"buffer_size": 263,
+						"buffer_size": 269,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								54,
-								73
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1151,15 +1151,15 @@
 					"file": "includes/sidebar-marketing.php",
 					"settings":
 					{
-						"buffer_size": 1741,
+						"buffer_size": 2045,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								146,
-								211
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1180,7 +1180,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1188,15 +1188,15 @@
 					"file": "sass/main.scss",
 					"settings":
 					{
-						"buffer_size": 22070,
+						"buffer_size": 24215,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11176,
-								11176
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1218,15 +1218,15 @@
 					"file": "sass/theme.scss",
 					"settings":
 					{
-						"buffer_size": 3067,
+						"buffer_size": 3101,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2502,
-								2502
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1279,15 +1279,15 @@
 					"file": "js/main.js",
 					"settings":
 					{
-						"buffer_size": 3102,
+						"buffer_size": 3104,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3102,
-								3102
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1330,8 +1330,8 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 40.0,
+						"translation.y": 1.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1341,15 +1341,15 @@
 					"file": "sass/resets.scss",
 					"settings":
 					{
-						"buffer_size": 1054,
+						"buffer_size": 1088,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								504,
-								504
+								0,
+								0
 							]
 						],
 						"settings":

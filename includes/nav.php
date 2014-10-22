@@ -3,14 +3,21 @@
                          	<a href="">Web Design</a>
                          	<div class="dropdown--nav--design group">
                          		<ul class="grid-2">
-                         			<li><h3 class="design__title">Design</h3></li>
+                         			<li class="title__wrap--design">
+                                             <h3 class="design__title">Design</h3>
+                                             <img src="img/design.jpg" alt="">
+                                             
+                                        </li>
                          			<li><a href="<?php echo $siteUrl; ?>web-design/responsive-web-design.php">Responsive Web Design</a></li>
                          			<li><a href="<?php echo $siteUrl; ?>web-design/mobile-websites.php">Mobile Websites</a></li>
                          			<li><a href="<?php echo $siteUrl; ?>web-design/redesign.php">Redesign</a></li>
                          			<li><a href="<?php echo $siteUrl; ?>web-design/email-templates.php">Email Templates</a></li>
                          		</ul>
                          		<ul class="grid-2">
-                         			<li><h3 class="development__title">Development</h3></li>
+                         			<li class="title__wrap--development">
+                                             <h3 class="development__title">Development</h3>
+                                             <img src="img/development.jpg" alt="">
+                                        </li>
                          			<li><a href="<?php echo $siteUrl; ?>web-design/ecommerce.php">ECommerce</a></li>
                          			<li><a href="<?php echo $siteUrl; ?>web-design/content-management-systems.php">Content Management Systems</a></li>
                          			<li><a href="<?php echo $siteUrl; ?>web-design/wordpress.php">Wordpress Development</a></li>
@@ -30,7 +37,10 @@
                          	<a href="">Marketing</a>
                          	<div class="dropdown--nav--marketing group">
                          		<ul class="grid-half">
-                         			<li><h3 class="design__title">Search &amp; Social</h3></li>
+                         			<li>
+                                             <h3 class="design__title">Search &amp; Social</h3>
+
+                                        </li>
                          			<li><a href="<?php echo $siteUrl; ?>internet-marketing/search-engine-optimization.php">Search Engine Optimization</a></li>
                          			<li><a href="<?php echo $siteUrl; ?>internet-marketing/search-engine-marketing.php">Search Engine Marketing</a></li>
                          			<li><a href="<?php echo $siteUrl; ?>internet-marketing/pay-per-click.php">Pay Per Click Advertising</a></li>

@@ -18,9 +18,10 @@
         <script type="text/javascript" src="<?php echo $siteUrl; ?>js/vpb_script.js"></script>
          <script src="<?php echo $siteUrl; ?>js/modernizr.custom.js"></script>
         <link rel="stylesheet" href="<?php echo $siteUrl; ?>css/normalize.min.css">
-        <link rel="stylesheet" href="<?php echo $siteUrl; ?>css/main.css">
+        <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="<?php echo $siteUrl; ?>css/levi-style.css">
         <link rel="stylesheet" href="<?php echo $siteUrl; ?>css/fred-style.css">
+        <link rel="stylesheet" href="<?php echo $siteUrl; ?>css/lelly-style.css">
 
         <!--[if lt IE 9]>
             <script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script>
@@ -40,7 +41,7 @@
 
         <header role="banner" class="group" id="header">
             <div class="branding">
-                <a href="<?php echo $siteUrl; ?>"><img src="<?php echo $siteUrl; ?>img/logo.png" alt="WebTek"></a>
+                <a href="<?php echo $siteUrl; ?>" class="logo"><img src="img/globe.png" alt="" ><img src="<?php echo $siteUrl; ?>img/logo.png" alt="WebTek"></a>
             </div>
 
             <?php include('nav.php'); ?>
