@@ -471,7 +471,9 @@ textarea {
 .hero__page--about {
   text-align: center;
   margin-top: 100px;
-  padding-bottom: 60px; }
+  padding-bottom: 60px;
+  background-color: #fff;
+  background-image: none; }
   .hero__page--about h1 {
     margin-top: 60px;
     background-color: #252525;
