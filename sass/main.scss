@@ -12,17 +12,24 @@ body{
 }
 #bgvid {
 	position: fixed; 
-	right: 0; bottom: 0;
+	top: 0;
+	left: -15%;
 	min-width: 100%; 
 	min-height: 100%;
 	width: auto; 
 	height: auto; 
 	z-index: -100;
-	background: url(polina.jpg) no-repeat;
+	background: url(../img/polina.jpg) no-repeat;
 	background-size: cover;
 	display: none;
 	@media screen and (min-width: 960px){
 		display: block;
+	}
+	@media screen and (min-width: 1100px){
+		left: -15%;
+	}
+	@media screen and (min-width: 1400px){
+		left: 0;
 	}
 }
 
@@ -186,6 +193,12 @@ nav[role=navigation]{
 	position: relative;
 	height: 100%;
 	background-color: transparentize($primaryColor, 0.2);
+	@media screen and (max-width: 960px){
+		background-image: url(../img/polina.jpg);
+		background-repeat:  no-repeat;
+		background-size: cover;
+	}
+
 }
 .tagline{
 	position: absolute;
@@ -707,7 +720,7 @@ nav[role=navigation]{
 	background-color: #252525;
 	text-align: center;
 }
-.content__graphic{
+*[class^="content__graphic"]{
 	padding: 20px 5%;
 	background-color: #252525;
 	text-align: center;
@@ -717,6 +730,38 @@ nav[role=navigation]{
 	padding: 20px 5%;
 	background-color: #252525;
 	text-align: center;
+}
+.content__graphic--mobile{
+	background-image: 
+			url(../img/phone-bg1.png), 
+			url(../img/phone-bg2.png), 
+			url(../img/phone-bg3.png),
+			url(../img/phone-bg4.png), 
+			url(../img/phone-bg5.png), 
+			url(../img/phone-bg6.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	// @media screen and (min-width: 800px){
+	// 	background-image:  
+	// 		url(../img/phone-bg3.png),
+	// 		url(../img/phone-bg4.png), 
+	// }
+	// @media screen and (min-width: 1064px){
+	// 	background-image:  
+	// 		url(../img/phone-bg2.png), 
+	// 		url(../img/phone-bg3.png),
+	// 		url(../img/phone-bg4.png), 
+	// 		url(../img/phone-bg5.png);
+	// }
+	// @media screen and (min-width: 1230px){
+	// 	background-image: 
+	// 		url(../img/phone-bg1.png), 
+	// 		url(../img/phone-bg2.png), 
+	// 		url(../img/phone-bg3.png),
+	// 		url(../img/phone-bg4.png), 
+	// 		url(../img/phone-bg5.png), 
+	// 		url(../img/phone-bg6.png);
+	// }
 }
 .call-to-action{
 	margin-top: 20px;
@@ -1004,6 +1049,22 @@ nav[role=navigation]{
 		color: #008b8a; 
 	}
 }
+.service__links--blog {
+	background-color: #fff;
+	a{
+		color: $primaryColor;
+	}
+	a:hover,
+	a:focus{
+		color: #fff;
+	}
+	a:after{
+		background-color: $primaryColor;
+	}
+	.selected{
+		color: #fff; 
+	}
+}
 .service__single--graphic{
 	background-color: #ccc;
 	height: 500px;
@@ -1115,7 +1176,7 @@ nav[role=navigation]{
 
 .responsive-example{
 	min-height: 200px;
-	padding: 100px 5%;
+	padding: 100px 5%; 
 	text-align: left;
 }
 .browser-outer{
@@ -1124,6 +1185,7 @@ nav[role=navigation]{
 	border-radius: 5px;
 	margin: 0 auto;
 	overflow: hidden;
+	width: 100%;
 	min-width: 300px; 
 }
 .browser-top{

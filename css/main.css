@@ -471,7 +471,9 @@ textarea {
 .hero__page--about {
   text-align: center;
   margin-top: 100px;
-  padding-bottom: 60px; }
+  padding-bottom: 60px;
+  background-color: #fff;
+  background-image: none; }
   .hero__page--about h1 {
     margin-top: 60px;
     background-color: #252525;
@@ -500,19 +502,25 @@ body {
 
 #bgvid {
   position: fixed;
-  right: 0;
-  bottom: 0;
+  top: 0;
+  left: -15%;
   min-width: 100%;
   min-height: 100%;
   width: auto;
   height: auto;
   z-index: -100;
-  background: url(polina.jpg) no-repeat;
+  background: url(../img/polina.jpg) no-repeat;
   background-size: cover;
   display: none; }
   @media screen and (min-width: 960px) {
     #bgvid {
       display: block; } }
+  @media screen and (min-width: 1100px) {
+    #bgvid {
+      left: -15%; } }
+  @media screen and (min-width: 1400px) {
+    #bgvid {
+      left: 0; } }
 
 /*! Header
 /////////////////////////////////////////////////*/
@@ -643,6 +651,11 @@ nav[role=navigation] {
   position: relative;
   height: 100%;
   background-color: rgba(42, 91, 179, 0.8); }
+  @media screen and (max-width: 960px) {
+    .hero {
+      background-image: url(../img/polina.jpg);
+      background-repeat: no-repeat;
+      background-size: cover; } }
 
 .tagline {
   position: absolute;
@@ -1157,7 +1170,7 @@ nav[role=navigation] {
   background-color: #252525;
   text-align: center; }
 
-.content__graphic {
+*[class^="content__graphic"] {
   padding: 20px 5%;
   background-color: #252525;
   text-align: center;
@@ -1167,6 +1180,11 @@ nav[role=navigation] {
   padding: 20px 5%;
   background-color: #252525;
   text-align: center; }
+
+.content__graphic--mobile {
+  background-image: url(../img/phone-bg1.png), url(../img/phone-bg2.png), url(../img/phone-bg3.png), url(../img/phone-bg4.png), url(../img/phone-bg5.png), url(../img/phone-bg6.png);
+  background-repeat: no-repeat;
+  background-position: center center; }
 
 .call-to-action {
   margin-top: 20px; }
@@ -1421,6 +1439,18 @@ nav[role=navigation] {
   .service__links--support .selected {
     color: #008b8a; }
 
+.service__links--blog {
+  background-color: #fff; }
+  .service__links--blog a {
+    color: #2a5bb3; }
+  .service__links--blog a:hover,
+  .service__links--blog a:focus {
+    color: #fff; }
+  .service__links--blog a:after {
+    background-color: #2a5bb3; }
+  .service__links--blog .selected {
+    color: #fff; }
+
 .service__single--graphic {
   background-color: #ccc;
   height: 500px;
@@ -1517,6 +1547,7 @@ nav[role=navigation] {
   border-radius: 5px;
   margin: 0 auto;
   overflow: hidden;
+  width: 100%;
   min-width: 300px; }
 
 .browser-top {
