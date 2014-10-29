@@ -33,9 +33,12 @@
         <![endif]-->
         <?php if ($pageId == "home"){ ?>
         <video autoplay loop poster="polina.jpg" id="bgvid">
-            <source src="video/all-720.webm" type="video/webm">
-            <source src="video/all-720.mp4" type="video/mp4">
-            <source src="video/all-720.ogv" type="video/ogv">
+            <source src="video/home-page-<?php
+echo(mt_rand(1,5)); ?>.webm" type="video/webm">
+            <source src="video/home-page-<?php
+echo(mt_rand(1,5)); ?>.mp4" type="video/mp4">
+            <source src="video/home-page-<?php
+echo(mt_rand(1,5)); ?>.ogv" type="video/ogv">
         </video>
         <?php } ?>
 
