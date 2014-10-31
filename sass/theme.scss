@@ -125,11 +125,7 @@ $altFont: "adelle",serif;
 	margin-top: 100px;
 	padding-bottom: 60px;
 	background-color: #fff;
-<<<<<<< HEAD
-	background-image: none ;
-=======
 	background-image: none;
->>>>>>> FETCH_HEAD
 	h1{
 		margin-top: 60px;
 		background-color: $textColor;
@@ -150,4 +146,21 @@ $altFont: "adelle",serif;
 	.page__description{
 		color: $textColor;
 	}
+}
+.hero__page--overview{
+	margin-top: 100px;
+	padding-bottom: 60px;
+	background-color: #fff;
+	background-image: none;
+	img{
+		max-width: 100%;
+	}
+	h1{
+		margin-top: -53px;
+	}
+}
+.overview__graphic{
+	background-color: $primaryColor;
+	padding-top: 60px;
+	min-height: 400px;
 }
