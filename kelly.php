@@ -25,10 +25,13 @@ include('includes/header.php') // Include header file //
 
         <section class="content__staff group">
             <div class="staff__bio grid-half no-margin">
-                <h2>Aspiring magician</h2>
                 <p>I am a graduate of West Virginia University and a proud member of the WebpageFX Team.</p>
 
                 <p>I'm happy to say that I learn something new everyday at WPFX--ranging from Web Analytics to Joomla, servers, SEO, PPC, coding and much, much more. I have also been working with the Adobe Creative Suite applications to strengthen my web design and graphic design skills.</p>
+                <a href="https://twitter.com/webtekcc" target="_blank"><img src="<?php echo $siteUrl; ?>img/twitter.jpg" alt="Twitter"></a>
+                <a href="https://plus.google.com/113276677194908813105?rel=author" target="_blank"><img src="<?php echo $siteUrl; ?>img/plus.jpg" alt="Google Plus"></a>
+                
+                <a href="https://www.linkedin.com/company/2394578" target="_blank"><img src="<?php echo $siteUrl; ?>img/linkedin.jpg" alt="LinkedIn"></a>
             </div>
             <div class="staff__gallery grid-half no-margin">
                 <div class="staff__gallery--image grid-2 no-margin">
