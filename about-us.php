@@ -146,12 +146,26 @@ include('includes/header.php') // Include header file //
                 </a>
             </div>
 
+            <div class="staff__wrap grid-2 no-margin">
+                <div class="career__opportunities">
+                    <p>Want to be part of our team?</p>
+                    <a href="" class="button">Career Opportunities</a>
+                </div>
+            </div>
+
+
         </section>
 
-        <!-- <section class="">
-            <p>WebTek is based in Lancaster County, PA and currently has over 400 active web clients. We have been designing websites and helping companies and organizations succeed online for over 13 years.</p>
+        <section class="about__section">
+            <h2>Stability and Experience</h2>
+            <p>It's this stability and experience coupled with the personable approach of being a small company that makes our customers feel comfortable doing business with us. Our web designers follow best practices like designing using today's web compliancy standards and proficiently programming web pages for search engine optimization, while keeping sites easy to navigate and visually appealing. When applicable we also like to spend time incorporating trendy designs and integrate inspiring concepts by utilizing the latest web technologies and give it a hi-end polished look.</p>
             
-        </section> -->
+            
+        </section>
+        <div class="office__tour">
+            <b>Office Virtual Tour</b>
+            <a href="" class="button">Take the tour</a> 
+        </div>
         
         <section class="feed">
             <div class="instagram group"></div>

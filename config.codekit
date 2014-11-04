@@ -431,6 +431,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/clayton\/clayton-flag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50362,
+		"inputAbbreviatedPath": "\/img\/clayton\/clayton-flag.jpg",
+		"outputAbbreviatedPath": "\/img\/clayton\/clayton-flag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/dan-kling.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -452,6 +463,61 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/dan\/dan-amanda.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59082,
+		"inputAbbreviatedPath": "\/img\/dan\/dan-amanda.jpg",
+		"outputAbbreviatedPath": "\/img\/dan\/dan-amanda.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/dan\/dan-family.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91339,
+		"inputAbbreviatedPath": "\/img\/dan\/dan-family.jpg",
+		"outputAbbreviatedPath": "\/img\/dan\/dan-family.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/dan\/dan-kiddos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53938,
+		"inputAbbreviatedPath": "\/img\/dan\/dan-kiddos.jpg",
+		"outputAbbreviatedPath": "\/img\/dan\/dan-kiddos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/dan\/dan-purple-heart.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79962,
+		"inputAbbreviatedPath": "\/img\/dan\/dan-purple-heart.jpg",
+		"outputAbbreviatedPath": "\/img\/dan\/dan-purple-heart.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/dan\/gl500.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84192,
+		"inputAbbreviatedPath": "\/img\/dan\/gl500.jpg",
+		"outputAbbreviatedPath": "\/img\/dan\/gl500.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/design.jpg": {
 		"fileType": 16384,
@@ -482,6 +548,17 @@
 		"initialSize": 93886,
 		"inputAbbreviatedPath": "\/img\/development.jpg",
 		"outputAbbreviatedPath": "\/img\/development.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/dribbble.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1673,
+		"inputAbbreviatedPath": "\/img\/dribbble.jpg",
+		"outputAbbreviatedPath": "\/img\/dribbble.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -705,6 +782,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/levi\/levi-alone.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56541,
+		"inputAbbreviatedPath": "\/img\/levi\/levi-alone.jpg",
+		"outputAbbreviatedPath": "\/img\/levi\/levi-alone.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/levi\/magic-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53060,
+		"inputAbbreviatedPath": "\/img\/levi\/magic-2.jpg",
+		"outputAbbreviatedPath": "\/img\/levi\/magic-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/levi\/magic.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48778,
+		"inputAbbreviatedPath": "\/img\/levi\/magic.jpg",
+		"outputAbbreviatedPath": "\/img\/levi\/magic.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/levi2.jpg": {
 		"fileType": 16384,

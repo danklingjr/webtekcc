@@ -951,20 +951,58 @@ nav[role=navigation]{
 		bottom: 10%;
 	}
 }
+.career__opportunities{
+	color: #fff;
+	text-align: center;
+	padding-top: 35%;
+	p{
+		font-family: $altFont;
+		margin-bottom: 5px;
+	}
+	.button{
+		margin-top: 0;
+	}
+}
 .about__section{
+	padding: 60px 0;
+	text-align: center;
+	h2{
+		background-color: $textColor;
+		display: inline-block;
+		font-family: $headlineFont;
+		font-size: em(42px, $font-size);
+		font-weight: normal;
+		line-height: 1.0em;
+		color: #fff;
+		text-transform: uppercase;
+		padding: 15px 20px 8px;
+		margin: 0 auto 20px;
+		@media screen and (min-width: 700px){
+			font-size: em(42px, $font-size);
+			padding: 15px 20px 8px;
+		}
+	}
 	p{
 		width: 100%;
-		max-width: 1035px;
+		max-width: 1280px;
 		font-family: $altFont;
 		font-size: em(18px,$font-size);
 		font-weight: normal;
-		color: #fff;
+		color: #252525;
 		line-height: 1.8em;
-		text-align: center;
-		margin: 0 auto;
+		text-align: left;
+		margin: 0 auto 40px;
 		padding: 0 5%;
+		a{
+			color: $primaryColor;
+			&:hover,
+			&:focus{
+				text-decoration: none;
+			}
+		}
+
 		@media screen and (min-width: 700px){
-			font-size: em(26px,$font-size);
+			font-size: em(20px,$font-size);
 			padding: 0 5%;
 		}
 	}
@@ -1767,6 +1805,25 @@ nav[role=navigation]{
 	}
 	&:hover{
 		right: 0;
+	}
+}
+.office__tour{
+	width: 100%;
+	// max-width: 1024px;
+	background-color: $primaryColor;
+	text-align: center;
+	margin: 0 auto;
+	padding: 60px 5%;
+	b{
+		display: block;
+		font-family: $altFont;
+		font-size: em(38px, $font-size);
+		font-weight: normal;
+		color: #fff;
+		margin-bottom: 20px;
+	}
+	.button{
+		margin-top: 0;
 	}
 }
 

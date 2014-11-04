@@ -1385,21 +1385,53 @@ nav[role=navigation] {
 .staff__wrap:focus .staff--details {
   bottom: 10%; }
 
-.about__section p {
-  width: 100%;
-  max-width: 1035px;
-  font-family: "adelle", serif;
-  font-size: 1.125em;
-  font-weight: normal;
+.career__opportunities {
   color: #fff;
-  line-height: 1.8em;
   text-align: center;
-  margin: 0 auto;
-  padding: 0 5%; }
-  @media screen and (min-width: 700px) {
-    .about__section p {
-      font-size: 1.625em;
-      padding: 0 5%; } }
+  padding-top: 35%; }
+  .career__opportunities p {
+    font-family: "adelle", serif;
+    margin-bottom: 5px; }
+  .career__opportunities .button {
+    margin-top: 0; }
+
+.about__section {
+  padding: 60px 0;
+  text-align: center; }
+  .about__section h2 {
+    background-color: #252525;
+    display: inline-block;
+    font-family: "alternate-gothic-no-2-d", sans-serif;
+    font-size: 2.625em;
+    font-weight: normal;
+    line-height: 1.0em;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 20px 8px;
+    margin: 0 auto 20px; }
+    @media screen and (min-width: 700px) {
+      .about__section h2 {
+        font-size: 2.625em;
+        padding: 15px 20px 8px; } }
+  .about__section p {
+    width: 100%;
+    max-width: 1280px;
+    font-family: "adelle", serif;
+    font-size: 1.125em;
+    font-weight: normal;
+    color: #252525;
+    line-height: 1.8em;
+    text-align: left;
+    margin: 0 auto 40px;
+    padding: 0 5%; }
+    .about__section p a {
+      color: #2a5bb3; }
+      .about__section p a:hover, .about__section p a:focus {
+        text-decoration: none; }
+    @media screen and (min-width: 700px) {
+      .about__section p {
+        font-size: 1.25em;
+        padding: 0 5%; } }
 
 /*! Service
 /////////////////////////////////////////////////*/
@@ -2089,6 +2121,22 @@ nav[role=navigation] {
     border-left: 5px solid #252525; }
   .pagination__link--next:hover {
     right: 0; }
+
+.office__tour {
+  width: 100%;
+  background-color: #2a5bb3;
+  text-align: center;
+  margin: 0 auto;
+  padding: 60px 5%; }
+  .office__tour b {
+    display: block;
+    font-family: "adelle", serif;
+    font-size: 2.375em;
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 20px; }
+  .office__tour .button {
+    margin-top: 0; }
 
 /*! Footer
 /////////////////////////////////////////////////*/

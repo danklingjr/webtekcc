@@ -49,7 +49,7 @@ include('includes/header.php') // Include header file //
             </div>
             <div class="staff__gallery grid-2">
                 <div class="staff__gallery--image grid-half">
-                   <img src="img/kelly/gameday.jpg" alt="">
+                   <img src="img/clayton/gameday.jpg" alt="">
                 </div>
                 <div class="staff__gallery--image grid-half">
                    <img src="img/kelly/kayaking.jpg" alt="">
