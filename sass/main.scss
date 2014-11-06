@@ -1829,6 +1829,179 @@ nav[role=navigation]{
 
 
 
+/*! Case study
+/////////////////////////////////////////////////*/
+.content__case-study{
+	padding: 80px 5%;
+	@media screen and (min-width: 1120px){
+		padding: 80px 10%;
+	}
+	h1{
+		display: inline-block;
+		background-color: #252525;
+		padding: 10px 15px 5px;
+		font-family: $headlineFont;
+		font-size: em(52px, $font-size);
+		font-weight: normal;
+		line-height: 1.0em;
+		color: #fff;
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 0;
+	}
+}
+.case-study__header{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.button__tag{
+	background-color: $secondaryColor;
+	margin: 0 5px;
+	margin-top: 10px;
+}
+.case-study__problem{
+	h3{
+		position: relative;
+		font-family: $altFont;
+		font-size: em(30px, $font-size);
+		font-weight: normal;
+		margin-bottom: 20px;
+	}
+	h3:after{
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: -8px;
+		width: 95px;
+		height: 4px;
+		background-color: #ebebeb;
+	}
+	p{
+		font-family: $altFont;
+		font-size: em(20px, $font-size);
+		line-height: 1.6em;
+		margin-bottom: 30px;
+	}
+}
+.case-study__style-guide{
+	background-color: #ebebeb;
+	padding: 50px 5%;
+	h2{
+		font-family: $headlineFont;
+		font-size: em(38px, $font-size);
+		font-weight: normal;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+	p{
+		font-family: $altFont;
+		font-size: em(20px, $font-size);
+		line-height: 1.6em;
+		margin: 0 auto 60px;
+		width: 100%;
+		max-width: 620px;
+	}
+}
+.color-swatch{
+	width: 46.969696969697%;
+	margin: 0 10px 1em;
+	display: inline-block;
+	@include prefix(box-shadow, 0 1px 3px rgba(0,0,0,0.25));
+	@include prefix(border-radius, 3px);
+	overflow: hidden;
+	@media screen and (min-width: 960px){
+		width: 13.636363636364%;
+	}
+}
+*[class^="color-swatch__top"]{
+	height: 145px;
+}
+.color-swatch__top--green{
+	background-color: #798a56;
+}
+.color-swatch__top--red{
+	background-color: #600f10;
+}
+.color-swatch__top--orange{
+	background-color: #8e441f;
+}
+.color-swatch__top--blue{
+	background-color: #517991;
+}
+.case-study__style-guide{
+	text-align: center;
+}
+.color-swatch__bottom{
+	background-color: #fff;
+	padding: 25px 0;
+	span{
+		font-family: $altFont;
+		font-size: em(18px, $font-size);
+	}
+}
+.case-study__breakdown{
+	padding: 60px 5%;
+	b{
+		display: block;
+		margin: 0 auto 30px;
+		text-align: center;
+	}
+	p{
+		width: 90%;
+		max-width: 820px;
+		margin: 0 auto 40px;
+		font-family: $altFont;
+		font-size: em(20px, $font-size);
+		line-height: 1.6em;
+	}
+	.highlight{
+		font-size: em(28px, $font-size);
+	}
+}
+.breakdown__graphic{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #d8d8d8;
+	padding: 0 0 8px;
+	@include prefix(border-radius, 3px);
+	@media screen and (min-width: 960px){
+		width: 66.666666%;
+	}
+	img{
+		width: 100%;
+	}
+}
+.breakdown__points{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0;
+	@media screen and (min-width: 960px){
+		width: 33.333333%;
+		padding: 0 0 0 20px;
+	}
+	b{
+		font-family: $headlineFont;
+		font-size: em(38px, $font-size);
+		font-weight: normal;
+		text-transform: uppercase;
+		text-align: left;
+		margin-bottom: 0px;
+	}
+	p{
+		width: 90%;
+		max-width: 820px;
+		margin: 0;
+		font-family: $altFont;
+		font-size: em(18px, $font-size);
+		line-height: 1.6em;
+	}
+}
+
+
+
+
 
 /*! Footer
 /////////////////////////////////////////////////*/

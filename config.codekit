@@ -948,6 +948,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/quote.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2201,
+		"inputAbbreviatedPath": "\/img\/quote.jpg",
+		"outputAbbreviatedPath": "\/img\/quote.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/responsive-graphic.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1068,6 +1079,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/vynecrest-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42526,
+		"inputAbbreviatedPath": "\/img\/vynecrest-bg.jpg",
+		"outputAbbreviatedPath": "\/img\/vynecrest-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vynecrest-device-graphic.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 525203,
+		"inputAbbreviatedPath": "\/img\/vynecrest-device-graphic.png",
+		"outputAbbreviatedPath": "\/img\/vynecrest-device-graphic.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vynecrest-homepage.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/vynecrest-homepage.png",
+		"outputAbbreviatedPath": "\/img\/vynecrest-homepage.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/web-design-graphic.png": {
 		"fileType": 32768,

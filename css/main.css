@@ -520,6 +520,13 @@ textarea {
     margin-top: 0;
     margin-bottom: 0px; }
 
+.hero__page--vynecrest {
+  background-image: url(../img/vynecrest-bg.jpg);
+  padding-top: 200px; }
+  .hero__page--vynecrest img {
+    width: 95%;
+    max-width: 1133px; }
+
 /*!////////////////////////////////////////////////
 // MODULES
 /////////////////////////////////////////////////*/
@@ -2137,6 +2144,170 @@ nav[role=navigation] {
     margin-bottom: 20px; }
   .office__tour .button {
     margin-top: 0; }
+
+/*! Case study
+/////////////////////////////////////////////////*/
+.content__case-study {
+  padding: 80px 5%; }
+  @media screen and (min-width: 1120px) {
+    .content__case-study {
+      padding: 80px 10%; } }
+  .content__case-study h1 {
+    display: inline-block;
+    background-color: #252525;
+    padding: 10px 15px 5px;
+    font-family: "alternate-gothic-no-2-d", sans-serif;
+    font-size: 3.25em;
+    font-weight: normal;
+    line-height: 1.0em;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0; }
+
+.case-study__header {
+  text-align: center;
+  margin-bottom: 50px; }
+
+.button__tag {
+  background-color: #c9de16;
+  margin: 0 5px;
+  margin-top: 10px; }
+
+.case-study__problem h3 {
+  position: relative;
+  font-family: "adelle", serif;
+  font-size: 1.875em;
+  font-weight: normal;
+  margin-bottom: 20px; }
+.case-study__problem h3:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 95px;
+  height: 4px;
+  background-color: #ebebeb; }
+.case-study__problem p {
+  font-family: "adelle", serif;
+  font-size: 1.25em;
+  line-height: 1.6em;
+  margin-bottom: 30px; }
+
+.case-study__style-guide {
+  background-color: #ebebeb;
+  padding: 50px 5%; }
+  .case-study__style-guide h2 {
+    font-family: "alternate-gothic-no-2-d", sans-serif;
+    font-size: 2.375em;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 10px; }
+  .case-study__style-guide p {
+    font-family: "adelle", serif;
+    font-size: 1.25em;
+    line-height: 1.6em;
+    margin: 0 auto 60px;
+    width: 100%;
+    max-width: 620px; }
+
+.color-swatch {
+  width: 46.969696969697%;
+  margin: 0 10px 1em;
+  display: inline-block;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  overflow: hidden; }
+  @media screen and (min-width: 960px) {
+    .color-swatch {
+      width: 13.636363636364%; } }
+
+*[class^="color-swatch__top"] {
+  height: 145px; }
+
+.color-swatch__top--green {
+  background-color: #798a56; }
+
+.color-swatch__top--red {
+  background-color: #600f10; }
+
+.color-swatch__top--orange {
+  background-color: #8e441f; }
+
+.color-swatch__top--blue {
+  background-color: #517991; }
+
+.case-study__style-guide {
+  text-align: center; }
+
+.color-swatch__bottom {
+  background-color: #fff;
+  padding: 25px 0; }
+  .color-swatch__bottom span {
+    font-family: "adelle", serif;
+    font-size: 1.125em; }
+
+.case-study__breakdown {
+  padding: 60px 5%; }
+  .case-study__breakdown b {
+    display: block;
+    margin: 0 auto 30px;
+    text-align: center; }
+  .case-study__breakdown p {
+    width: 90%;
+    max-width: 820px;
+    margin: 0 auto 40px;
+    font-family: "adelle", serif;
+    font-size: 1.25em;
+    line-height: 1.6em; }
+  .case-study__breakdown .highlight {
+    font-size: 1.75em; }
+
+.breakdown__graphic {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #d8d8d8;
+  padding: 0 0 8px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px; }
+  @media screen and (min-width: 960px) {
+    .breakdown__graphic {
+      width: 66.666666%; } }
+  .breakdown__graphic img {
+    width: 100%; }
+
+.breakdown__points {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0; }
+  @media screen and (min-width: 960px) {
+    .breakdown__points {
+      width: 33.333333%;
+      padding: 0 0 0 20px; } }
+  .breakdown__points b {
+    font-family: "alternate-gothic-no-2-d", sans-serif;
+    font-size: 2.375em;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 0px; }
+  .breakdown__points p {
+    width: 90%;
+    max-width: 820px;
+    margin: 0;
+    font-family: "adelle", serif;
+    font-size: 1.125em;
+    line-height: 1.6em; }
 
 /*! Footer
 /////////////////////////////////////////////////*/
