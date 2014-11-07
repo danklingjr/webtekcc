@@ -1853,11 +1853,18 @@ nav[role=navigation]{
 .case-study__header{
 	text-align: center;
 	margin-bottom: 50px;
+	.button{
+		margin-top: 10px;
+	}
 }
 .button__tag{
 	background-color: $secondaryColor;
 	margin: 0 5px;
 	margin-top: 10px;
+	&:hover,
+	&:focus{
+		background-color: darken($secondaryColor, 10);
+	}
 }
 .case-study__problem{
 	h3{
@@ -1928,6 +1935,20 @@ nav[role=navigation]{
 .color-swatch__top--blue{
 	background-color: #517991;
 }
+
+.color-swatch__top--rrta1{
+	background-color: #d92e3a;
+}
+.color-swatch__top--rrta2{
+	background-color: #3a6cc5;
+}
+.color-swatch__top--rrta3{
+	background-color: #f8bb00;
+}
+.color-swatch__top--rrta4{
+	background-color: #252525;
+}
+
 .case-study__style-guide{
 	text-align: center;
 }
@@ -1939,7 +1960,7 @@ nav[role=navigation]{
 		font-size: em(18px, $font-size);
 	}
 }
-.case-study__breakdown{
+*[class^="case-study__breakdown"]{
 	padding: 60px 5%;
 	b{
 		display: block;
@@ -1958,12 +1979,17 @@ nav[role=navigation]{
 		font-size: em(28px, $font-size);
 	}
 }
-.breakdown__graphic{
+.breakdown{
+	margin-bottom: 40px;
+}
+*[class^="breakdown__graphic"]{
+	position: relative;
 	width: 100%;
 	display: inline-block;
 	vertical-align: middle;
 	background-color: #d8d8d8;
 	padding: 0 0 8px;
+	margin-bottom: 20px;
 	@include prefix(border-radius, 3px);
 	@media screen and (min-width: 960px){
 		width: 66.666666%;
@@ -1972,30 +1998,119 @@ nav[role=navigation]{
 		width: 100%;
 	}
 }
-.breakdown__points{
+.breakdown__graphic--rrta{
+	background-color: #fff;
+}
+*[class^="point"]{
+	background-color: $primaryColor;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	color: #fff;
+	font-family: $altFont;
+	text-align: center;
+	@include prefix(border-radius, 15px);
+	padding: 3px 0 0 0;
+}
+.point-1{
+	top: 10%;
+	left: 30%;
+}
+.point-2{
+	top: 30%;
+	left: 40%;
+}
+.point-3{
+	top: 27%;
+	left: 85%;
+}
+.point-4{
+	top: 51%;
+	left: 85%;
+}
+.point-5{
+	bottom: 15%;
+	left: 53%;
+}
+
+.point-1--rrta{
+	top: 8%;
+	left: 10%;
+}
+.point-2--rrta{
+	top: 30%;
+	left: 22%;
+}
+.point-3--rrta{
+	top: 18%;
+	left: 4%;
+}
+.point-4--rrta{
+	top: 18%;
+	right: 37%;
+}
+.point-5--rrta{
+	bottom: 20%;
+	left: 60%;
+}
+.point-6--rrta{
+	top: 20%;
+	left: 10%;
+}
+.point-7--rrta{
+	top: 20%;
+	left: 50%;
+}
+.point-8--rrta{
+	top: 35%;
+	right: 10%;
+}
+*[class^="breakdown__points"]{
 	width: 100%;
 	display: inline-block;
 	vertical-align: middle;
 	padding: 0;
-	@media screen and (min-width: 960px){
-		width: 33.333333%;
-		padding: 0 0 0 20px;
-	}
+	
 	b{
 		font-family: $headlineFont;
-		font-size: em(38px, $font-size);
+		font-size: em(28px, $font-size);
 		font-weight: normal;
+		line-height: 1.0em;
 		text-transform: uppercase;
 		text-align: left;
-		margin-bottom: 0px;
+		margin-bottom: 5px;
 	}
 	p{
-		width: 90%;
+		width: 100%;
 		max-width: 820px;
 		margin: 0;
 		font-family: $altFont;
-		font-size: em(18px, $font-size);
+		font-size: em(16px, $font-size);
 		line-height: 1.6em;
+	}
+	@media screen and (min-width: 960px){
+		width: 33.333333%;
+		padding: 0 0 0 20px;
+		p{
+			width: 90%;
+		}
+	}
+}
+*[class^="breakdown__point"]{
+	margin-bottom: 30px;
+	position: relative;
+	span{
+		display: inline-block;
+		vertical-align: bottom;
+		background-color: $primaryColor;
+		width: 30px;
+		height: 30px;
+		color: #fff;
+		font-family: $altFont;
+		font-size: 16px;
+		text-align: center;
+		@include prefix(border-radius, 15px);
+		padding: 0 0 0 0;
 	}
 }
 
