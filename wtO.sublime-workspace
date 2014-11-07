@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"head",
+				"headlineFont"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
 				"margin",
 				"margin-top"
 			],
@@ -14,10 +30,6 @@
 			[
 				"min",
 				"min-width"
-			],
-			[
-				"text",
-				"text-transform"
 			],
 			[
 				"marg",
@@ -84,10 +96,82 @@
 	"buffers":
 	[
 		{
-			"file": "content-management-systems.php",
+			"file": "kornel-kurtz.php",
 			"settings":
 			{
-				"buffer_size": 3360,
+				"buffer_size": 3528,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "clayton-kurtz.php",
+			"settings":
+			{
+				"buffer_size": 3278,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "steve-nuttall.php",
+			"settings":
+			{
+				"buffer_size": 3285,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "levi-mccurdy.php",
+			"settings":
+			{
+				"buffer_size": 3265,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dan-kling.php",
+			"settings":
+			{
+				"buffer_size": 3278,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tara-mulhern.php",
+			"settings":
+			{
+				"buffer_size": 3283,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "emily-winand.php",
+			"settings":
+			{
+				"buffer_size": 3281,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "amanda-brown.php",
+			"settings":
+			{
+				"buffer_size": 3290,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chris-tremoglie.php",
+			"settings":
+			{
+				"buffer_size": 3281,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "fred-rodriguez.php",
+			"settings":
+			{
+				"buffer_size": 3278,
 				"line_ending": "Unix"
 			}
 		},
@@ -95,7 +179,26 @@
 			"file": "about-us.php",
 			"settings":
 			{
-				"buffer_size": 5957,
+				"buffer_size": 6823,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php\n// Define variables for SEO\n$parent = 'Case Studies';\n$parentId = 'case-studies';\n$pageId = 'vynecrest-winery';\n$pageTitle = 'Vynecrest Winery Web Design'; // Title of page //\n$pageDescription = 'put page description here'; // Title of page //\n$pageCanonical = 'http://www.url.com/';\n// If we don't want the search engines to see our website just yet\n//$pageRobots = 'noindex,nofollow';\ninclude('includes/header.php') // Include header file //\n?>\n\n        <section class=\"hero__page--vynecrest group\">\n            <img src=\"img/vynecrest-device-graphic.png\" alt=\"Vynecrest Winery, Devices\">\n        </section>\n\n        <div class=\"content__case-study group\">\n            <div class=\"case-study__header\">\n                <h1>Vynecrest Winery</h1>\n                <div class=\"case-study__tags\">\n                    <a href=\"\" class=\"button__tag\">Responsive Design</a><a href=\"\" class=\"button__tag\">ECommerce</a><a href=\"\" class=\"button__tag\">CMS</a><a href=\"http://www.vynecrest.com\" class=\"button\" target=\"_blank\">View Site</a>\n                </div>\n            </div>\n\n            <div class=\"group\">\n                <div class=\"case-study__problem grid-half\">\n                    <h3>Problem</h3>\n                    <p>A winery’s image is very important.  Vynecrest realized they had a website that didn’t match their company’s image and brand. Their website was designed for desktop only, which created a problem for customers using the site on mobile devices.</p>\n                </div>\n                <div class=\"case-study__problem grid-half\">\n                    <h3>Solution</h3>\n                    <p>We came up with a responsive solution with a darker, more refined color palette with the use of some textures that made the design seem more classic and established.  The approach is device agnostic meaning it should work at any resolution and on any device.</p>\n                </div>\n            </div>\n        </div>\n\n        <section class=\"case-study__style-guide\">\n            <h2>Style Guide</h2>\n            <p>We created a styleguide that blended the classic wine culture as well as Vynecrest’s modern beginnings in 1974.</p>\n            <div class=\"color-palette group\">\n                <div class=\"color-swatch\">\n                    <div class=\"color-swatch__top--green\">\n                        \n                    </div>\n                    <div class=\"color-swatch__bottom\">\n                        <span>#798a56</span>\n                    </div>\n                </div><!--\n                --><div class=\"color-swatch\">\n                    <div class=\"color-swatch__top--red\">\n                        \n                    </div>\n                    <div class=\"color-swatch__bottom\">\n                        <span>#600f10</span>\n                    </div>\n                </div><!--\n                --><div class=\"color-swatch\">\n                    <div class=\"color-swatch__top--orange\">\n                        \n                    </div>\n                    <div class=\"color-swatch__bottom\">\n                        <span>#8e441f</span>\n                    </div>\n                </div><!--\n                --><div class=\"color-swatch\">\n                    <div class=\"color-swatch__top--blue\">\n                        \n                    </div>\n                    <div class=\"color-swatch__bottom\">\n                        <span>#517991</span>\n                    </div>\n                </div>\n            </div>\n        </section>\n\n        <div class=\"case-study__breakdown group\">\n            <b class=\"quote\"><img src=\"img/quote.jpg\" alt=\"\"></b>\n            <p class=\"highlight\">Our wines speak to our dedication in producing fine wines. With over twenty wines ranging from red to white, dry to sweet, we are committed to making only quality wines. We enjoy what we do and we hope you enjoy the fruits of our labor!</p>\n            <p>We designed the Vynecrest homepage to focus on and compliment Vynecrest's dedication to producing quaility wines. Their dedication really impressed us so we wanted to match that level of quality and dedication with this design.</p>\n\n            <div class=\"breakdown group\">\n                <div class=\"breakdown__graphic\">\n                    <div class=\"browser--top group\">\n                        <span></span>\n                        <span></span>\n                        <span></span>\n                    </div>\n                    <img src=\"img/vynecrest-homepage.png\" alt=\"\">\n                    <span class=\"point-1\">1</span>\n                    <span class=\"point-2\">2</span>\n                    <span class=\"point-3\">3</span>\n                    <span class=\"point-4\">4</span>\n                    <span class=\"point-5\">5</span>\n                </div><!--\n                --><div class=\"breakdown__points\">\n                    <div class=\"breakdown__point\">\n                        <b><span>1</span> Present the brand</b>\n                        <p>Presenting the brand front and center was important to show current and new customers that they are an established, respected winery.</p>\n                    </div>\n                    <div class=\"breakdown__point\">\n                        <b><span>2</span> Focus on the wine</b>\n                        <p>For a winery, focusing on their wine is extremely important. This section has a call to action to view their wine as well as order it online.</p>\n                    </div>\n                    <div class=\"breakdown__point\">\n                        <b><span>3</span> Highlight locations</b>\n                        <p>They run various events at the winery so we wanted to highlight those as well as their multiple locations where customers can visit.</p>\n                    </div>\n                    <div class=\"breakdown__point\">\n                        <b><span>4</span> Wine of the month</b>\n                        <p>They needed a place to market their monthly deals that stood out and didn't clutter the layout.</p>\n                    </div>\n                    <div class=\"breakdown__point\">\n                        <b><span>5</span> Large Footer</b>\n                        <p>We designed a large footer to make their wines and contact info accessible on any page.</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n\n<?php include('includes/footer.php'); ?>",
+			"file": "vynecrest-winery.php",
+			"file_size": 6351,
+			"file_write_time": 1415395430000000,
+			"settings":
+			{
+				"buffer_size": 6349,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "red-rose-transit-authority.php",
+			"settings":
+			{
+				"buffer_size": 8071,
 				"line_ending": "Unix"
 			}
 		},
@@ -108,138 +211,10 @@
 			}
 		},
 		{
-			"file": "includes/footer.php",
-			"settings":
-			{
-				"buffer_size": 2020,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "includes/header.php",
-			"settings":
-			{
-				"buffer_size": 2688,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "includes/web-nav.php",
-			"settings":
-			{
-				"buffer_size": 605,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ecommerce.php",
-			"settings":
-			{
-				"buffer_size": 4635,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "link-building.php",
-			"settings":
-			{
-				"buffer_size": 4932,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "mobile-websites.php",
-			"settings":
-			{
-				"buffer_size": 3658,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "redesign.php",
-			"settings":
-			{
-				"buffer_size": 3666,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "responsive-web-design.php",
-			"settings":
-			{
-				"buffer_size": 6106,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "search-engine-optimization.php",
-			"settings":
-			{
-				"buffer_size": 4900,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "seo-pricing.php",
-			"settings":
-			{
-				"buffer_size": 4582,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "white-hat-seo.php",
-			"settings":
-			{
-				"buffer_size": 4048,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "wordpress.php",
-			"settings":
-			{
-				"buffer_size": 3309,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.php",
-			"settings":
-			{
-				"buffer_size": 7649,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "work.html",
-			"settings":
-			{
-				"buffer_size": 21413,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "includes/breadcrumbs.php",
-			"settings":
-			{
-				"buffer_size": 269,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "includes/sidebar-marketing.php",
-			"settings":
-			{
-				"buffer_size": 2045,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "sass/main.scss",
 			"settings":
 			{
-				"buffer_size": 24215,
+				"buffer_size": 40182,
 				"line_ending": "Unix"
 			}
 		},
@@ -247,7 +222,7 @@
 			"file": "sass/theme.scss",
 			"settings":
 			{
-				"buffer_size": 3101,
+				"buffer_size": 4023,
 				"line_ending": "Unix"
 			}
 		},
@@ -280,6 +255,14 @@
 			"settings":
 			{
 				"buffer_size": 1088,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/layout.css",
+			"settings":
+			{
+				"buffer_size": 1661,
 				"line_ending": "Unix"
 			}
 		}
@@ -360,29 +343,34 @@
 	},
 	"file_history":
 	[
-		"/Users/Dan/Desktop/Projects/webtekcc/includes/nav.php",
-		"/Users/Dan/Desktop/Projects/webtekcc/about-us.html",
-		"/Users/Dan/Desktop/Projects/webtekcc/work.html",
-		"/Users/Dan/Desktop/Projects/webtekcc/ecommerce.php",
-		"/Users/Dan/Desktop/Projects/webtekcc/mobile-websites.php",
-		"/Users/Dan/Desktop/Projects/webtekcc/redesign.php",
-		"/Users/Dan/Desktop/Projects/webtekcc/responsive-web-design.php",
-		"/Users/Dan/Desktop/Projects/webtekcc/includes/header.php",
-		"/Users/Dan/Desktop/Projects/webtekcc/link-building.php",
-		"/Users/Dan/Desktop/Projects/webtekcc/includes/footer.php",
+		"/Users/Dan/Desktop/Projects/webtekcc/kelly2.php",
+		"/Users/Dan/Desktop/Projects/webtekcc/kelly.php",
 		"/Users/Dan/Desktop/Projects/webtekcc/includes/sidebar-marketing.php",
+		"/Users/Dan/Desktop/Projects/webtekcc/includes/breadcrumbs.php",
+		"/Users/Dan/Desktop/Projects/webtekcc/work.html",
+		"/Users/Dan/Desktop/Projects/webtekcc/index.php",
 		"/Users/Dan/Desktop/Projects/webtekcc/wordpress.php",
 		"/Users/Dan/Desktop/Projects/webtekcc/white-hat-seo.php",
-		"/Users/Dan/Desktop/Projects/webtekcc/includes/breadcrumbs.php",
 		"/Users/Dan/Desktop/Projects/webtekcc/seo-pricing.php",
 		"/Users/Dan/Desktop/Projects/webtekcc/search-engine-optimization.php",
-		"/Users/Dan/Desktop/Projects/webtekcc/js/vendor/jquery.instagram.js",
+		"/Users/Dan/Desktop/Projects/webtekcc/responsive-web-design.php",
+		"/Users/Dan/Desktop/Projects/webtekcc/redesign.php",
+		"/Users/Dan/Desktop/Projects/webtekcc/mobile-websites.php",
+		"/Users/Dan/Desktop/Projects/webtekcc/link-building.php",
+		"/Users/Dan/Desktop/Projects/webtekcc/ecommerce.php",
+		"/Users/Dan/Desktop/Projects/webtekcc/includes/web-nav.php",
+		"/Users/Dan/Desktop/Projects/webtekcc/includes/header.php",
+		"/Users/Dan/Desktop/Projects/webtekcc/includes/footer.php",
+		"/Users/Dan/Desktop/Projects/webtekcc/portfolio.php",
+		"/Users/Dan/Desktop/Projects/webtekcc/about-us.php",
 		"/Users/Dan/Desktop/Projects/webtekcc/content-management-systems.php",
+		"/Users/Dan/Desktop/Projects/webtekcc/includes/nav.php",
+		"/Users/Dan/Desktop/Projects/webtekcc/about-us.html",
+		"/Users/Dan/Desktop/Projects/webtekcc/js/vendor/jquery.instagram.js",
 		"/Users/Dan/Desktop/Projects/webtekcc/includes/testimonial-sidebar.php",
 		"/Users/Dan/Desktop/Projects/webtekcc/service-web.html",
 		"/Users/Dan/Desktop/Projects/webtekcc/README.md",
 		"/Users/Dan/Desktop/Projects/webtekcc/crossdomain.xml",
-		"/Users/Dan/Desktop/Projects/webtekcc/index.php",
 		"/Users/Dan/Desktop/Projects/webtekcc/index.html",
 		"/Users/Dan/Desktop/Projects/webtekcc/service-marketing.html",
 		"/Users/Dan/Desktop/Projects/webtekcc/service-dev.html",
@@ -476,6 +464,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"grid-1",
+			"case-study",
+			"1",
+			"span",
 			"blockquote",
 			"button--sidebar",
 			"staff__wra",
@@ -589,23 +581,23 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 12,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "content-management-systems.php",
+					"file": "kornel-kurtz.php",
 					"settings":
 					{
-						"buffer_size": 3360,
+						"buffer_size": 3528,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								45,
-								45
+								2902,
+								2902
 							]
 						],
 						"settings":
@@ -625,18 +617,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "about-us.php",
+					"file": "clayton-kurtz.php",
 					"settings":
 					{
-						"buffer_size": 5957,
+						"buffer_size": 3278,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2418,
-								2418
+								531,
+								531
 							]
 						],
 						"settings":
@@ -648,7 +640,7 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 2.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -656,18 +648,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "portfolio.php",
+					"file": "steve-nuttall.php",
 					"settings":
 					{
-						"buffer_size": 17101,
+						"buffer_size": 3285,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								110,
-								110
+								341,
+								341
 							]
 						],
 						"settings":
@@ -687,18 +679,18 @@
 				},
 				{
 					"buffer": 3,
-					"file": "includes/footer.php",
+					"file": "levi-mccurdy.php",
 					"settings":
 					{
-						"buffer_size": 2020,
+						"buffer_size": 3265,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1974,
+								1974
 							]
 						],
 						"settings":
@@ -718,18 +710,18 @@
 				},
 				{
 					"buffer": 4,
-					"file": "includes/header.php",
+					"file": "dan-kling.php",
 					"settings":
 					{
-						"buffer_size": 2688,
+						"buffer_size": 3278,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3166,
+								3166
 							]
 						],
 						"settings":
@@ -749,18 +741,18 @@
 				},
 				{
 					"buffer": 5,
-					"file": "includes/web-nav.php",
+					"file": "tara-mulhern.php",
 					"settings":
 					{
-						"buffer_size": 605,
+						"buffer_size": 3283,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								499,
-								499
+								209,
+								209
 							]
 						],
 						"settings":
@@ -768,7 +760,9 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -778,18 +772,18 @@
 				},
 				{
 					"buffer": 6,
-					"file": "ecommerce.php",
+					"file": "emily-winand.php",
 					"settings":
 					{
-						"buffer_size": 4635,
+						"buffer_size": 3281,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1201,
-								1201
+								536,
+								536
 							]
 						],
 						"settings":
@@ -809,18 +803,18 @@
 				},
 				{
 					"buffer": 7,
-					"file": "link-building.php",
+					"file": "amanda-brown.php",
 					"settings":
 					{
-						"buffer_size": 4932,
+						"buffer_size": 3290,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1355,
-								1355
+								536,
+								536
 							]
 						],
 						"settings":
@@ -840,18 +834,18 @@
 				},
 				{
 					"buffer": 8,
-					"file": "mobile-websites.php",
+					"file": "chris-tremoglie.php",
 					"settings":
 					{
-						"buffer_size": 3658,
+						"buffer_size": 3281,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								775,
-								734
+								0,
+								0
 							]
 						],
 						"settings":
@@ -871,18 +865,18 @@
 				},
 				{
 					"buffer": 9,
-					"file": "redesign.php",
+					"file": "fred-rodriguez.php",
 					"settings":
 					{
-						"buffer_size": 3666,
+						"buffer_size": 3278,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								754,
-								754
+								0,
+								0
 							]
 						],
 						"settings":
@@ -902,18 +896,18 @@
 				},
 				{
 					"buffer": 10,
-					"file": "responsive-web-design.php",
+					"file": "about-us.php",
 					"settings":
 					{
-						"buffer_size": 6106,
+						"buffer_size": 6823,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								4589,
+								4589
 							]
 						],
 						"settings":
@@ -926,25 +920,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1656.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 11,
-					"file": "search-engine-optimization.php",
+					"file": "vynecrest-winery.php",
 					"settings":
 					{
-						"buffer_size": 4900,
+						"buffer_size": 6349,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1478,
-								1478
+								181,
+								34
 							]
 						],
 						"settings":
@@ -957,25 +951,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 12,
-					"file": "seo-pricing.php",
+					"file": "red-rose-transit-authority.php",
 					"settings":
 					{
-						"buffer_size": 4582,
+						"buffer_size": 8071,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								195,
+								34
 							]
 						],
 						"settings":
@@ -995,171 +989,18 @@
 				},
 				{
 					"buffer": 13,
-					"file": "white-hat-seo.php",
+					"file": "portfolio.php",
 					"settings":
 					{
-						"buffer_size": 4048,
+						"buffer_size": 17101,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1342,
-								1297
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "wordpress.php",
-					"settings":
-					{
-						"buffer_size": 3309,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1216,
-								1216
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "index.php",
-					"settings":
-					{
-						"buffer_size": 7649,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								291,
-								291
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "work.html",
-					"settings":
-					{
-						"buffer_size": 21413,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1852,
-								19777
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 7488.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 17,
-					"file": "includes/breadcrumbs.php",
-					"settings":
-					{
-						"buffer_size": 269,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 1.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"file": "includes/sidebar-marketing.php",
-					"settings":
-					{
-						"buffer_size": 2045,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								3036,
+								2863
 							]
 						],
 						"settings":
@@ -1180,23 +1021,23 @@
 			]
 		},
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 19,
+					"buffer": 14,
 					"file": "sass/main.scss",
 					"settings":
 					{
-						"buffer_size": 24215,
+						"buffer_size": 40182,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								36819,
+								36819
 							]
 						],
 						"settings":
@@ -1208,25 +1049,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 7837.0,
+						"translation.y": 27597.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 15,
 					"file": "sass/theme.scss",
 					"settings":
 					{
-						"buffer_size": 3101,
+						"buffer_size": 4023,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3952,
+								3952
 							]
 						],
 						"settings":
@@ -1238,13 +1079,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2028.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 16,
 					"file": "sass/layout.scss",
 					"settings":
 					{
@@ -1255,8 +1096,8 @@
 						"selection":
 						[
 							[
-								1892,
-								1892
+								511,
+								511
 							]
 						],
 						"settings":
@@ -1269,13 +1110,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 678.0,
+						"translation.y": 168.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 17,
 					"file": "js/main.js",
 					"settings":
 					{
@@ -1306,7 +1147,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 18,
 					"file": "sass/mixins.scss",
 					"settings":
 					{
@@ -1317,8 +1158,8 @@
 						"selection":
 						[
 							[
-								205,
-								205
+								1973,
+								1973
 							]
 						],
 						"settings":
@@ -1330,14 +1171,14 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 40.0,
-						"translation.y": 1.0,
+						"translation.x": 0.0,
+						"translation.y": 1518.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 19,
 					"file": "sass/resets.scss",
 					"settings":
 					{
@@ -1362,7 +1203,38 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 177.0,
+						"translation.y": 158.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "css/layout.css",
+					"settings":
+					{
+						"buffer_size": 1661,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								717,
+								693
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 262.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1398,7 +1270,7 @@
 		"cols":
 		[
 			0.0,
-			0.680332311603,
+			0.487747211157,
 			1.0
 		],
 		"rows":
