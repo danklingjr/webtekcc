@@ -13,6 +13,12 @@ include('includes/header.php') // Include header file //
 
         <section class="hero__page--rrta group">
             <img src="img/rrta-device-graphic.png" alt="Red Rose Transit, Devices">
+            <div class="pagination__link--previous">
+                <a href="">Previous: <span>PA Healthcare</span></a>
+            </div>
+            <div class="pagination__link--next">
+                <a href="">Next</a>
+            </div>
         </section>
 
         <div class="content__case-study group">

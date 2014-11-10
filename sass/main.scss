@@ -1781,6 +1781,14 @@ nav[role=navigation]{
 		}
 	}
 }
+.hero__page--vynecrest,
+.hero__page--rrta,
+.hero__page--pahc{
+	position: relative;
+	*[class^="pagination__link"]{
+		top: 54%;
+	}
+}
 .pagination__link--previous{
 	position: absolute;
 	left: -245px;
@@ -1949,6 +1957,17 @@ nav[role=navigation]{
 	background-color: #252525;
 }
 
+.color-swatch__top--pa1{
+	background-color: #3e9bbd;
+}
+.color-swatch__top--pa2{
+	background-color: #fecb4c;
+}
+.color-swatch__top--pa3{
+	background-color: #ffa94c;
+}
+
+
 .case-study__style-guide{
 	text-align: center;
 }
@@ -2065,6 +2084,23 @@ nav[role=navigation]{
 	top: 35%;
 	right: 10%;
 }
+
+.point-1--pa{
+	top: 15%;
+	right: 8.5%;
+}
+.point-2--pa{
+	top: 35%;
+	left: 20%;
+}
+.point-3--pa{
+	top: 35%;
+	left: 50%;
+}
+.point-4--pa{
+	top: 35%;
+	right: 20%;
+}
 *[class^="breakdown__points"]{
 	width: 100%;
 	display: inline-block;
@@ -2169,7 +2205,7 @@ footer[role=contentinfo]{
 	text-align: center;
 	padding-right: 0px;
 	@media screen and (min-width: 600px){
-		width: 20%;
+		width: 30%;
 		text-align: left;
 		padding-right: 20px;
 	}
@@ -2179,7 +2215,7 @@ footer[role=contentinfo]{
 	vertical-align: middle;
 	width: 100%;
 	@media screen and (min-width: 600px){
-		width: 80%;
+		width: 70%;
 	}
 }
 

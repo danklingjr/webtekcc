@@ -522,17 +522,22 @@ textarea {
 
 .hero__page--vynecrest {
   background-image: url(../img/vynecrest-bg.jpg);
-  padding-top: 200px; }
+  padding-top: 200px;
+  overflow: hidden; }
   .hero__page--vynecrest img {
     width: 95%;
     max-width: 1133px; }
 
-.hero__page--rrta {
+.hero__page--rrta, .hero__page--pahc {
   background-image: url(../img/station.jpg);
-  padding-top: 200px; }
-  .hero__page--rrta img {
+  padding-top: 200px;
+  overflow: hidden; }
+  .hero__page--rrta img, .hero__page--pahc img {
     width: 95%;
     max-width: 1133px; }
+
+.hero__page--pahc {
+  background-image: url(../img/healthcare-bg.jpg); }
 
 /*!////////////////////////////////////////////////
 // MODULES
@@ -2108,6 +2113,17 @@ nav[role=navigation] {
     text-decoration: none;
     padding: 10px 10px; }
 
+.hero__page--vynecrest,
+.hero__page--rrta,
+.hero__page--pahc,
+.hero__page--pahc {
+  position: relative; }
+  .hero__page--vynecrest *[class^="pagination__link"],
+  .hero__page--rrta *[class^="pagination__link"],
+  .hero__page--pahc *[class^="pagination__link"],
+  .hero__page--pahc *[class^="pagination__link"] {
+    top: 54%; }
+
 .pagination__link--previous {
   position: absolute;
   left: -245px;
@@ -2266,6 +2282,15 @@ nav[role=navigation] {
 .color-swatch__top--rrta4 {
   background-color: #252525; }
 
+.color-swatch__top--pa1 {
+  background-color: #3e9bbd; }
+
+.color-swatch__top--pa2 {
+  background-color: #fecb4c; }
+
+.color-swatch__top--pa3 {
+  background-color: #ffa94c; }
+
 .case-study__style-guide {
   text-align: center; }
 
@@ -2382,6 +2407,22 @@ nav[role=navigation] {
   top: 35%;
   right: 10%; }
 
+.point-1--pa {
+  top: 15%;
+  right: 8.5%; }
+
+.point-2--pa {
+  top: 35%;
+  left: 20%; }
+
+.point-3--pa {
+  top: 35%;
+  left: 50%; }
+
+.point-4--pa {
+  top: 35%;
+  right: 20%; }
+
 *[class^="breakdown__points"] {
   width: 100%;
   display: inline-block;
@@ -2478,7 +2519,7 @@ footer[role=contentinfo] {
   padding-right: 0px; }
   @media screen and (min-width: 600px) {
     .social-media {
-      width: 20%;
+      width: 30%;
       text-align: left;
       padding-right: 20px; } }
 
@@ -2488,7 +2529,7 @@ footer[role=contentinfo] {
   width: 100%; }
   @media screen and (min-width: 600px) {
     .copyright {
-      width: 80%; } }
+      width: 70%; } }
 
 /*!////////////////////////////////////////////////
 // STATES

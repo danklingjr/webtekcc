@@ -183,6 +183,7 @@ $altFont: "adelle",serif;
 .hero__page--vynecrest{
 	background-image: url(../img/vynecrest-bg.jpg);
 	padding-top: 200px;
+	overflow: hidden;
 	img{
 		width: 95%;
 		max-width: 1133px;
@@ -191,9 +192,14 @@ $altFont: "adelle",serif;
 .hero__page--rrta{
 	background-image: url(../img/station.jpg);
 	padding-top: 200px;
+	overflow: hidden;
 	img{
 		width: 95%;
 		max-width: 1133px;
 	}
+}
+.hero__page--pahc{
+	@extend .hero__page--rrta;
+	background-image: url(../img/healthcare-bg.jpg);
 }
 
