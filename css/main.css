@@ -124,7 +124,7 @@ textarea {
 .row {
   clear: both; }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 400px) {
   .wrap {
     width: 98%; }
 
@@ -191,7 +191,7 @@ textarea {
 
   .grid-flow-opposite {
     float: right; } }
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 800px) {
   .grid-1 {
     width: 15.40404%; }
     .grid-1:nth-child(n) {
@@ -1647,8 +1647,9 @@ nav[role=navigation] {
   text-align: left; }
 
 .browser-outer {
+  background-color: #fff;
   position: relative;
-  border: 5px solid #fff;
+  border: 5px solid #cccccc;
   border-radius: 5px;
   margin: 0 auto;
   overflow: hidden;
@@ -1656,12 +1657,12 @@ nav[role=navigation] {
   min-width: 300px; }
 
 .browser-top {
-  background: #fff;
+  background: #cccccc;
   padding: 0px 10px 5px; }
 
 .browser-top span {
   position: relative;
-  background-color: #3b3a39;
+  background-color: #f0f0f0;
   width: 10px;
   height: 10px;
   border-radius: 5px;
@@ -1671,12 +1672,12 @@ nav[role=navigation] {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #fff;
+  background-color: #cccccc;
   padding: 8px 0 3px;
   opacity: 0; }
 
 .push-button {
-  background-color: #3b3a39;
+  background-color: #f0f0f0;
   width: 40px;
   height: 40px;
   border-radius: 20px;
@@ -1687,7 +1688,7 @@ nav[role=navigation] {
   padding: 40px; }
 
 .large-block {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: #cccccc;
   width: 100%;
   height: 100px; }
 
@@ -1704,18 +1705,18 @@ nav[role=navigation] {
   margin-top: 20px; }
 
 .medium-block {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: #cccccc;
   width: 100%;
   height: 100px; }
 
 .text-block {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: #cccccc;
   width: 100%;
   height: 20px;
   margin-top: 20px; }
 
 .half-text-block {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: #cccccc;
   width: 50%;
   height: 20px;
   margin-top: 20px; }
@@ -2341,7 +2342,7 @@ nav[role=navigation] {
 .breakdown__graphic--rrta {
   background-color: #fff; }
 
-*[class^="point"] {
+*[class^="project__point"] {
   background-color: #2a5bb3;
   width: 30px;
   height: 30px;
@@ -2355,71 +2356,71 @@ nav[role=navigation] {
   border-radius: 15px;
   padding: 3px 0 0 0; }
 
-.point-1 {
+.project__point-1 {
   top: 10%;
   left: 30%; }
 
-.point-2 {
+.project__point-2 {
   top: 30%;
   left: 40%; }
 
-.point-3 {
+.project__point-3 {
   top: 27%;
   left: 85%; }
 
-.point-4 {
+.project__point-4 {
   top: 51%;
   left: 85%; }
 
-.point-5 {
+.project__point-5 {
   bottom: 15%;
   left: 53%; }
 
-.point-1--rrta {
+.project__point-1--rrta {
   top: 8%;
   left: 10%; }
 
-.point-2--rrta {
+.project__point-2--rrta {
   top: 30%;
   left: 22%; }
 
-.point-3--rrta {
+.project__point-3--rrta {
   top: 18%;
   left: 4%; }
 
-.point-4--rrta {
+.project__point-4--rrta {
   top: 18%;
   right: 37%; }
 
-.point-5--rrta {
+.project__point-5--rrta {
   bottom: 20%;
   left: 60%; }
 
-.point-6--rrta {
+.project__point-6--rrta {
   top: 20%;
   left: 10%; }
 
-.point-7--rrta {
+.project__point-7--rrta {
   top: 20%;
   left: 50%; }
 
-.point-8--rrta {
+.project__point-8--rrta {
   top: 35%;
   right: 10%; }
 
-.point-1--pa {
+.project__point-1--pa {
   top: 15%;
   right: 8.5%; }
 
-.point-2--pa {
+.project__point-2--pa {
   top: 35%;
   left: 20%; }
 
-.point-3--pa {
+.project__point-3--pa {
   top: 35%;
   left: 50%; }
 
-.point-4--pa {
+.project__point-4--pa {
   top: 35%;
   right: 20%; }
 

@@ -884,6 +884,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/pa-healthcare-case-study.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 237318,
+		"inputAbbreviatedPath": "\/img\/pa-healthcare-case-study.png",
+		"outputAbbreviatedPath": "\/img\/pa-healthcare-case-study.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/img\/pa-healthcare-homepage.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -891,17 +902,6 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/img\/pa-healthcare-homepage.png",
 		"outputAbbreviatedPath": "\/img\/pa-healthcare-homepage.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/img\/pa-healthcare.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 240150,
-		"inputAbbreviatedPath": "\/img\/pa-healthcare.png",
-		"outputAbbreviatedPath": "\/img\/pa-healthcare.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1

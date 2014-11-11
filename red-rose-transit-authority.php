@@ -88,9 +88,9 @@ include('includes/header.php') // Include header file //
             <div class="breakdown group">
                 <div class="breakdown__graphic--rrta">
                     <img src="img/rrta-devices.png" alt="">
-                    <span class="point-6--rrta">1</span>
-                    <span class="point-7--rrta">2</span>
-                    <span class="point-8--rrta">3</span>
+                    <span class="project__point-6--rrta">1</span>
+                    <span class="project__point-7--rrta">2</span>
+                    <span class="project__point-8--rrta">3</span>
                 </div><!--
                 --><div class="breakdown__points">
                     <div class="breakdown__point">
@@ -111,8 +111,8 @@ include('includes/header.php') // Include header file //
             <div class="breakdown group">
                 <div class="breakdown__graphic--rrta">
                     <img src="img/rrta-routes.jpg" alt="">
-                    <span class="point-1--rrta">1</span>
-                    <span class="point-2--rrta">2</span>
+                    <span class="project__point-1--rrta">1</span>
+                    <span class="project__point-2--rrta">2</span>
                 </div><!--
                 --><div class="breakdown__points">
                     <div class="breakdown__point">
@@ -129,8 +129,8 @@ include('includes/header.php') // Include header file //
             <div class="breakdown group">
                 <div class="breakdown__graphic--rrta">
                     <img src="img/rrta-footer.jpg" alt="">
-                    <span class="point-3--rrta">1</span>
-                    <span class="point-5--rrta">2</span>
+                    <span class="project__point-3--rrta">1</span>
+                    <span class="project__point-5--rrta">2</span>
                 </div><!--
                 --><div class="breakdown__points">
                     <div class="breakdown__point">
