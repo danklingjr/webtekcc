@@ -1,12 +1,11 @@
-                    <nav role="navigation">
+                    <nav role="navigation" class="main-nav">
                          <div class="dropdown">
-                         	<a href="">Web Design</a>
+                         	<a href="" class="nav__focus--web">Web Design<span>&#x25BC;</span></a>
                          	<div class="dropdown--nav--design group">
                          		<ul class="grid-2">
                          			<li class="title__wrap--design">
                                              <h3 class="design__title">Design</h3>
                                              <img src="img/design.jpg" alt="">
-                                             
                                         </li>
                          			<li><a href="<?php echo $siteUrl; ?>web-design/responsive-web-design.php">Responsive Web Design</a></li>
                          			<li><a href="<?php echo $siteUrl; ?>web-design/mobile-websites.php">Mobile Websites</a></li>
@@ -34,12 +33,11 @@
                          	</div>
                          </div>
                          <div class="dropdown">
-                         	<a href="">Marketing</a>
+                         	<a href="" class="nav__focus--marketing">Marketing<span>&#x25BC;</span></a>
                          	<div class="dropdown--nav--marketing group">
                          		<ul class="grid-half">
                          			<li>
                                              <h3 class="design__title">Search &amp; Social</h3>
-
                                         </li>
                          			<li><a href="<?php echo $siteUrl; ?>internet-marketing/search-engine-optimization.php">Search Engine Optimization</a></li>
                          			<li><a href="<?php echo $siteUrl; ?>internet-marketing/search-engine-marketing.php">Search Engine Marketing</a></li>

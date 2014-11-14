@@ -184,13 +184,18 @@
 			}
 		},
 		{
-			"contents": "<?php\n// Define variables for SEO\n$parent = 'Case Studies';\n$parentId = 'case-studies';\n$pageId = 'vynecrest-winery';\n$pageTitle = 'Vynecrest Winery Web Design'; // Title of page //\n$pageDescription = 'put page description here'; // Title of page //\n$pageCanonical = 'http://www.url.com/';\n// If we don't want the search engines to see our website just yet\n//$pageRobots = 'noindex,nofollow';\ninclude('includes/header.php') // Include header file //\n?>\n\n        <section class=\"hero__page--vynecrest group\">\n            <img src=\"img/vynecrest-device-graphic.png\" alt=\"Vynecrest Winery, Devices\">\n        </section>\n\n        <div class=\"content__case-study group\">\n            <div class=\"case-study__header\">\n                <h1>Vynecrest Winery</h1>\n                <div class=\"case-study__tags\">\n                    <a href=\"\" class=\"button__tag\">Responsive Design</a><a href=\"\" class=\"button__tag\">ECommerce</a><a href=\"\" class=\"button__tag\">CMS</a><a href=\"http://www.vynecrest.com\" class=\"button\" target=\"_blank\">View Site</a>\n                </div>\n            </div>\n\n            <div class=\"group\">\n                <div class=\"case-study__problem grid-half\">\n                    <h3>Problem</h3>\n                    <p>A winery’s image is very important.  Vynecrest realized they had a website that didn’t match their company’s image and brand. Their website was designed for desktop only, which created a problem for customers using the site on mobile devices.</p>\n                </div>\n                <div class=\"case-study__problem grid-half\">\n                    <h3>Solution</h3>\n                    <p>We came up with a responsive solution with a darker, more refined color palette with the use of some textures that made the design seem more classic and established.  The approach is device agnostic meaning it should work at any resolution and on any device.</p>\n                </div>\n            </div>\n        </div>\n\n        <section class=\"case-study__style-guide\">\n            <h2>Style Guide</h2>\n            <p>We created a styleguide that blended the classic wine culture as well as Vynecrest’s modern beginnings in 1974.</p>\n            <div class=\"color-palette group\">\n                <div class=\"color-swatch\">\n                    <div class=\"color-swatch__top--green\">\n                        \n                    </div>\n                    <div class=\"color-swatch__bottom\">\n                        <span>#798a56</span>\n                    </div>\n                </div><!--\n                --><div class=\"color-swatch\">\n                    <div class=\"color-swatch__top--red\">\n                        \n                    </div>\n                    <div class=\"color-swatch__bottom\">\n                        <span>#600f10</span>\n                    </div>\n                </div><!--\n                --><div class=\"color-swatch\">\n                    <div class=\"color-swatch__top--orange\">\n                        \n                    </div>\n                    <div class=\"color-swatch__bottom\">\n                        <span>#8e441f</span>\n                    </div>\n                </div><!--\n                --><div class=\"color-swatch\">\n                    <div class=\"color-swatch__top--blue\">\n                        \n                    </div>\n                    <div class=\"color-swatch__bottom\">\n                        <span>#517991</span>\n                    </div>\n                </div>\n            </div>\n        </section>\n\n        <div class=\"case-study__breakdown group\">\n            <b class=\"quote\"><img src=\"img/quote.jpg\" alt=\"\"></b>\n            <p class=\"highlight\">Our wines speak to our dedication in producing fine wines. With over twenty wines ranging from red to white, dry to sweet, we are committed to making only quality wines. We enjoy what we do and we hope you enjoy the fruits of our labor!</p>\n            <p>We designed the Vynecrest homepage to focus on and compliment Vynecrest's dedication to producing quaility wines. Their dedication really impressed us so we wanted to match that level of quality and dedication with this design.</p>\n\n            <div class=\"breakdown group\">\n                <div class=\"breakdown__graphic\">\n                    <div class=\"browser--top group\">\n                        <span></span>\n                        <span></span>\n                        <span></span>\n                    </div>\n                    <img src=\"img/vynecrest-homepage.png\" alt=\"\">\n                    <span class=\"point-1\">1</span>\n                    <span class=\"point-2\">2</span>\n                    <span class=\"point-3\">3</span>\n                    <span class=\"point-4\">4</span>\n                    <span class=\"point-5\">5</span>\n                </div><!--\n                --><div class=\"breakdown__points\">\n                    <div class=\"breakdown__point\">\n                        <b><span>1</span> Present the brand</b>\n                        <p>Presenting the brand front and center was important to show current and new customers that they are an established, respected winery.</p>\n                    </div>\n                    <div class=\"breakdown__point\">\n                        <b><span>2</span> Focus on the wine</b>\n                        <p>For a winery, focusing on their wine is extremely important. This section has a call to action to view their wine as well as order it online.</p>\n                    </div>\n                    <div class=\"breakdown__point\">\n                        <b><span>3</span> Highlight locations</b>\n                        <p>They run various events at the winery so we wanted to highlight those as well as their multiple locations where customers can visit.</p>\n                    </div>\n                    <div class=\"breakdown__point\">\n                        <b><span>4</span> Wine of the month</b>\n                        <p>They needed a place to market their monthly deals that stood out and didn't clutter the layout.</p>\n                    </div>\n                    <div class=\"breakdown__point\">\n                        <b><span>5</span> Large Footer</b>\n                        <p>We designed a large footer to make their wines and contact info accessible on any page.</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n\n<?php include('includes/footer.php'); ?>",
 			"file": "vynecrest-winery.php",
-			"file_size": 6351,
-			"file_write_time": 1415395430000000,
 			"settings":
 			{
-				"buffer_size": 6349,
+				"buffer_size": 6470,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pa-healthcare.php",
+			"settings":
+			{
+				"buffer_size": 5975,
 				"line_ending": "Unix"
 			}
 		},
@@ -198,7 +203,7 @@
 			"file": "red-rose-transit-authority.php",
 			"settings":
 			{
-				"buffer_size": 8071,
+				"buffer_size": 8378,
 				"line_ending": "Unix"
 			}
 		},
@@ -211,10 +216,26 @@
 			}
 		},
 		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 7649,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/header.php",
+			"settings":
+			{
+				"buffer_size": 2886,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "sass/main.scss",
 			"settings":
 			{
-				"buffer_size": 40182,
+				"buffer_size": 40736,
 				"line_ending": "Unix"
 			}
 		},
@@ -222,7 +243,7 @@
 			"file": "sass/theme.scss",
 			"settings":
 			{
-				"buffer_size": 4023,
+				"buffer_size": 4160,
 				"line_ending": "Unix"
 			}
 		},
@@ -464,6 +485,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"point",
+			"point--",
+			"point",
+			"rrta",
+			"rw",
+			"video/",
+			"http://cdn.dek-design.com/",
 			"grid-1",
 			"case-study",
 			"1",
@@ -581,7 +609,6 @@
 	"groups":
 	[
 		{
-			"selected": 12,
 			"sheets":
 			[
 				{
@@ -596,8 +623,8 @@
 						"selection":
 						[
 							[
-								2902,
-								2902
+								956,
+								726
 							]
 						],
 						"settings":
@@ -702,7 +729,7 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
+						"translation.x": 1.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -920,7 +947,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1656.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -930,15 +957,15 @@
 					"file": "vynecrest-winery.php",
 					"settings":
 					{
-						"buffer_size": 6349,
+						"buffer_size": 6470,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								181,
-								34
+								716,
+								610
 							]
 						],
 						"settings":
@@ -951,25 +978,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1.0,
+						"translation.y": 5.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 12,
-					"file": "red-rose-transit-authority.php",
+					"file": "pa-healthcare.php",
 					"settings":
 					{
-						"buffer_size": 8071,
+						"buffer_size": 5975,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								195,
-								34
+								454,
+								5933
 							]
 						],
 						"settings":
@@ -981,14 +1008,49 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 8.0,
+						"translation.y": 787.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 13,
+					"file": "red-rose-transit-authority.php",
+					"settings":
+					{
+						"buffer_size": 8378,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7487,
+								7487
+							],
+							[
+								7553,
+								7553
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 9.0,
+						"translation.y": 1313.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
 					"file": "portfolio.php",
 					"settings":
 					{
@@ -1017,57 +1079,21 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 14,
-					"file": "sass/main.scss",
-					"settings":
-					{
-						"buffer_size": 40182,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								36819,
-								36819
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 27597.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
 				},
 				{
 					"buffer": 15,
-					"file": "sass/theme.scss",
+					"file": "index.php",
 					"settings":
 					{
-						"buffer_size": 4023,
+						"buffer_size": 7649,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3952,
-								3952
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1075,17 +1101,131 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2028.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 16,
+					"file": "includes/header.php",
+					"settings":
+					{
+						"buffer_size": 2886,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2170,
+								2164
+							],
+							[
+								2221,
+								2227
+							],
+							[
+								2259,
+								2265
+							],
+							[
+								2315,
+								2321
+							],
+							[
+								2352,
+								2358
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 17,
+					"file": "sass/main.scss",
+					"settings":
+					{
+						"buffer_size": 40736,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24225,
+								24225
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 18885.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "sass/theme.scss",
+					"settings":
+					{
+						"buffer_size": 4160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2196,
+								2196
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 754.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
 					"file": "sass/layout.scss",
 					"settings":
 					{
@@ -1096,8 +1236,8 @@
 						"selection":
 						[
 							[
-								511,
-								511
+								845,
+								845
 							]
 						],
 						"settings":
@@ -1110,13 +1250,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 168.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 20,
 					"file": "js/main.js",
 					"settings":
 					{
@@ -1147,7 +1287,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 21,
 					"file": "sass/mixins.scss",
 					"settings":
 					{
@@ -1178,7 +1318,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 22,
 					"file": "sass/resets.scss",
 					"settings":
 					{
@@ -1209,7 +1349,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 23,
 					"file": "css/layout.css",
 					"settings":
 					{

@@ -125,3 +125,21 @@ $(function() {
     , show : 30
   });
 });
+
+
+if ($(window).width() < 943) {
+  $('.mobile__nav--button span').click(function(){
+    $('.main-nav').slideToggle(400);
+  });
+  $('.nav__focus--web').click(function(e){
+    e.preventDefault();
+    $('.dropdown--nav--design').slideToggle(400);
+  });
+  $('.nav__focus--marketing').click(function(e){
+    e.preventDefault();
+    $('.dropdown--nav--marketing').slideToggle(400);
+  });
+}
+else {
+   
+}

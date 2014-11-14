@@ -9,11 +9,15 @@
 html,
 body{
 	height: 100%;
+	font-size: 95%;
+	@media screen and (min-width: 750px) and (min-height: 800px){
+		font-size: 100%;
+	}
 }
 #bgvid {
 	position: fixed; 
 	top: 0;
-	left: -15%;
+	left: 0;
 	min-width: 100%; 
 	min-height: 100%;
 	width: auto; 
@@ -25,12 +29,12 @@ body{
 	@media screen and (min-width: 960px){
 		display: block;
 	}
-	@media screen and (min-width: 1100px){
-		left: -15%;
-	}
-	@media screen and (min-width: 1400px){
-		left: 0;
-	}
+	// @media screen and (min-width: 1100px){
+	// 	left: -15%;
+	// }
+	// @media screen and (min-width: 1400px){
+	// 	left: 0;
+	// }
 }
 
 /*! Header
@@ -38,13 +42,16 @@ body{
 header[role=banner]{
 	width: 100%;
 	background-color: #fff;
-	position: fixed;
+	position: absolute;
 	top: 0;
 	z-index: 4;
 	padding: 30px 5% 21px;
 	@include prefix(box-shadow, 0 0 8px rgba(0,0,0,0.25));
 	@include prefix(backface-visibility, hidden);
-  -webkit-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    @media screen and (min-width: 942px){
+    	position: fixed;
+    }
 }
 .branding{
 	display: inline-block;
@@ -56,56 +63,125 @@ header[role=banner]{
 		margin-right: 10px;
 	}
 }
-nav[role=navigation]{
+.mobile__nav--button{
+	display: block;
 	float: right;
+	font-family: $headlineFont;
+	font-size: em(24px,$font-size);
+	font-weight: 100;
+	color: $textColor;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 8px;
+	margin-left: 25px;
+	@media screen and (min-width: 942px){
+		display: none;
+	}
+}
+nav[role=navigation]{
+	float: left;
 	margin-top: 8px;
 	display: none;
-	@media screen and (min-width: 942px){
+	width: 100%;
+	font-size: 150%;
+	a{
 		display: block;
+		@media screen and (min-width: 942px){
+			display: inline;
+		}
 	}
 	div > a, > a{
+		background-color: $textColor;
 		font-family: $headlineFont;
 		font-size: em(24px,$font-size);
 		font-weight: 100;
-		color: $textColor;
+		color: #fff;
 		text-decoration: none;
 		text-transform: uppercase;
-		margin-left: 25px;
+		margin-left: 0;
+		margin-bottom: 10px;
+		padding: 10px 20px 5px;
 		// @include prefix(transition, 0.2s ease-in-out);
 	}
-	div > a:hover, > a:hover,
-	div > a:focus, > a:focus{
-		color: $primaryColor;
-		border-bottom: 5px solid $primaryColor;
-	}
+	
 	a.selected{
 		color: $primaryColor;
 		border-bottom: 5px solid $primaryColor;
 	}
+	@media screen and (min-width: 942px){
+		display: block;
+		float: right;
+		width: auto;
+		font-size: 85%;
+		div > a, > a{
+			background-color: #fff;
+			padding: 0;
+			color: $textColor;
+			margin-left: 13px;
+		}
+		div > a:hover, > a:hover,
+		div > a:focus, > a:focus{
+			color: $primaryColor;
+			border-bottom: 5px solid $primaryColor;
+		}
+	}
+	@media screen and (min-width: 1040px){
+		div > a, > a{
+			margin-left: 25px;
+		}
+	}
+	@media screen and (min-width: 1115px){
+		font-size: 100%;
+	}
 }
 .dropdown{
 	position: relative;
-	display: inline-block;
+	display: block;
+	a{
+		span{
+			display: inline-block;
+			vertical-align: middle;
+			float: right;
+			font-size: 40%;
+			margin-top: 13px;
+			@media screen and (min-width: 942px){
+				display: none;
+			}
+		}
+	}
+	@media screen and (min-width: 942px){
+		display: inline-block;
+	}
+}
+.mobile--focus{
+	@media screen and (max-width: 942px){
+		background-color: $textColor;
+		color: #fff !important;
+		padding: 10px;
+	}
 }
 *[class^="dropdown--nav"]{
 	display: none;
-	position: absolute;
-	top: 31px;
-	left: -50%;
+	position: relative;
+	top: 0;
+	left: 0;
 	width: 100%;
+	background-color: #fff;
 	background-color: transparentize(#fff,0.05);
 	padding: 20px;
-	
 	z-index: 6;
-	border-top: 5px solid $primaryColor;
+	
 	a{
 		font-family: $altFont;
-		font-size: em(18px,$font-size);
+		font-size: em(12px,$font-size);
 		font-weight: 100;
 		line-height: 1.0em;
 		color: $textColor;
 		text-decoration: none;
 		text-transform: none;
+		@media screen and (min-width: 942px){
+			font-size: em(18px,$font-size);
+		}
 	}
 	a:hover,
 	a:focus{
@@ -123,18 +199,35 @@ nav[role=navigation]{
 	li{
 		margin-bottom: 8px;
 	}
+	@media screen and (min-width: 942px){
+		display: none;
+		position: absolute;
+		top: 31px;
+		left: -50%;
+		border-top: 5px solid $primaryColor;
+	}
 }
 .dropdown--nav--design{
-	min-width: 800px;
-	margin-left: -200px;
+	
+	
+	@media screen and (min-width: 942px){
+		min-width: 800px;
+		margin-left: -200px;
+	}
 }
 .dropdown--nav--marketing{
-	min-width: 600px;
-	margin-left: -100px;
+	
+	@media screen and (min-width: 942px){
+		min-width: 600px;
+		margin-left: -100px;
+	}
 }
 .dropdown:hover *[class^="dropdown--nav"],
 .dropdown:focus *[class^="dropdown--nav"]{
-	display: block;
+	
+	@media screen and (min-width: 942px){
+		display: block;
+	}
 }
 // .design__title,
 // .development__title,
@@ -156,6 +249,7 @@ nav[role=navigation]{
 	overflow: hidden;
 	height: 130px;
 	margin-bottom: 20px !important;
+	display: none;
 	img{
 		width: 100%;
 		margin-top: -50px;
@@ -166,6 +260,9 @@ nav[role=navigation]{
 		left: 0;
 		background-color: #fff;
 		padding: 5px 15px 5px 10px;
+	}
+	@media screen and (min-width: 942px){
+		display: block;
 	}
 }
 .title__wrap--design{
@@ -205,9 +302,6 @@ nav[role=navigation]{
 	bottom: 10%;
 	left: 5%;
 	font-size: 45%;
-	@media screen and (min-width: 700px){
-		font-size: 100%;
-	}
 	i,
 	b{
 		background-color: $textColor;
@@ -222,12 +316,28 @@ nav[role=navigation]{
 	i{
 		font-size: em(80px,$font-size);
 		font-style: normal;
-		margin-bottom: 20px;
+		margin-bottom: 10px;
 	}
 	b{
 		font-size: em(116px,$font-size);
-		padding: 15px 20px 0px;
-		margin-bottom: 20px;
+		padding: 15px 20px px;
+		margin-bottom: 0px;
+	}
+	@media screen and (min-width: 700px) and (min-height: 650px){
+		font-size: 55%;
+	}
+	@media screen and (min-width: 700px) and (min-height: 750px){
+		font-size: 65%;
+	}
+	@media screen and (min-width: 700px) and (min-height: 800px){
+		font-size: 100%;
+		b{
+			padding: 15px 20px 0px;
+			margin-bottom: 20px 
+		}
+		i{
+			margin-bottom: 20px;
+		}
 	}
 }
 .button__cta,
@@ -241,17 +351,21 @@ nav[role=navigation]{
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 15px 20px 5px;
+	@media screen and (max-width: 700px) and (min-height: 800px){
+
+	}
 }
 .button__cta{
-	
-	@media screen and (max-width: 700px){
+	padding: 15px 20px 10px;
+	@media screen and (max-width: 700px) and (min-height: 800px){
 		font-size: 4.8em;
 		margin-top: 0;
+		padding: 15px 20px 5px;
 	}
 }
 .phone{
 	position: absolute;
-	top: 106px;
+	bottom: -42px;
 	right: 5%;
 	background-color: $secondaryColor;
 	font-size: em(30px,$font-size);
@@ -262,6 +376,9 @@ nav[role=navigation]{
 	a{
 		color: #fff;
 		text-decoration: none;
+	}
+	@media screen and (min-width: 750px) and (min-height: 800px){
+		bottom: -45px;
 	}
 }
 .button__cta{
@@ -295,7 +412,7 @@ nav[role=navigation]{
 .content__portfolio,
 .content__services{
 	padding: 80px 5% 40px;
-	@media screen and (min-width: 600px){
+	@media screen and (min-width: 942px){
 		padding: 160px 10%;
 	}
 }
@@ -309,7 +426,7 @@ nav[role=navigation]{
 }
 .content__overview--design{
 	background-color: #efefef;
-	padding: 160px 0 0 5%;
+	padding: 80px 0 0 5%;
 }
 .content__overview--process,
 .content__overview--development{
@@ -750,6 +867,10 @@ nav[role=navigation]{
 	background-color: #252525;
 	text-align: center;
 	min-height: 400px;
+	display: none;
+	@media screen and (min-width: 942px){
+		display: block;
+	}
 }
 .content__graphic--responsive{
 	padding: 20px 5%;
@@ -1421,10 +1542,13 @@ nav[role=navigation]{
 	padding: 0 5% 0 0;
 	h2{
 		font-family: $altFont;
-		font-size: em(52px, $font-size);
+		font-size: em(32px, $font-size);
 		font-weight: normal;
 		line-height: 1.1em;
 		margin-bottom: 30px;
+		@media screen and (min-width: 1105px){
+			font-size: em(52px, $font-size);
+		}
 	}
 	p{
 		font-family: $altFont;
@@ -1433,6 +1557,7 @@ nav[role=navigation]{
 		line-height: 1.6em;
 	}
 	@media screen and (min-width: 1410px){
+		margin-top: 6.5%;
 		padding: 0 10% 0 5%;
 	}
 }
@@ -1569,19 +1694,26 @@ nav[role=navigation]{
 	}
 }
 .overview__responsive--graphic{
+	display: none;
 	img{
 		width: 100%;
+	}
+	@media screen and (min-width: 942px){
+		display: block;
 	}
 }
 .content__overview--development{
 	padding: 100px 5%;
 	h2{
 		font-family: $altFont;
-		font-size: em(42px, $font-size);
+		font-size: em(32px, $font-size);
 		font-weight: normal;
 		margin-bottom: 40px;
 		span{
 			color: #de164e;
+		}
+		@media screen and (min-width: 942px){
+			font-size: em(42px, $font-size);
 		}
 	}
 	p{

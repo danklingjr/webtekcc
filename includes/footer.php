@@ -30,7 +30,7 @@
         <script src="<?php echo $siteUrl; ?>js/vendor/jquery-ui.min.js"></script>
         <script src="<?php echo $siteUrl; ?>js/vendor/jquery.instagram.js"></script>
 
-        <script src="<?php echo $siteUrl; ?>js/main.js"></script>
+        <script src="js/main.js"></script>
          <script src="<?php echo $siteUrl; ?>js/toucheffects.js"></script>
     </body>
 </html>

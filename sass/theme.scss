@@ -81,7 +81,7 @@ $altFont: "adelle",serif;
 	background-image: url(../img/hero-page.jpg);
 	background-position: center top;
 	background-size: cover;
-	min-height: 477px;
+	padding-bottom: 80px;
 	text-align: center;
 	h1{
 		margin-top: 180px;
@@ -96,9 +96,15 @@ $altFont: "adelle",serif;
 		padding: 15px 20px 8px;
 		margin-bottom: 20px;
 		@media screen and (min-width: 700px){
-			font-size: em(92px, $font-size);
+			font-size: em(62px, $font-size);
 			padding: 15px 20px 0px;
 		}
+		@media screen and (min-width: 1062px){
+			font-size: em(92px, $font-size);
+		}
+	}
+	@media screen and (min-width: 942px){
+		min-height: 477px;
 	}
 }
 .hero__page--responsive{
@@ -183,6 +189,7 @@ $altFont: "adelle",serif;
 .hero__page--vynecrest{
 	background-image: url(../img/vynecrest-bg.jpg);
 	padding-top: 200px;
+	padding-bottom: 0;
 	overflow: hidden;
 	img{
 		width: 95%;
@@ -192,6 +199,7 @@ $altFont: "adelle",serif;
 .hero__page--rrta{
 	background-image: url(../img/station.jpg);
 	padding-top: 200px;
+	padding-bottom: 0;
 	overflow: hidden;
 	img{
 		width: 95%;

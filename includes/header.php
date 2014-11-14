@@ -44,9 +44,11 @@ echo(mt_rand(1,5)); ?>.ogv" type="video/ogv">
 
         <header role="banner" class="group" id="header">
             <div class="branding">
-                <a href="<?php echo $siteUrl; ?>" class="logo"><img src="img/globe.png" alt="" ><img src="<?php echo $siteUrl; ?>img/logo.png" alt="WebTek"></a>
+                <a href="<?php echo $siteUrl; ?>" class="logo"><img src="img/mark.jpg" alt="" ><img src="<?php echo $siteUrl; ?>img/logo.png" alt="WebTek"></a>
             </div>
-
+            <div class="mobile__nav--button">
+                <span>&#9776; Menu</span>
+            </div>
             <?php include('nav.php'); ?>
 
             <div class="phone">

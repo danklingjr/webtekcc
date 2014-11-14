@@ -12,7 +12,7 @@
 .row {
     clear: both;
 }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 360px) {
     .wrap {
         width: 98%;
     }
@@ -31,8 +31,7 @@
         @include gridRow(1, 1.515151515152%);
     }
 
-    .gallery .grid-unit,
-    .grid-half {
+    .gallery .grid-unit{
         @include gridRow(2, 1.515151515152%);
     }
 
@@ -106,5 +105,20 @@
     .content-pad-left {
         padding-left: 4%;
     }
+
+
 }
+    .lt-ie9 .grid-1,
+    .lt-ie9 .grid-2,
+    .lt-ie9 .grid-3,
+    .lt-ie9 .grid-4,
+    .lt-ie9 .grid-5,
+    .lt-ie9 .grid-6,
+    .lt-ie9 .grid-half,
+    .lt-ie9 .grid-full,
+    .lt-ie9 .grid-25,
+    .lt-ie9 .grid-unit{
+        margin-right: 5px;
+
+    }
   
