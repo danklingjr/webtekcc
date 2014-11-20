@@ -18,6 +18,11 @@
     }
 
     .grid-1,
+    .grid-25 { 
+        float: left;
+        @include gridRow(2, 1.515151515152%);
+    }
+
     .grid-2,
     .grid-3,
     .grid-4,
@@ -25,7 +30,6 @@
     .grid-6,
     .grid-half,
     .grid-full,
-    .grid-25,
     .grid-unit {
         float: left;
         @include gridRow(1, 1.515151515152%);
@@ -41,7 +45,7 @@
 }
 @media screen and (min-width: 800px) {
     .grid-1 { 
-        @include gridRow(6, 1.515151515152%);
+        @include gridRow(3, 1.515151515152%);
     }
     .grid-2 {    
         // width: 30.30303030303%;
@@ -107,6 +111,11 @@
     }
 
 
+}
+@media screen and (min-width: 960px) {
+    .grid-1 { 
+        @include gridRow(6, 1.515151515152%);
+    }
 }
     .lt-ie9 .grid-1,
     .lt-ie9 .grid-2,

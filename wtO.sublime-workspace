@@ -227,7 +227,23 @@
 			"file": "includes/header.php",
 			"settings":
 			{
-				"buffer_size": 2886,
+				"buffer_size": 2991,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/nav.php",
+			"settings":
+			{
+				"buffer_size": 5211,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/footer.php",
+			"settings":
+			{
+				"buffer_size": 1997,
 				"line_ending": "Unix"
 			}
 		},
@@ -235,7 +251,7 @@
 			"file": "sass/main.scss",
 			"settings":
 			{
-				"buffer_size": 40736,
+				"buffer_size": 43388,
 				"line_ending": "Unix"
 			}
 		},
@@ -243,7 +259,7 @@
 			"file": "sass/theme.scss",
 			"settings":
 			{
-				"buffer_size": 4160,
+				"buffer_size": 4347,
 				"line_ending": "Unix"
 			}
 		},
@@ -251,7 +267,7 @@
 			"file": "sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 2321,
+				"buffer_size": 2560,
 				"line_ending": "Unix"
 			}
 		},
@@ -259,7 +275,7 @@
 			"file": "js/main.js",
 			"settings":
 			{
-				"buffer_size": 3104,
+				"buffer_size": 3502,
 				"line_ending": "Unix"
 			}
 		},
@@ -485,6 +501,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"8",
+			"gallery",
+			".gallery .grid-unit",
+			".gallery .gridt",
 			"point",
 			"point--",
 			"point",
@@ -609,6 +629,7 @@
 	"groups":
 	[
 		{
+			"selected": 16,
 			"sheets":
 			[
 				{
@@ -1009,7 +1030,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 8.0,
-						"translation.y": 787.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1044,7 +1065,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 9.0,
-						"translation.y": 1313.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1116,31 +1137,15 @@
 					"file": "includes/header.php",
 					"settings":
 					{
-						"buffer_size": 2886,
+						"buffer_size": 2991,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2170,
-								2164
-							],
-							[
-								2221,
-								2227
-							],
-							[
-								2259,
-								2265
-							],
-							[
-								2315,
-								2321
-							],
-							[
-								2352,
-								2358
+								126,
+								120
 							]
 						],
 						"settings":
@@ -1157,27 +1162,21 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 2,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 17,
-					"file": "sass/main.scss",
+					"file": "includes/nav.php",
 					"settings":
 					{
-						"buffer_size": 40736,
+						"buffer_size": 5211,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								24225,
-								24225
+								180,
+								201
 							]
 						],
 						"settings":
@@ -1185,29 +1184,67 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 5,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 18885.0,
+						"translation.x": 192.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 18,
-					"file": "sass/theme.scss",
+					"file": "includes/footer.php",
 					"settings":
 					{
-						"buffer_size": 4160,
+						"buffer_size": 1997,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2196,
-								2196
+								1524,
+								1524
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 23.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 19,
+					"file": "sass/main.scss",
+					"settings":
+					{
+						"buffer_size": 43388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6894,
+								6894
 							]
 						],
 						"settings":
@@ -1219,25 +1256,55 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 754.0,
+						"translation.y": 4915.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 19,
-					"file": "sass/layout.scss",
+					"buffer": 20,
+					"file": "sass/theme.scss",
 					"settings":
 					{
-						"buffer_size": 2321,
+						"buffer_size": 4347,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								845,
-								845
+								3533,
+								3533
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "sass/layout.scss",
+					"settings":
+					{
+						"buffer_size": 2560,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2551,
+								2551
 							]
 						],
 						"settings":
@@ -1250,25 +1317,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 888.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 22,
 					"file": "js/main.js",
 					"settings":
 					{
-						"buffer_size": 3104,
+						"buffer_size": 3502,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3460,
+								3460
 							]
 						],
 						"settings":
@@ -1281,13 +1348,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 933.0,
+						"translation.y": 1244.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 23,
 					"file": "sass/mixins.scss",
 					"settings":
 					{
@@ -1318,7 +1385,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 24,
 					"file": "sass/resets.scss",
 					"settings":
 					{
@@ -1349,7 +1416,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 25,
 					"file": "css/layout.css",
 					"settings":
 					{

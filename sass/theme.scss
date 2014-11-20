@@ -112,7 +112,7 @@ $altFont: "adelle",serif;
 }
 .page__description{
 	width: 100%;
-	max-width: 1035px;
+	max-width: 1046px;
 	font-family: $altFont;
 	font-size: em(18px,$font-size);
 	font-weight: normal;
@@ -128,7 +128,7 @@ $altFont: "adelle",serif;
 }
 .hero__page--about{
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 97px;
 	padding-bottom: 60px;
 	background-color: #fff;
 	background-image: none;
@@ -154,7 +154,7 @@ $altFont: "adelle",serif;
 	}
 }
 .hero__page--overview{
-	margin-top: 100px;
+	margin-top: 97px;
 	padding-bottom: 60px;
 	background-color: #fff;
 	background-image: none;
@@ -168,12 +168,13 @@ $altFont: "adelle",serif;
 .overview__graphic{
 	background-color: $primaryColor;
 	padding-top: 60px;
-	min-height: 400px;
+	// min-height: 400px;
 }
 .hero__page--staff{
 	position: relative;
 	text-align: left;
-	margin-top: 100px;
+	margin-top: 97px;
+	padding-bottom: 0;
 	background-color: #fff;
 	background-image: none;
 	min-height: 0;

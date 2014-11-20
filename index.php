@@ -130,7 +130,6 @@ include('includes/header.php') // Include header file //
                     <img src="img/case-study-pic.png" alt="">
                 </figure>
             </div>
-
         </section>
 
         <section class="content__stats group">
@@ -163,4 +162,9 @@ include('includes/header.php') // Include header file //
             </div>
 
         </section>
+
+        <div class="main__call">
+            <b>Sound Good?</b>
+            <a href="" class="button">Let's get started</a> 
+        </div>
 <?php include('includes/footer.php'); ?>
